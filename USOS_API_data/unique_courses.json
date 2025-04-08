@@ -1,0 +1,6035 @@
+[
+    {
+        "id": "W04KN-KN00001",
+        "name": {
+            "pl": "DKF ,,Politechnika\"",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04KN-KN00002",
+        "name": {
+            "pl": "Koło Naukowe White Hats",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04KN-WRSS000",
+        "name": {
+            "pl": "Samorząd Studencki",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04KN-KN00003",
+        "name": {
+            "pl": "Koło Naukowe TK Games",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04KN-KN00004",
+        "name": {
+            "pl": "Koło Naukowe Eka.NET",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-ID",
+        "name": {
+            "pl": "Inżynieria Danych",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-PIR",
+        "name": {
+            "pl": "Przemysłowy Internet Rzeczy",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-RSU",
+        "name": {
+            "pl": "Rozproszone Systemy Usługowe",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SA",
+        "name": {
+            "pl": "Systemy Autonomiczne",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            }
+        ]
+    },
+    {
+        "id": "W04SK-SK00032",
+        "name": {
+            "pl": "Seminarium katedry K32",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            }
+        ]
+    },
+    {
+        "id": "W04KN-KN00005",
+        "name": {
+            "pl": "Koło Naukowe Kredek",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            }
+        ]
+    },
+    {
+        "id": "W04SK-SK00044",
+        "name": {
+            "pl": "Seminarium katedry K44",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            }
+        ]
+    },
+    {
+        "id": "W04KN-KN00006",
+        "name": {
+            "pl": "Koło Naukowe Solvro",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            }
+        ]
+    },
+    {
+        "id": "W04KN-KN00007",
+        "name": {
+            "pl": "Koło Naukowe Neuron",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            }
+        ]
+    },
+    {
+        "id": "W04N-REZ",
+        "name": {
+            "pl": "Rezerwacja sali",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04KN-KN00008",
+        "name": {
+            "pl": "SANTANDER",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04KN-KN00009",
+        "name": {
+            "pl": "Koło Naukowe Algorismus science club",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04KN-KN00010",
+        "name": {
+            "pl": "Koło Naukowe WIT+AI",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SK-SK00045",
+        "name": {
+            "pl": "Seminarium katedry K45",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04KN-SRD0000",
+        "name": {
+            "pl": "Seminarium Rady Dyscypliny",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04KN-KN00011",
+        "name": {
+            "pl": "Koło Naukowe BioMedical Al",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04KN-KN00012",
+        "name": {
+            "pl": "Koło Naukowe Coffee Break",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04KN-KN00013",
+        "name": {
+            "pl": "Koło Naukowe Cybertech",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04KN-OPD000",
+        "name": {
+            "pl": "Obrony Prac Dyplomowych",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04KN-KN00014",
+        "name": {
+            "pl": "Koło Naukowe Qubit",
+            "en": ""
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI0820G",
+        "name": {
+            "pl": "Wytwarzanie oprogramowania w środow .NET",
+            "en": ",NET Software Development"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0404G",
+        "name": {
+            "pl": "Platformy programistyczne .Net i Java",
+            "en": ".Net and Java programming platforms"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI0812G",
+        "name": {
+            "pl": "Aplikacje webowe na platformę .NET",
+            "en": ".NET Web Applications"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITT-SD0051W",
+        "name": {
+            "pl": "A brief review of classical logic and its selected applications",
+            "en": "A brief review of classical logic and its selected applications"
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SI0025G",
+        "name": {
+            "pl": "Algebra abstrakcyjna i kodowanie",
+            "en": "Abstract Algebra and Coding"
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SI0031G",
+        "name": {
+            "pl": "Algebra abstrakcyjna i kodowanie",
+            "en": "Abstract Algebra and Coding"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            }
+        ]
+    },
+    {
+        "id": "W04ITE-SI0506G",
+        "name": {
+            "pl": "Akceleracja obliczeń w przetwarzaniu danych",
+            "en": "Acceleration of calculations in data processing"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0506G",
+        "name": {
+            "pl": "Akceleracja obliczeń w przetwarzaniu danych",
+            "en": "Acceleration of calculations in data processing"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0506G",
+        "name": {
+            "pl": "Akceleracja obliczeń w przetwarzaniu danych",
+            "en": "Acceleration of calculations in data processing"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0819L",
+        "name": {
+            "pl": "Akwizycja i analiza strumieni danych",
+            "en": "Acquisition and analysis of data streams"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0819W",
+        "name": {
+            "pl": "Akwizycja i analiza strumieni danych",
+            "en": "Acquisition and analysis of data streams"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITE-SM4226S",
+        "name": {
+            "pl": "ACS Seminar 1",
+            "en": "ACS Seminar 1"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITE-SM4245S",
+        "name": {
+            "pl": "ACS Seminar 2",
+            "en": "ACS Seminar 2"
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0325G",
+        "name": {
+            "pl": "Przetwarzanie adaptacyjne i tablicowe",
+            "en": "Adaptive and Array Processing"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0027G",
+        "name": {
+            "pl": "Sterowanie adaptacyjne",
+            "en": "Adaptive control"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITE-SM4305G",
+        "name": {
+            "pl": "Adaptive Control and Industrial Control Systems",
+            "en": "Adaptive Control and Industrial Control Systems"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITE-SM0444G",
+        "name": {
+            "pl": "Administrowanie sieciową infrastrukturą IT",
+            "en": "Administration of network IT infrastructure"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITE-SM0446G",
+        "name": {
+            "pl": "Administrowanie sieciową infrastrukturą IT",
+            "en": "Administration of network IT infrastructure"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0110G",
+        "name": {
+            "pl": "Administracja systemem  Windows",
+            "en": "Administration of the Windows System"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SM0204G",
+        "name": {
+            "pl": "Zaawansowane metody badania sieci teleinformatycznych",
+            "en": "Advance methods of teleinformatic networks testing"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SI0018G",
+        "name": {
+            "pl": "Zaawansowana kombinatoryka",
+            "en": "Advanced combinatorics"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SI0015G",
+        "name": {
+            "pl": "Zaawansowana kombinatoryka",
+            "en": "Advanced combinatorics"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SM4103G",
+        "name": {
+            "pl": "Advanced Computer Graphics",
+            "en": "Advanced Computer Graphics"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SM4102G",
+        "name": {
+            "pl": "Advanced Computer Network",
+            "en": "Advanced Computer Network"
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITE-SMACS",
+        "name": {
+            "pl": "Advanced Computer Science",
+            "en": "Advanced Computer Science"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04MTR-SM2002L",
+        "name": {
+            "pl": "Zaawansowane sterowanie",
+            "en": "Advanced Control"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04MTR-SM2002W",
+        "name": {
+            "pl": "Zaawansowane sterowanie",
+            "en": "Advanced Control"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SM0105G",
+        "name": {
+            "pl": "Zaawansowane algorytmy sterowania",
+            "en": "Advanced control algorithms"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SM0225G",
+        "name": {
+            "pl": "Zaawansowane zagadnienia cyberbezpieczeństwa",
+            "en": "Advanced cybersecurity issues"
+        },
+        "terms": []
+    },
+    {
+        "id": "W04IST-SM4031G",
+        "name": {
+            "pl": "Advanced Cybersecurity Issues",
+            "en": "Advanced Cybersecurity Issues"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SM0212P",
+        "name": {
+            "pl": "Zaawansowane systemy baz danych",
+            "en": "Advanced databases"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SM0212W",
+        "name": {
+            "pl": "Zaawansowane systemy baz danych",
+            "en": "Advanced databases"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SM4002G",
+        "name": {
+            "pl": "Advanced Databases",
+            "en": "Advanced Databases"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITE-SM4118G",
+        "name": {
+            "pl": "Advanced databases",
+            "en": "Advanced databases"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SM4018G",
+        "name": {
+            "pl": "Advanced Databases",
+            "en": "Advanced Databases"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITE-SM0008G",
+        "name": {
+            "pl": "Zaawansowane bazy danych",
+            "en": "Advanced Databases"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            }
+        ]
+    },
+    {
+        "id": "W04ITE-SM4120G",
+        "name": {
+            "pl": "Advanced databases",
+            "en": "Advanced databases"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SM0224G",
+        "name": {
+            "pl": "Zaawansowane bazy danych",
+            "en": "Advanced databases"
+        },
+        "terms": []
+    },
+    {
+        "id": "W04INS-SI0813P",
+        "name": {
+            "pl": "Zaawansowane metody wspomagania  decyzji",
+            "en": "Advanced Decision Support Systems"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0813W",
+        "name": {
+            "pl": "Zaawansowane metody wspomagania  decyzji",
+            "en": "Advanced Decision Support Systems"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0840P",
+        "name": {
+            "pl": "Zaawansowane metody wspomagania  decyzji",
+            "en": "Advanced Decision Support Systems"
+        },
+        "terms": [
+            {
+                "id": "2026/27-L"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0817L",
+        "name": {
+            "pl": "Zaawansowane modele głebokich sieci neuronowych",
+            "en": "Advanced deep neural network models"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0817W",
+        "name": {
+            "pl": "Zaawansowane modele głebokich sieci neuronowych",
+            "en": "Advanced deep neural network models"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0830L",
+        "name": {
+            "pl": "Zaawansowane modele głebokich sieci neuronowych",
+            "en": "Advanced deep neural network models"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0830W",
+        "name": {
+            "pl": "Zaawansowane modele głebokich sieci neuronowych",
+            "en": "Advanced deep neural network models"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SM0104G",
+        "name": {
+            "pl": "Zaawansowane metody projektowania sieci teleinformatycznych",
+            "en": "Advanced design of teleinformatics networks"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITE-SM4224S",
+        "name": {
+            "pl": "Seminarium 1 AIC",
+            "en": "Advanced Informatics and Control Seminar 1"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITE-SM4225S",
+        "name": {
+            "pl": "Advanced Informatics and Control Seminar 2",
+            "en": "Advanced Informatics and Control Seminar 2"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SM0818P",
+        "name": {
+            "pl": "Zaawansowana architektura IT",
+            "en": "Advanced IT Architecture"
+        },
+        "terms": []
+    },
+    {
+        "id": "W04INS-SM0818W",
+        "name": {
+            "pl": "Zaawansowana architektura IT",
+            "en": "Advanced IT Architecture"
+        },
+        "terms": []
+    },
+    {
+        "id": "W04TAI-SM0101G",
+        "name": {
+            "pl": "Zaawansowane metody analizy i zabezpieczania dowodów informatycznych (informatyka śledcza)",
+            "en": "Advanced methods of forensics"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITE-SM0123G",
+        "name": {
+            "pl": "Zaawansowane metody analizy danych medycznych",
+            "en": "Advanced methods of medical data analysis"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SM0011L",
+        "name": {
+            "pl": "Zaawansowane techniki sieciowe",
+            "en": "Advanced Network Techniques"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SI0012G",
+        "name": {
+            "pl": "Zaawansowane techniki sieciowe",
+            "en": "Advanced networking technology"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0005G",
+        "name": {
+            "pl": "Zaawansowane techniki optymalizacji",
+            "en": "Advanced optimization technologies"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITE-SM0405G",
+        "name": {
+            "pl": "Zaawansowane metody programowania",
+            "en": "Advanced Programming Methods"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SM0303G",
+        "name": {
+            "pl": "Zaawansowane technologie programowania",
+            "en": "Advanced programming technologies"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITE-SM0307S",
+        "name": {
+            "pl": "Seminarium specjalnościowe",
+            "en": "Advanced Study Seminar"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITE-SM0407S",
+        "name": {
+            "pl": "Seminarium specjalnościowe",
+            "en": "Advanced Study Seminar"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SM0106S",
+        "name": {
+            "pl": "Seminarium specjalnościowe",
+            "en": "Advanced Study Seminar"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SM0205S",
+        "name": {
+            "pl": "Seminarium specjalnościowe",
+            "en": "Advanced Study Seminar"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SM0210S",
+        "name": {
+            "pl": "Seminarium specjalnościowe",
+            "en": "Advanced Study Seminar"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SM0311L",
+        "name": {
+            "pl": "Zaawansowane metody i techniki analizy danych",
+            "en": "Advanced Techniques for Data Analysis"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SM0311W",
+        "name": {
+            "pl": "Zaawansowane metody i techniki analizy danych",
+            "en": "Advanced Techniques for Data Analysis"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SM0810S",
+        "name": {
+            "pl": "Zaawansowane techniki zastosowania Internetu w przedsiębiorstwie",
+            "en": "Advanced Techniques of Using Internet in Business"
+        },
+        "terms": []
+    },
+    {
+        "id": "W04INS-SM0809S",
+        "name": {
+            "pl": "Zaawansowane techniki zastosowania Internetu w przedsiębiorstwie",
+            "en": "Advanced Techniques of Using Internet in Business"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SM0809W",
+        "name": {
+            "pl": "Zaawansowane techniki zastosowania Internetu w przedsiębiorstwie",
+            "en": "Advanced Techniques of Using Internet in Business"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SM0810W",
+        "name": {
+            "pl": "Zaawansowane techniki zastosowania Internetu w przedsiębiorstwie",
+            "en": "Advanced Techniques of Using Internet in Business"
+        },
+        "terms": []
+    },
+    {
+        "id": "W04IST-SM4003G",
+        "name": {
+            "pl": "Advanced Topics in Artificial Intelligence",
+            "en": "Advanced Topics in Artificial Intelligence"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SM0114G",
+        "name": {
+            "pl": "Zaawansowane zagadnienia kombinatoryki",
+            "en": "Advanced Topics of Combinatorics"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITE-SI0121G",
+        "name": {
+            "pl": "Zaawansowane zagadnienia projektowania obiektowego",
+            "en": "Advanced Topisc of Object-Oriented Programming"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0121G",
+        "name": {
+            "pl": "Zaawansowane zagadnienia projektowania obiektowego",
+            "en": "Advanced Topisc of Object-Oriented Programming"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0121G",
+        "name": {
+            "pl": "Zaawansowane zagadnienia projektowania obiektowego",
+            "en": "Advanced Topisc of Object-Oriented Programming"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SM0801L",
+        "name": {
+            "pl": "Zaawansowane metody badania użyteczności",
+            "en": "Advanced usability and UX assurance methods"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SM0801W",
+        "name": {
+            "pl": "Zaawansowane metody badania użyteczności",
+            "en": "Advanced usability and UX assurance methods"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0031D",
+        "name": {
+            "pl": "Praca dyplomowa",
+            "en": "Diploma work"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0008W",
+        "name": {
+            "pl": "Media transmisyjne 1",
+            "en": "Transmission media 1"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0009P",
+        "name": {
+            "pl": "Kodowanie 2",
+            "en": "Coding 2"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0010W",
+        "name": {
+            "pl": "Sieci bezprzewodowe 1",
+            "en": "Wireless networks 1"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0011W",
+        "name": {
+            "pl": "Kryptografia 1",
+            "en": "Cryptography 1"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0016P",
+        "name": {
+            "pl": "Kryptografia 2",
+            "en": "Cryptography 2"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0031P",
+        "name": {
+            "pl": "Praca dyplomowa",
+            "en": "Diploma work"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0038W",
+        "name": {
+            "pl": "Lokalne sieci komputerowe",
+            "en": "Local Area Networks"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0040Q",
+        "name": {
+            "pl": "Praktyka zawodowa",
+            "en": "Professional Practice"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0041W",
+        "name": {
+            "pl": "Podstawy automatyki i robotyki",
+            "en": "Introduction into control engineering and robotics"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0042W",
+        "name": {
+            "pl": "Podstawy telekomunikacji",
+            "en": "Princinples of telecommunications"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0049W",
+        "name": {
+            "pl": "Miernictwo 1",
+            "en": "Measurement techniques 1"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0050L",
+        "name": {
+            "pl": "Miernictwo 2",
+            "en": "Measurement techniques 2"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0052W",
+        "name": {
+            "pl": "Rachunek prawdopodobieństwa",
+            "en": "Probability Theory"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0057W",
+        "name": {
+            "pl": "Algebra liniowa 2",
+            "en": "Linear Algebra 2"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0106P",
+        "name": {
+            "pl": "Projektowanie sieci teleinformatycznych",
+            "en": "Teleinformatic Networks Design"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0112S",
+        "name": {
+            "pl": "Seminarium dyplomowe",
+            "en": "Diploma seminar"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0116P",
+        "name": {
+            "pl": "Projekt zespołowy",
+            "en": "Team Project"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0201P",
+        "name": {
+            "pl": "Planowanie lokalnych sieci komputerowych",
+            "en": "Local Area Networks Design"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TIN-SI0202P",
+        "name": {
+            "pl": "Planowanie rozległych sieci komputerowych",
+            "en": "Wide Area Networks Design"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITT-SD0048S",
+        "name": {
+            "pl": "Reporting seminar of information and communication technology",
+            "en": "Reporting seminar of information and communication technology"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04ITT-SD0047W",
+        "name": {
+            "pl": "Recent research trends in information and communication technology",
+            "en": "Recent research trends in information and communication technology"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITT-SD0116W",
+        "name": {
+            "pl": "Introduction to artificial intelligence",
+            "en": "Introduction to artificial intelligence"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITT-SD0117S",
+        "name": {
+            "pl": "Seminar of computer science",
+            "en": "Seminar of computer science"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITT-SD0118S",
+        "name": {
+            "pl": "Algorithmic seminar",
+            "en": "Algorithmic seminar"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITT-SD0119W",
+        "name": {
+            "pl": "Algorithmic and mathematical foundations of privacy protection",
+            "en": "Algorithmic and mathematical foundations of privacy protection"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04ITT-SD0090W",
+        "name": {
+            "pl": "Research skills",
+            "en": "Research skills"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITT-SD0053W",
+        "name": {
+            "pl": "Modern Evolutionary Computation",
+            "en": "Modern Evolutionary Computation"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04ITT-SD0160W",
+        "name": {
+            "pl": "Computational intelligence and its applications",
+            "en": "Computational intelligence and its applications"
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04ITT-SD0161S",
+        "name": {
+            "pl": "Seminar of optimization and parallel computing",
+            "en": "Seminar of optimization and parallel computing"
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04ITT-SD0049S",
+        "name": {
+            "pl": "Intelligent Techniques and their applications",
+            "en": "Intelligent Techniques and their applications"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITT-SD0050S",
+        "name": {
+            "pl": "Digital healthcare: conceptual approaches, technological and computational challenges",
+            "en": "Digital healthcare: conceptual approaches, technological and computational challenges"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITT-SD0162W",
+        "name": {
+            "pl": "Chatbot – a modern researcher's tool",
+            "en": "Chatbot – a modern researcher's tool"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITT-SD0163W",
+        "name": {
+            "pl": "Interdisciplinary applications of artificial intelligence not requiring a computer science background",
+            "en": "Interdisciplinary applications of artificial intelligence not requiring a computer science background"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITT-SD0052L",
+        "name": {
+            "pl": "Modern numerical techniques in science",
+            "en": "Modern numerical techniques in science"
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SM0203G",
+        "name": {
+            "pl": "Ocena jakości usług w sieciach teleinformatycznych",
+            "en": "Service quality assessment in ICT networks"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0003D",
+        "name": {
+            "pl": "Praca dyplomowa",
+            "en": "Diploma work"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0001Q",
+        "name": {
+            "pl": "Praktyka zawodowa",
+            "en": "Professional Practice"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0004W",
+        "name": {
+            "pl": "Podstawy telekomunikacji",
+            "en": "Princinples of telecommunications"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0005W",
+        "name": {
+            "pl": "Inżynieria ruchu",
+            "en": "Traffic Engineering"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0020W",
+        "name": {
+            "pl": "Miernictwo 1",
+            "en": "Measurement techniques 1"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0021L",
+        "name": {
+            "pl": "Miernictwo 2",
+            "en": "Measurement techniques 2"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0044W",
+        "name": {
+            "pl": "Podstawy automatyki i robotyki",
+            "en": "Introduction into control engineering and robotics"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0057W",
+        "name": {
+            "pl": "Rachunek prawdopodobieństwa",
+            "en": "Probability Theory"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0059W",
+        "name": {
+            "pl": "Technika cyfrowa 1",
+            "en": "Digital Systems 1"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0102S",
+        "name": {
+            "pl": "Seminarium dyplomowe",
+            "en": "Diploma seminar"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0105P",
+        "name": {
+            "pl": "Projekt zespołowy",
+            "en": "Team project"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0128P",
+        "name": {
+            "pl": "Inżynieria ruchu 2",
+            "en": "Traffic engineernig 2"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0203S",
+        "name": {
+            "pl": "Seminarium dyplomowe",
+            "en": "Diploma seminar"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0204W",
+        "name": {
+            "pl": "Propagacja fal radiowych",
+            "en": "Radio waves propagation"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0208P",
+        "name": {
+            "pl": "Projekt zespołowy",
+            "en": "Team project"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0229L",
+        "name": {
+            "pl": "Programowanie w języku Java",
+            "en": "Programming in Java"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0303L",
+        "name": {
+            "pl": "Aplikacje multimedialne",
+            "en": "Multimedia applications"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TEL-SI0002G",
+        "name": {
+            "pl": "Elektromagnetyzm",
+            "en": "Electromagnetic"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0042G",
+        "name": {
+            "pl": "Analiza matematyczna 1.2A",
+            "en": "Mathematical Analysis 1.2A"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0111D",
+        "name": {
+            "pl": "Praca dyplomowa",
+            "en": "Diploma work"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0028G",
+        "name": {
+            "pl": "Sterowanie wielopoziomowe",
+            "en": "Multi-level control"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0029G",
+        "name": {
+            "pl": "Optymalizacja procesów dyskretnych",
+            "en": "Discrete Optimization"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0030G",
+        "name": {
+            "pl": "Komputerowo zintegrowane wytwarzanie",
+            "en": "Computer integrated manufacturing"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0001W",
+        "name": {
+            "pl": "Podstawy telekomunikacji",
+            "en": "Introduction to Telecommunications"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0002G",
+        "name": {
+            "pl": "Paradygmaty programowania obiektowego",
+            "en": "Object oriented programming paradigms"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0003G",
+        "name": {
+            "pl": "Teoria systemów",
+            "en": "Systems Theory"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0004G",
+        "name": {
+            "pl": "Informatyczne zastosowania statystyki",
+            "en": "Applied Statistics in Computer Engineering"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0006G",
+        "name": {
+            "pl": "Wstęp do architektury komputerów",
+            "en": "Introduction to computer architecture"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0007G",
+        "name": {
+            "pl": "Systemy operacyjne",
+            "en": "Operating systems"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0008G",
+        "name": {
+            "pl": "Elementy elektroniki i elektrotechniki",
+            "en": "Fundamentals of electrical engineering and electronics"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0009G",
+        "name": {
+            "pl": "Sygnały i obrazy cyfrowe",
+            "en": "Digital signals and images"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0010G",
+        "name": {
+            "pl": "Modelowanie i symulacja",
+            "en": "Modeling and simulation"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0011G",
+        "name": {
+            "pl": "Sieci komputerowe",
+            "en": "Computer networks"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0012G",
+        "name": {
+            "pl": "Struktury danych",
+            "en": "Data structures"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0013G",
+        "name": {
+            "pl": "Projektowanie i analiza algorytmów",
+            "en": "Design and Analysis of Algorithms"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0014G",
+        "name": {
+            "pl": "Technika regulacji",
+            "en": "Control technique"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ISA-SI0015G",
+        "name": {
+            "pl": "Technika cyfrowa i mikroprocesorowa",
+            "en": "Digital and microprocessor technology"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04MTR-SM2001W",
+        "name": {
+            "pl": "Identyfikacja",
+            "en": "Identification"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04MTR-SM2001L",
+        "name": {
+            "pl": "Identyfikacja",
+            "en": "Identification"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04MTR-SM0001W",
+        "name": {
+            "pl": "Optymalizacja",
+            "en": "Optimization"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04MTR-SM0001L",
+        "name": {
+            "pl": "Optymalizacja",
+            "en": "Optimization"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04MTR-SM0002W",
+        "name": {
+            "pl": "Data Mining",
+            "en": "Data Mining"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04MTR-SM0002P",
+        "name": {
+            "pl": "Data Mining",
+            "en": "Data Mining"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04MTR-SM0003W",
+        "name": {
+            "pl": "Optymalizacja",
+            "en": "Optimization"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04MTR-SM0003L",
+        "name": {
+            "pl": "Optymalizacja",
+            "en": "Optimization"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04MTR-NM0001L",
+        "name": {
+            "pl": "Optymalizacja",
+            "en": "Optimization"
+        },
+        "terms": []
+    },
+    {
+        "id": "W04MTR-NM0001W",
+        "name": {
+            "pl": "Optymalizacja",
+            "en": "Optimization"
+        },
+        "terms": []
+    },
+    {
+        "id": "W04ITEJG-SI0001G",
+        "name": {
+            "pl": "Podstawy programowania",
+            "en": "Programming Principles"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0004G",
+        "name": {
+            "pl": "Języki programowania",
+            "en": "Programming Languages"
+        },
+        "terms": [
+            {
+                "id": "2025/26-Z"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0006G",
+        "name": {
+            "pl": "Podstawy techniki mikroprocesorowej 1",
+            "en": "Foundations of Microprocessor Techniques"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0007G",
+        "name": {
+            "pl": "Technologie informacyjne",
+            "en": "Information technologies"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0008G",
+        "name": {
+            "pl": "Teoria systemów",
+            "en": "Systems Theory"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0010G",
+        "name": {
+            "pl": "Podstawy przetwarzania sygnałów",
+            "en": "Foundations of signal processing"
+        },
+        "terms": [
+            {
+                "id": "2025/26-Z"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0011G",
+        "name": {
+            "pl": "Inżynieria oprogramowania",
+            "en": "Software engineering"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0012G",
+        "name": {
+            "pl": "Grafika komputerowa i komunikacja człowiek-komputer",
+            "en": "Computer graphics and human-computer communication"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0014G",
+        "name": {
+            "pl": "Inżynierskie zastosowania statystyki",
+            "en": "Statistics with applications in engineering"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0015G",
+        "name": {
+            "pl": "Urządzenia peryferyjne",
+            "en": "Peripherial Devices"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0020G",
+        "name": {
+            "pl": "Układy cyfrowe i systemy wbudowane 2",
+            "en": "Digital circuits and embedded systems 2"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0026G",
+        "name": {
+            "pl": "Struktura obliczeniowa i złożoność obliczeniowa",
+            "en": "Algorithms and computational complexity"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0029G",
+        "name": {
+            "pl": "Sieci komputerowe",
+            "en": "Computer networks"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0030G",
+        "name": {
+            "pl": "Technologie sieciowe",
+            "en": "Networking"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0031G",
+        "name": {
+            "pl": "Układy cyfrowe i systemy wbudowane 1",
+            "en": "Digital circuits and embedded systems 1"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0032G",
+        "name": {
+            "pl": "Projektowanie efektywnych algorytmów",
+            "en": "Algorithms and computational complexity"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0033G",
+        "name": {
+            "pl": "Systemy operacyjne 2",
+            "en": "Operating Systems 2"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0034G",
+        "name": {
+            "pl": "Bazy danych 1",
+            "en": "Database Systems 1"
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0036G",
+        "name": {
+            "pl": "Logika układów cyfrowych",
+            "en": "Logic of digital circuits"
+        },
+        "terms": [
+            {
+                "id": "2025/26-Z"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEJG-SI0040G",
+        "name": {
+            "pl": "Programowanie obiektowe",
+            "en": "Object Oriented Programming"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0016W",
+        "name": {
+            "pl": "Sieci złożone",
+            "en": "Complex networks"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0016L",
+        "name": {
+            "pl": "Sieci złożone",
+            "en": "Complex networks"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0806G",
+        "name": {
+            "pl": "Aspekty prawne, społeczne i etyczne w sztucznej inteligencji",
+            "en": "Legal, social and ethical aspects of Artificial Intelligence"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM998W",
+        "name": {
+            "pl": "Aspekty prawne, społeczne i etyczne w sztucznej inteligencji",
+            "en": "Legal, social and ethical aspects of Artificial Intelligence"
+        },
+        "terms": []
+    },
+    {
+        "id": "W04SZT-SM0801L",
+        "name": {
+            "pl": "Uczenie reprezentacji",
+            "en": "Representation Learning"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0801W",
+        "name": {
+            "pl": "Uczenie reprezentacji",
+            "en": "Representation Learning"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0802L",
+        "name": {
+            "pl": "Systemy rekomendacyjne i personalizacja",
+            "en": "Recommender systems and personalization"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0802W",
+        "name": {
+            "pl": "Systemy rekomendacyjne i personalizacja",
+            "en": "Recommender systems and personalization"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0803L",
+        "name": {
+            "pl": "Informatyka afektywna",
+            "en": "Affective computing"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0803W",
+        "name": {
+            "pl": "Informatyka afektywna",
+            "en": "Affective computing"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0804L",
+        "name": {
+            "pl": "Przetwarzanie danych przestrzennych",
+            "en": "Spatial Data Processing"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0804W",
+        "name": {
+            "pl": "Przetwarzanie danych przestrzennych",
+            "en": "Spatial Data Processing"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0805L",
+        "name": {
+            "pl": "Analiza mediów cyfrowych",
+            "en": "Digital media analysis"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0805W",
+        "name": {
+            "pl": "Analiza mediów cyfrowych",
+            "en": "Digital media analysis"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0806L",
+        "name": {
+            "pl": "Metody analizy sieci złożonych",
+            "en": "Methods for complex networks analysis"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0807L",
+        "name": {
+            "pl": "Analiza i przetwarzanie dźwięku (1)",
+            "en": "Sound analysis and processing (1)"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0807W",
+        "name": {
+            "pl": "Analiza i przetwarzanie dźwięku (1)",
+            "en": "Sound analysis and processing (1)"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0808L",
+        "name": {
+            "pl": "Analiza i przetwarzanie obrazów i wideo (2)",
+            "en": "Image and video analysis and processing (2)"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0808W",
+        "name": {
+            "pl": "Analiza i przetwarzanie obrazów i wideo (2)",
+            "en": "Image and video analysis and processing (2)"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04SZT-SM0809L",
+        "name": {
+            "pl": "Przetwarzanie danych masowych",
+            "en": "Large scale data processing"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SI0041W",
+        "name": {
+            "pl": "Podstawy cyberbezpieczeństwa",
+            "en": "Cybersecurity essentials"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SM0011G",
+        "name": {
+            "pl": "Analiza ryzyka i reakcja na incydenty",
+            "en": "Risk analysis and incident response"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SM0203G",
+        "name": {
+            "pl": "Informatyka śledcza",
+            "en": "Cyberseurity forensics"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SI0100D",
+        "name": {
+            "pl": "Praca dyplomowa",
+            "en": "Diploma work"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SI0200D",
+        "name": {
+            "pl": "Praca dyplomowa",
+            "en": "Diploma work"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SI0300D",
+        "name": {
+            "pl": "Praca dyplomowa",
+            "en": "Diploma work"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SM0200G",
+        "name": {
+            "pl": "Ochrona systemów operacyjnych",
+            "en": "Operating systems protection"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SM0201G",
+        "name": {
+            "pl": "Ochrona centrów danych",
+            "en": "Data center protection"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SM0300G",
+        "name": {
+            "pl": "Bezpieczeństwo sieci radiowych i urządzeń mobilnych",
+            "en": "Security in radio networks and mobile devices"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SM0301G",
+        "name": {
+            "pl": "Zaawansowane testy penetracyjne sieci i aplikacji Web",
+            "en": "Advanced Web and Web application penetration testing"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SM0400G",
+        "name": {
+            "pl": "Zarządzanie projektami bezpieczeństwa IT",
+            "en": "IT projects security management"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SM0401G",
+        "name": {
+            "pl": "Audytowanie infrastruktury IT",
+            "en": "Auditing IT infrastructure"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SM0500G",
+        "name": {
+            "pl": "Metody AI w analizie wzorców zachowań",
+            "en": "AI methods in the analysis of behavior patterns"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SM0501G",
+        "name": {
+            "pl": "Metody AI w badaniu zagrożeń w systemach komputerowych",
+            "en": "AI methods for threat analysis in computer systems"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SM0600G",
+        "name": {
+            "pl": "Bezpieczeństwo aplikacji webowych",
+            "en": "Web application security"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SM0601G",
+        "name": {
+            "pl": "Bezpieczne programowanie",
+            "en": "Secure programming"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SI0008C",
+        "name": {
+            "pl": "Elektryczność i magnetyzm",
+            "en": "Electro-magnetism"
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SI0017W",
+        "name": {
+            "pl": "Metody monitorowania jakości produkcji",
+            "en": "Methods of production quality monitoring"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04CBE-SI0019W",
+        "name": {
+            "pl": "Podstawy bezpieczeństwa",
+            "en": "Introduction to safety"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0001P",
+        "name": {
+            "pl": "Projekt naukowo-wdrożeniowy 1",
+            "en": "Research and implementation project 1"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0006W",
+        "name": {
+            "pl": "Kierunki rozwoju sztucznej inteligencji",
+            "en": "The development direction of AI"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0007P",
+        "name": {
+            "pl": "Projekt naukowo-wdrożeniowy 2",
+            "en": "Research and implementation project 2"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0011P",
+        "name": {
+            "pl": "Projekt naukowo-wdrożeniowy 3",
+            "en": "Research and implementation project 3"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0019S",
+        "name": {
+            "pl": "Seminarium dyplomowe",
+            "en": "Diploma seminar"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0020D",
+        "name": {
+            "pl": "Praca dyplomowa",
+            "en": "Master Thesis"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0021W",
+        "name": {
+            "pl": "Fizyka i algorytmika kwantowa",
+            "en": "Quantum Information Theory"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0002G",
+        "name": {
+            "pl": "Projektowanie bezpiecznej architektury ICT",
+            "en": "Designing secure ICT architecture"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0003G",
+        "name": {
+            "pl": "Nowoczesne architectury sieci teleinformatycznych",
+            "en": "Modern architectures of ICT networks"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0004G",
+        "name": {
+            "pl": "Uczenie maszynowe",
+            "en": "Machine Learning"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0008G",
+        "name": {
+            "pl": "Infrastruktura krytyczna",
+            "en": "Critical Infrastructures"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0009G",
+        "name": {
+            "pl": "Analiza danych eksperymentalnych",
+            "en": "Exploration of experimental data"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0010G",
+        "name": {
+            "pl": "Sieci neuronowe",
+            "en": "Neural networks"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0022G",
+        "name": {
+            "pl": "Statystyczna analiza danych",
+            "en": "Statistical data analysis"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0102G",
+        "name": {
+            "pl": "Audytowanie systemów informatycznych - zaawansowana analiza danych po audytowych",
+            "en": "Audit of IT systems  - advanced data analysis"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0201G",
+        "name": {
+            "pl": "Uczenie głębokie",
+            "en": "Deep Learning"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0202G",
+        "name": {
+            "pl": "Systemy obliczeniowe AI (GPU, MPI, cloud)",
+            "en": "AI Computing Systems (GPU, MPI, cloud)"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04TAI-SM0301G",
+        "name": {
+            "pl": "Systemy inspekcji wizualnej",
+            "en": "Vision systems"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4010L",
+        "name": {
+            "pl": "Systems Analysis and Decision Support Methods",
+            "en": "Systems Analysis and Decision Support Methods"
+        },
+        "terms": [
+            {
+                "id": "2025/26-L"
+            },
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4011L",
+        "name": {
+            "pl": "Script Languages",
+            "en": "Script Languages"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4011W",
+        "name": {
+            "pl": "Script Languages",
+            "en": "Script Languages"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4012L",
+        "name": {
+            "pl": "Introduction to IoT",
+            "en": "Introduction to IoT"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4012W",
+        "name": {
+            "pl": "Introduction to IoT",
+            "en": "Introduction to IoT"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4013L",
+        "name": {
+            "pl": "Data Warehouses",
+            "en": "Data Warehouses"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4013W",
+        "name": {
+            "pl": "Data Warehouses",
+            "en": "Data Warehouses"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4014L",
+        "name": {
+            "pl": "Structural and Object oriented Programming",
+            "en": "Structural and Object oriented Programming"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4015L",
+        "name": {
+            "pl": "Data Structures and Algorithms",
+            "en": "Data Structures and Algorithms"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4016L",
+        "name": {
+            "pl": "Computer Architecture",
+            "en": "Computer Architecture"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4016W",
+        "name": {
+            "pl": "Computer Architecture",
+            "en": "Computer Architecture"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4017L",
+        "name": {
+            "pl": "Operating Systems",
+            "en": "Operating Systems"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4017W",
+        "name": {
+            "pl": "Operating Systems",
+            "en": "Operating Systems"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4018L",
+        "name": {
+            "pl": "Computer Networks",
+            "en": "Computer Networks"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4018W",
+        "name": {
+            "pl": "Computer Networks",
+            "en": "Computer Networks"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4019L",
+        "name": {
+            "pl": "Effective Programming Techniques",
+            "en": "Effective Programming Techniques"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4019W",
+        "name": {
+            "pl": "Effective Programming Techniques",
+            "en": "Effective Programming Techniques"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4020L",
+        "name": {
+            "pl": "Programming Paradigms",
+            "en": "Programming Paradigms"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4021L",
+        "name": {
+            "pl": "Basics of Software Engineering",
+            "en": "Basics of Software Engineering"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04IST-SI4022L",
+        "name": {
+            "pl": "Cybersecurity",
+            "en": "Cybersecurity"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITE-SM4218D",
+        "name": {
+            "pl": "Final Project",
+            "en": "Final Project"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0050G",
+        "name": {
+            "pl": "Architektura komputerów 1",
+            "en": "Computer Architecture 1"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0055G",
+        "name": {
+            "pl": "Arytmetyka komputerów",
+            "en": "Computer Arithmetic"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0051G",
+        "name": {
+            "pl": "Architektura komputerów 2",
+            "en": "Computer Architecture 2"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0054G",
+        "name": {
+            "pl": "Organizacja i architektura komputerów",
+            "en": "Computer Architecture and Organization"
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0052G",
+        "name": {
+            "pl": "Sztuczna inteligencja",
+            "en": "Artificial Intelligence"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0053G",
+        "name": {
+            "pl": "Metody sztucznej inteligencji",
+            "en": "Methods of artificial intelligence"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0016W",
+        "name": {
+            "pl": "Systemy operacyjne 1",
+            "en": "Operating Systems 1"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0001G",
+        "name": {
+            "pl": "Podstawy programowania",
+            "en": "Programming Principles"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0004G",
+        "name": {
+            "pl": "Języki programowania",
+            "en": "Programming Languages"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0006G",
+        "name": {
+            "pl": "Podstawy techniki mikroprocesorowej 1",
+            "en": "Foundations of Microprocessor Techniques"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0007G",
+        "name": {
+            "pl": "Technologie informacyjne",
+            "en": "Information technologies"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0008G",
+        "name": {
+            "pl": "Teoria systemów",
+            "en": "Systems Theory"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0010G",
+        "name": {
+            "pl": "Podstawy przetwarzania sygnałów",
+            "en": "Foundations of signal processing"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0011G",
+        "name": {
+            "pl": "Inżynieria oprogramowania",
+            "en": "Software engineering"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0012G",
+        "name": {
+            "pl": "Grafika komputerowa i komunikacja człowiek-komputer",
+            "en": "Computer graphics and human-computer communication"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0014G",
+        "name": {
+            "pl": "Inżynierskie zastosowania statystyki",
+            "en": "Statistics with applications in engineering"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0015G",
+        "name": {
+            "pl": "Urządzenia peryferyjne",
+            "en": "Peripherial Devices"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0020G",
+        "name": {
+            "pl": "Układy cyfrowe i systemy wbudowane 2",
+            "en": "Digital circuits and embedded systems 2"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0026G",
+        "name": {
+            "pl": "Struktura obliczeniowa i złożoność obliczeniowa",
+            "en": "Algorithms and computational complexity"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04ITEWB-SI0029G",
+        "name": {
+            "pl": "Sieci komputerowe",
+            "en": "Computer networks"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0818L",
+        "name": {
+            "pl": "Elementy systemów autonomicznych",
+            "en": "Constituents of Autonomous Systems"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0820L",
+        "name": {
+            "pl": "Systemy i aplikacje rozproszone",
+            "en": "Distributed systems and applications"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0821L",
+        "name": {
+            "pl": "Systemy złożone i analiza danych",
+            "en": "Complex systems and data analysis"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0824L",
+        "name": {
+            "pl": "Podstawy implementacji systemów webowych",
+            "en": "Basics of web systems implementation"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0825L",
+        "name": {
+            "pl": "Technologie multimedialne",
+            "en": "Multimedia technologies"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0826L",
+        "name": {
+            "pl": "Technologie przemysłowego Internetu Rzeczy",
+            "en": "Technologies of Industrial IoT"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0829L",
+        "name": {
+            "pl": "Systemy informatyczne Internetu Rzeczy",
+            "en": "Internet of Things Systems"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0831L",
+        "name": {
+            "pl": "Technologia blockchain w IIoT",
+            "en": "Blockchain Technology in IIoT"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0026L",
+        "name": {
+            "pl": "Podstawy sieci komputerowych i Internetu",
+            "en": "Basics of computer networks and the Internet"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0027L",
+        "name": {
+            "pl": "Zarządzanie cyklem życia systemu",
+            "en": "System life cycle management"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0029L",
+        "name": {
+            "pl": "Bezpieczeństwo systemów i sieci informatycznych",
+            "en": "Security of computer systems and networks"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0822P",
+        "name": {
+            "pl": "Uczenie maszynowe",
+            "en": "Machine learning"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0823P",
+        "name": {
+            "pl": "Obliczenia chmurowe i mgłowe",
+            "en": "Cloud and fog computing"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0826P",
+        "name": {
+            "pl": "Technologie przemysłowego Internetu Rzeczy",
+            "en": "Technologies of Industrial IoT"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0827P",
+        "name": {
+            "pl": "Modelowanie i symulacja systemów produkcyjnych",
+            "en": "Modeling and simulation of manufacturing"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0828P",
+        "name": {
+            "pl": "Projektowanie systemów usługowych",
+            "en": "Architecture of service-based systems"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0830S",
+        "name": {
+            "pl": "Systemy rekomendacyjne w przemyśle",
+            "en": "Recommender Systems in Industry"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0832S",
+        "name": {
+            "pl": "Technologie systemów brzegowych,mgłowych i chmurowych",
+            "en": "Edge, Fog and Cloud Computing Systems Technologies"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INS-SI0833S",
+        "name": {
+            "pl": "Zastosowania rozproszonych systemów informatycznych i systemów Internetu Rzecz",
+            "en": "Distributed information systems and Internet of Things applications"
+        },
+        "terms": [
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SI0016G",
+        "name": {
+            "pl": "Bazy danych i zarządzanie informacją",
+            "en": "Data dases and information managements"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SI0017G",
+        "name": {
+            "pl": "Architektura komputerów i systemy operacyjne",
+            "en": "System Architecture and Operating Systems"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SI0018G",
+        "name": {
+            "pl": "Języki formalne i techniki translacji",
+            "en": "Formal Languages and Translation Techniques"
+        },
+        "terms": [
+            {
+                "id": "2024/25-L"
+            },
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SI0019G",
+        "name": {
+            "pl": "Matematyka dyskretna",
+            "en": "Discrete Mathematics"
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SI0021G",
+        "name": {
+            "pl": "Algebra z geometrią analityczną",
+            "en": "Algebra and Analytic Geometry"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SI0020G",
+        "name": {
+            "pl": "Analiza matematyczna 1",
+            "en": "Mathematical Analysis 1"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SI0022G",
+        "name": {
+            "pl": "Metody probabilistyczne i statystyka",
+            "en": "Probability and Statistics Methods"
+        },
+        "terms": [
+            {
+                "id": "2024/25-Z"
+            },
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SI0023G",
+        "name": {
+            "pl": "Logika i struktury formalne",
+            "en": "Logic and Formal Structures"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SI0024G",
+        "name": {
+            "pl": "Analiza matematyczna 2",
+            "en": "Mathematical Analysis 2"
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            },
+            {
+                "id": "2022/23-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SM0009S",
+        "name": {
+            "pl": "Seminarium przeglądowe",
+            "en": "Review Seminar"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SM4009G",
+        "name": {
+            "pl": "High level security - vulnerabilities and attacks",
+            "en": "High level security - vulnerabilities and attacks"
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SM4117W",
+        "name": {
+            "pl": "Legal Issues in Computer Security",
+            "en": "Legal Issues in Computer Security"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SM4010G",
+        "name": {
+            "pl": "Algorithmic Number Theory",
+            "en": "Algorithmic Number Theory"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SM4013W",
+        "name": {
+            "pl": "Quantum Physics and Computing",
+            "en": "Quantum Physics and Computing"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SM4012L",
+        "name": {
+            "pl": "Software Engineering Lab in Cybersecurity",
+            "en": "Software Engineering Lab in Cybersecurity"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SM4011G",
+        "name": {
+            "pl": "Communication and Security Infrastructure",
+            "en": "Communication and Security Infrastructure"
+        },
+        "terms": [
+            {
+                "id": "2023/24-Z"
+            },
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SM4118G",
+        "name": {
+            "pl": "Blockchain and cryptocurrencies",
+            "en": "Blockchain and cryptocurrencies"
+        },
+        "terms": [
+            {
+                "id": "2023/24-L"
+            },
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SM4119G",
+        "name": {
+            "pl": "Malicious Mechanisms and Defence Techniques",
+            "en": "Malicious Mechanisms and Defence Techniques"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    },
+    {
+        "id": "W04INA-SM4120G",
+        "name": {
+            "pl": "Privacy Enhancing Technologies",
+            "en": "Privacy Enhancing Technologies"
+        },
+        "terms": [
+            {
+                "id": "2022/23-L"
+            }
+        ]
+    }
+]
