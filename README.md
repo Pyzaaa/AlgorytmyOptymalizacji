@@ -27,6 +27,13 @@
 - course_lecturers.json - output, unsorted
 - course_editions_with_lecturers_sorted.json - output, sorted by term
 
+### building info files
+- request_building_rooms.py - requests room IDs of a building and filters for only room ID and name
+- building_rooms.json - output of the script
+- request_room_details.py - requests details of the room- type and capacity (+ attributes)
+- room_details.json / room_details-att.json - saved room details without/with additional attributes
+- analyze_room_details.py - analyze room_details json files to find how many rooms of given type there are and what they can be used for
+
 ### API access / testing
 - endpoint_list.json - list of all endpoints from *services/apiref/method_index*
 - API_Tester.py - makes request to some endpoints

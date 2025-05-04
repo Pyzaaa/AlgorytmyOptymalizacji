@@ -1,0 +1,122 @@
+[
+    {
+        "id": "1339",
+        "number": "201/203",
+        "type": "didactics_room",
+        "capacity": 170,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "ZACIEMNIENIE",
+                "description": {
+                    "pl": "możliwość pełnego zaciemnienia",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_PRZE",
+                "description": {
+                    "pl": "projektor przenośny",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_BIALA",
+                "description": {
+                    "pl": "tablica biała",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "SALA_WYK_DUZA",
+                "description": {
+                    "pl": "sala wykładowa duża",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "DOST_REZ",
+                "description": {
+                    "pl": "sala dostępna do rezerwacji",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1760",
+        "number": "205",
+        "type": "didactics_room",
+        "capacity": 240,
+        "attributes": [
+            {
+                "id": "SALA_WYK_DUZA",
+                "description": {
+                    "pl": "sala wykładowa duża",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KLIMATYZACJA",
+                "description": {
+                    "pl": "klimatyzacja",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "DOST_REZ",
+                "description": {
+                    "pl": "sala dostępna do rezerwacji",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    }
+]

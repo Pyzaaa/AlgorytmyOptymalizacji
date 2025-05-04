@@ -1,0 +1,1202 @@
+[
+    {
+        "id": "1351",
+        "number": "006",
+        "type": "didactics_room",
+        "capacity": 6,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1352",
+        "number": "007",
+        "type": "didactics_room",
+        "capacity": 12,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1353",
+        "number": "108",
+        "type": "didactics_room",
+        "capacity": 12,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_PRZE",
+                "description": {
+                    "pl": "projektor przenośny",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KLIMATYZACJA",
+                "description": {
+                    "pl": "klimatyzacja",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_BIALA",
+                "description": {
+                    "pl": "tablica biała",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "LAB_KOMP",
+                "description": {
+                    "pl": "laboratoryjna komputerowa",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1354",
+        "number": "110",
+        "type": "didactics_room",
+        "capacity": 96,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_PRZE",
+                "description": {
+                    "pl": "projektor przenośny",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_BIALA",
+                "description": {
+                    "pl": "tablica biała",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "SALA_WYK_DUZA",
+                "description": {
+                    "pl": "sala wykładowa duża",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "DOST_REZ",
+                "description": {
+                    "pl": "sala dostępna do rezerwacji",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1355",
+        "number": "203",
+        "type": "didactics_room",
+        "capacity": 24,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_STALY",
+                "description": {
+                    "pl": "projektor stały",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "LAB_SPEC",
+                "description": {
+                    "pl": "laboratorium specjalistyczne",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1356",
+        "number": "212",
+        "type": "didactics_room",
+        "capacity": 28,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "ZACIEMNIENIE",
+                "description": {
+                    "pl": "możliwość pełnego zaciemnienia",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_STALY",
+                "description": {
+                    "pl": "projektor stały",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "SALA_CW",
+                "description": {
+                    "pl": "sala ćwiczeniowa",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1357",
+        "number": "218",
+        "type": "didactics_room",
+        "capacity": 14,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "ZACIEMNIENIE",
+                "description": {
+                    "pl": "możliwość pełnego zaciemnienia",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_STALY",
+                "description": {
+                    "pl": "projektor stały",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "LAB_SPEC",
+                "description": {
+                    "pl": "laboratorium specjalistyczne",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1358",
+        "number": "301",
+        "type": "didactics_room",
+        "capacity": 17,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_PRZE",
+                "description": {
+                    "pl": "projektor przenośny",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KLIMATYZACJA",
+                "description": {
+                    "pl": "klimatyzacja",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "LAB_KOMP",
+                "description": {
+                    "pl": "laboratoryjna komputerowa",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1359",
+        "number": "302",
+        "type": "didactics_room",
+        "capacity": 18,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_PRZE",
+                "description": {
+                    "pl": "projektor przenośny",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KLIMATYZACJA",
+                "description": {
+                    "pl": "klimatyzacja",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "LAB_KOMP",
+                "description": {
+                    "pl": "laboratoryjna komputerowa",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1360",
+        "number": "303",
+        "type": "didactics_room",
+        "capacity": 38,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_PRZE",
+                "description": {
+                    "pl": "projektor przenośny",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "SALA_CW",
+                "description": {
+                    "pl": "sala ćwiczeniowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "DOST_REZ",
+                "description": {
+                    "pl": "sala dostępna do rezerwacji",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1361",
+        "number": "304",
+        "type": "didactics_room",
+        "capacity": 44,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_PRZE",
+                "description": {
+                    "pl": "projektor przenośny",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_BIALA",
+                "description": {
+                    "pl": "tablica biała",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "SALA_WYK_MALA",
+                "description": {
+                    "pl": "sala wykładowa mała",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "DOST_REZ",
+                "description": {
+                    "pl": "sala dostępna do rezerwacji",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1362",
+        "number": "310",
+        "type": "didactics_room",
+        "capacity": 129,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_PRZE",
+                "description": {
+                    "pl": "projektor przenośny",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_BIALA",
+                "description": {
+                    "pl": "tablica biała",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "SALA_WYK_DUZA",
+                "description": {
+                    "pl": "sala wykładowa duża",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "DOST_REZ",
+                "description": {
+                    "pl": "sala dostępna do rezerwacji",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1363",
+        "number": "413",
+        "type": "didactics_room",
+        "capacity": 14,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "ZACIEMNIENIE",
+                "description": {
+                    "pl": "możliwość pełnego zaciemnienia",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_STALY",
+                "description": {
+                    "pl": "projektor stały",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "LAB_SPEC",
+                "description": {
+                    "pl": "laboratorium specjalistyczne",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1364",
+        "number": "414",
+        "type": "didactics_room",
+        "capacity": 19,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "ZACIEMNIENIE",
+                "description": {
+                    "pl": "możliwość pełnego zaciemnienia",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_BIALA",
+                "description": {
+                    "pl": "tablica biała",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "LAB_SPEC",
+                "description": {
+                    "pl": "laboratorium specjalistyczne",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1444",
+        "number": "101",
+        "type": "didactics_room",
+        "capacity": 15,
+        "attributes": [
+            {
+                "id": "LAB_SPEC",
+                "description": {
+                    "pl": "laboratorium specjalistyczne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_PRZE",
+                "description": {
+                    "pl": "projektor przenośny",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1445",
+        "number": "102",
+        "type": "didactics_room",
+        "capacity": 15,
+        "attributes": [
+            {
+                "id": "LAB_SPEC",
+                "description": {
+                    "pl": "laboratorium specjalistyczne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1446",
+        "number": "408",
+        "type": "didactics_room",
+        "capacity": 8,
+        "attributes": [
+            {
+                "id": "LAB_SPEC",
+                "description": {
+                    "pl": "laboratorium specjalistyczne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_BIALA",
+                "description": {
+                    "pl": "tablica biała",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1447",
+        "number": "401b",
+        "type": "didactics_room",
+        "capacity": 24,
+        "attributes": [
+            {
+                "id": "LAB_SPEC",
+                "description": {
+                    "pl": "laboratorium specjalistyczne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KLIMATYZACJA",
+                "description": {
+                    "pl": "klimatyzacja",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1448",
+        "number": "410",
+        "type": "didactics_room",
+        "capacity": 24,
+        "attributes": [
+            {
+                "id": "LAB_SPEC",
+                "description": {
+                    "pl": "laboratorium specjalistyczne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KLIMATYZACJA",
+                "description": {
+                    "pl": "klimatyzacja",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "ZACIEMNIENIE",
+                "description": {
+                    "pl": "możliwość pełnego zaciemnienia",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    }
+]

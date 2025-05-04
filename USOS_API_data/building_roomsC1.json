@@ -1,0 +1,17 @@
+{
+    "id": "C-1",
+    "name": {
+        "pl": "Budynek dydaktyczny [C-1]",
+        "en": ""
+    },
+    "rooms": [
+        {
+            "id": "1339",
+            "number": "201/203"
+        },
+        {
+            "id": "1760",
+            "number": "205"
+        }
+    ]
+}

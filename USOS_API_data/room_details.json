@@ -1,0 +1,290 @@
+[
+    {
+        "id": "1938",
+        "number": "231",
+        "type": "staff_members_room",
+        "capacity": 10
+    },
+    {
+        "id": "1939",
+        "number": "212",
+        "type": "staff_members_room",
+        "capacity": 10
+    },
+    {
+        "id": "2050",
+        "number": "123",
+        "type": "staff_members_room",
+        "capacity": 18
+    },
+    {
+        "id": "1979",
+        "number": "120",
+        "type": "staff_members_room",
+        "capacity": null
+    },
+    {
+        "id": "1980",
+        "number": "324",
+        "type": "staff_members_room",
+        "capacity": null
+    },
+    {
+        "id": "1981",
+        "number": "16/17",
+        "type": "staff_members_room",
+        "capacity": null
+    },
+    {
+        "id": "1365",
+        "number": "010",
+        "type": "didactics_room",
+        "capacity": 10
+    },
+    {
+        "id": "1366",
+        "number": "07",
+        "type": "didactics_room",
+        "capacity": 12
+    },
+    {
+        "id": "1746",
+        "number": "03",
+        "type": "staff_members_room",
+        "capacity": 20
+    },
+    {
+        "id": "1747",
+        "number": "107",
+        "type": "staff_members_room",
+        "capacity": 20
+    },
+    {
+        "id": "1748",
+        "number": "108",
+        "type": "staff_members_room",
+        "capacity": 20
+    },
+    {
+        "id": "1749",
+        "number": "111",
+        "type": "staff_members_room",
+        "capacity": 20
+    },
+    {
+        "id": "1750",
+        "number": "114",
+        "type": "staff_members_room",
+        "capacity": 20
+    },
+    {
+        "id": "1751",
+        "number": "126",
+        "type": "didactics_room",
+        "capacity": 18
+    },
+    {
+        "id": "1755",
+        "number": "110",
+        "type": "staff_members_room",
+        "capacity": 20
+    },
+    {
+        "id": "1756",
+        "number": "17",
+        "type": "staff_members_room",
+        "capacity": 20
+    },
+    {
+        "id": "1768",
+        "number": "015a",
+        "type": "didactics_room",
+        "capacity": 10
+    },
+    {
+        "id": "1769",
+        "number": "118",
+        "type": "didactics_room",
+        "capacity": 20
+    },
+    {
+        "id": "1770",
+        "number": "20",
+        "type": "didactics_room",
+        "capacity": 32
+    },
+    {
+        "id": "1771",
+        "number": "21",
+        "type": "didactics_room",
+        "capacity": 60
+    },
+    {
+        "id": "1772",
+        "number": "22",
+        "type": "didactics_room",
+        "capacity": 91
+    },
+    {
+        "id": "1773",
+        "number": "23",
+        "type": "didactics_room",
+        "capacity": 100
+    },
+    {
+        "id": "1803",
+        "number": "019",
+        "type": "didactics_room",
+        "capacity": 18
+    },
+    {
+        "id": "1804",
+        "number": "021",
+        "type": "didactics_room",
+        "capacity": 12
+    },
+    {
+        "id": "1805",
+        "number": "022",
+        "type": "didactics_room",
+        "capacity": 12
+    },
+    {
+        "id": "1806",
+        "number": "103",
+        "type": "didactics_room",
+        "capacity": 16
+    },
+    {
+        "id": "1807",
+        "number": "104",
+        "type": "didactics_room",
+        "capacity": 15
+    },
+    {
+        "id": "1808",
+        "number": "125",
+        "type": "didactics_room",
+        "capacity": 18
+    },
+    {
+        "id": "1809",
+        "number": "202",
+        "type": "staff_members_room",
+        "capacity": 8
+    },
+    {
+        "id": "1810",
+        "number": "208",
+        "type": "didactics_room",
+        "capacity": 20
+    },
+    {
+        "id": "1811",
+        "number": "213",
+        "type": "staff_members_room",
+        "capacity": 8
+    },
+    {
+        "id": "1812",
+        "number": "216",
+        "type": "staff_members_room",
+        "capacity": 8
+    },
+    {
+        "id": "1813",
+        "number": "219",
+        "type": "staff_members_room",
+        "capacity": 8
+    },
+    {
+        "id": "1814",
+        "number": "316",
+        "type": "staff_members_room",
+        "capacity": 8
+    },
+    {
+        "id": "1815",
+        "number": "318",
+        "type": "didactics_room",
+        "capacity": 12
+    },
+    {
+        "id": "1816",
+        "number": "319",
+        "type": "didactics_room",
+        "capacity": 16
+    },
+    {
+        "id": "1817",
+        "number": "320",
+        "type": "didactics_room",
+        "capacity": 16
+    },
+    {
+        "id": "1824",
+        "number": "013",
+        "type": "didactics_room",
+        "capacity": 12
+    },
+    {
+        "id": "1825",
+        "number": "016",
+        "type": "didactics_room",
+        "capacity": 20
+    },
+    {
+        "id": "1826",
+        "number": "127L",
+        "type": "didactics_room",
+        "capacity": 18
+    },
+    {
+        "id": "1827",
+        "number": "127P",
+        "type": "didactics_room",
+        "capacity": 18
+    },
+    {
+        "id": "1828",
+        "number": "229",
+        "type": "didactics_room",
+        "capacity": 16
+    },
+    {
+        "id": "1829",
+        "number": "308",
+        "type": "didactics_room",
+        "capacity": 10
+    },
+    {
+        "id": "1940",
+        "number": "226",
+        "type": "staff_members_room",
+        "capacity": 10
+    },
+    {
+        "id": "1941",
+        "number": "019a",
+        "type": "didactics_room",
+        "capacity": 14
+    },
+    {
+        "id": "1952",
+        "number": "231a",
+        "type": "staff_members_room",
+        "capacity": 10
+    },
+    {
+        "id": "1953",
+        "number": "313",
+        "type": "staff_members_room",
+        "capacity": 10
+    },
+    {
+        "id": "1975",
+        "number": "322/323",
+        "type": "didactics_room",
+        "capacity": 16
+    }
+]

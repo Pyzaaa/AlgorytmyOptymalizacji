@@ -1,0 +1,970 @@
+[
+    {
+        "id": "1367",
+        "number": "131",
+        "type": "didactics_room",
+        "capacity": 0,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "ZACIEMNIENIE",
+                "description": {
+                    "pl": "możliwość pełnego zaciemnienia",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KLIMATYZACJA",
+                "description": {
+                    "pl": "klimatyzacja",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "LAB_SPEC",
+                "description": {
+                    "pl": "laboratorium specjalistyczne",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1368",
+        "number": "244",
+        "type": "didactics_room",
+        "capacity": 6,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "ZACIEMNIENIE",
+                "description": {
+                    "pl": "możliwość pełnego zaciemnienia",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KLIMATYZACJA",
+                "description": {
+                    "pl": "klimatyzacja",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "LAB_SPEC",
+                "description": {
+                    "pl": "laboratorium specjalistyczne",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1369",
+        "number": "247",
+        "type": "didactics_room",
+        "capacity": 24,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "ZACIEMNIENIE",
+                "description": {
+                    "pl": "możliwość pełnego zaciemnienia",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_BIALA",
+                "description": {
+                    "pl": "tablica biała",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "LAB_SPEC",
+                "description": {
+                    "pl": "laboratorium specjalistyczne",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1370",
+        "number": "248",
+        "type": "didactics_room",
+        "capacity": 12,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "ZACIEMNIENIE",
+                "description": {
+                    "pl": "możliwość pełnego zaciemnienia",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_PRZE",
+                "description": {
+                    "pl": "projektor przenośny",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_BIALA",
+                "description": {
+                    "pl": "tablica biała",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "LAB_KOMP",
+                "description": {
+                    "pl": "laboratoryjna komputerowa",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1371",
+        "number": "31",
+        "type": "didactics_room",
+        "capacity": 30,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "ZACIEMNIENIE",
+                "description": {
+                    "pl": "możliwość pełnego zaciemnienia",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "SALA_WYK_MALA",
+                "description": {
+                    "pl": "sala wykładowa mała",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "DOST_REZ",
+                "description": {
+                    "pl": "sala dostępna do rezerwacji",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1372",
+        "number": "342",
+        "type": "didactics_room",
+        "capacity": 0,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "ZACIEMNIENIE",
+                "description": {
+                    "pl": "możliwość pełnego zaciemnienia",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KLIMATYZACJA",
+                "description": {
+                    "pl": "klimatyzacja",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "LAB_SPEC",
+                "description": {
+                    "pl": "laboratorium specjalistyczne",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1373",
+        "number": "38/39",
+        "type": "didactics_room",
+        "capacity": null,
+        "attributes": [
+            {
+                "id": "SALA_WYK_MALA",
+                "description": {
+                    "pl": "sala wykładowa mała",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1374",
+        "number": "40",
+        "type": "didactics_room",
+        "capacity": 58,
+        "attributes": [
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "ZACIEMNIENIE",
+                "description": {
+                    "pl": "możliwość pełnego zaciemnienia",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_PRZE",
+                "description": {
+                    "pl": "projektor przenośny",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_BIALA",
+                "description": {
+                    "pl": "tablica biała",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "SALA_WYK_MALA",
+                "description": {
+                    "pl": "sala wykładowa mała",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "DOST_REZ",
+                "description": {
+                    "pl": "sala dostępna do rezerwacji",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1449",
+        "number": "142",
+        "type": "didactics_room",
+        "capacity": 0,
+        "attributes": [
+            {
+                "id": "LAB_KOMP",
+                "description": {
+                    "pl": "laboratoryjna komputerowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_BIALA",
+                "description": {
+                    "pl": "tablica biała",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KLIMATYZACJA",
+                "description": {
+                    "pl": "klimatyzacja",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_PRZE",
+                "description": {
+                    "pl": "projektor przenośny",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "ZACIEMNIENIE",
+                "description": {
+                    "pl": "możliwość pełnego zaciemnienia",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1456",
+        "number": "34",
+        "type": "didactics_room",
+        "capacity": 25,
+        "attributes": [
+            {
+                "id": "SALA_CW",
+                "description": {
+                    "pl": "sala ćwiczeniowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_PRZE",
+                "description": {
+                    "pl": "projektor przenośny",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "DOST_REZ",
+                "description": {
+                    "pl": "sala dostępna do rezerwacji",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1457",
+        "number": "35",
+        "type": "didactics_room",
+        "capacity": 25,
+        "attributes": [
+            {
+                "id": "SALA_CW",
+                "description": {
+                    "pl": "sala ćwiczeniowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_KRED",
+                "description": {
+                    "pl": "tablica kredowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "OS_NIEP",
+                "description": {
+                    "pl": "dostęp dla osób niepełnosprawnych",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "DOST_REZ",
+                "description": {
+                    "pl": "sala dostępna do rezerwacji",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1752",
+        "number": "232",
+        "type": "staff_members_room",
+        "capacity": 20,
+        "attributes": [
+            {
+                "id": "SALA_PROJ",
+                "description": {
+                    "pl": "sala projektowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KLIMATYZACJA",
+                "description": {
+                    "pl": "klimatyzacja",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1774",
+        "number": "245",
+        "type": "staff_members_room",
+        "capacity": 10,
+        "attributes": [
+            {
+                "id": "SALA_PROJ",
+                "description": {
+                    "pl": "sala projektowa",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1777",
+        "number": "41",
+        "type": "didactics_room",
+        "capacity": 160,
+        "attributes": [
+            {
+                "id": "SALA_WYK_DUZA",
+                "description": {
+                    "pl": "sala wykładowa duża",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "DOST_REZ",
+                "description": {
+                    "pl": "sala dostępna do rezerwacji",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1843",
+        "number": "344",
+        "type": "didactics_room",
+        "capacity": 16,
+        "attributes": [
+            {
+                "id": "LAB_KOMP",
+                "description": {
+                    "pl": "laboratoryjna komputerowa",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1844",
+        "number": "345",
+        "type": "didactics_room",
+        "capacity": 18,
+        "attributes": [
+            {
+                "id": "LAB_KOMP",
+                "description": {
+                    "pl": "laboratoryjna komputerowa",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1845",
+        "number": "347",
+        "type": "didactics_room",
+        "capacity": 12,
+        "attributes": [
+            {
+                "id": "LAB_SPEC",
+                "description": {
+                    "pl": "laboratorium specjalistyczne",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1775",
+        "number": "32",
+        "type": "didactics_room",
+        "capacity": 32,
+        "attributes": [
+            {
+                "id": "SALA_CW",
+                "description": {
+                    "pl": "sala ćwiczeniowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "DOST_REZ",
+                "description": {
+                    "pl": "sala dostępna do rezerwacji",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1776",
+        "number": "33",
+        "type": "didactics_room",
+        "capacity": 32,
+        "attributes": [
+            {
+                "id": "SALA_CW",
+                "description": {
+                    "pl": "sala ćwiczeniowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "DOST_REZ",
+                "description": {
+                    "pl": "sala dostępna do rezerwacji",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1933",
+        "number": "38",
+        "type": "didactics_room",
+        "capacity": 16,
+        "attributes": [
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_STALY",
+                "description": {
+                    "pl": "projektor stały",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KLIMATYZACJA",
+                "description": {
+                    "pl": "klimatyzacja",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_BIALA",
+                "description": {
+                    "pl": "tablica biała",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "LAB_KOMP",
+                "description": {
+                    "pl": "laboratoryjna komputerowa",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    },
+    {
+        "id": "1934",
+        "number": "39",
+        "type": "didactics_room",
+        "capacity": 16,
+        "attributes": [
+            {
+                "id": "LAB_KOMP",
+                "description": {
+                    "pl": "laboratoryjna komputerowa",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_WIFI",
+                "description": {
+                    "pl": "dostęp do Internetu – WiFi",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "INTERNET_LAN",
+                "description": {
+                    "pl": "dostęp do Internetu – łącze stałe",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KOMPUTERY",
+                "description": {
+                    "pl": "komputery stacjonarne",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "PROJEKTOR_STALY",
+                "description": {
+                    "pl": "projektor stały",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "KLIMATYZACJA",
+                "description": {
+                    "pl": "klimatyzacja",
+                    "en": ""
+                },
+                "count": null
+            },
+            {
+                "id": "TAB_BIALA",
+                "description": {
+                    "pl": "tablica biała",
+                    "en": ""
+                },
+                "count": null
+            }
+        ]
+    }
+]
