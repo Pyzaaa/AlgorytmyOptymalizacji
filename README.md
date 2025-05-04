@@ -3,13 +3,14 @@
 
 
 ## mamy:
-- course_id typu: W04ISA-SM0003G *(tylko dla kilku kursów XD)*
+- course_id typu: W04ISA-SM0003G *(większość kursów)*
 - term_id: 2024/25-L
-- na podstawie tego możemy dostać user_id prowadzących zajęcia + imie nazwisko itp
+- nazwiska i id prowadzących
 - jakie są pokoje w danych budynkach (nie wiadomo czy wszystkie)
+- ilość miejsc w tych pokojach i jakie zajęcia można tam prowadzić
 
 ## Nie mamy:
-- Który kierunek ma jaki kurs
+- Który kierunek ma jaki kurs (mniej więcej na podstawie ID kursu można się domyślać)
 - Ile powinny trwać zajęcia w semestrze/dniu?
 - 
 
@@ -44,4 +45,17 @@
 - request_courses.py - requests ~100 courses from W4N
 - Analyze_course_data.py
 - make_request.py - debug / test script for making a single request
-- 
+
+### analiza pokoi dla C-3
+
+```
+Room type statistics for room_details-att.json:
+  staff_members_room: 21
+  didactics_room: 27
+
+Attributes in 'didactics_room' for room_details-att.json:
+  KOMPUTERY: 10 room(s), total capacity: 152
+  LAB_KOMP: 11 room(s), total capacity: 179
+  SALA_CW: 2 room(s), total capacity: 92
+  SALA_WYK_DUZA: 0 room(s), total capacity: 0
+  SALA_WYK_MALA: 2 room(s), total capacity: 191```
