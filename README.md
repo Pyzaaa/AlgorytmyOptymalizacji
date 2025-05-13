@@ -27,7 +27,7 @@
 - filter_lecturers.py - Filters requested lecturer data keeping only courses with lecturers and sotrts by term
 - course_lecturers.json - output, unsorted
 - course_editions_with_lecturers_sorted.json - output, sorted by term
-
+- FINAL_data_prepare - gathers information from JSON files into final combined JSONs
 ### building info files
 - request_building_rooms.py - requests room IDs of a building and filters for only room ID and name
 - building_rooms.json - output of the script
