@@ -62,10 +62,10 @@ for room in room_details:
             if attr_id in valid_room_types:
                 class_type_to_rooms.setdefault(attr_id, []).append(room["number"])
 
-with open("USOS_API_data/final json/course_direction_type_name_mapping.json", "w", encoding="utf-8") as f:
+with open("USOS_API_data/final json/course_field_type_name_mapping.json", "w", encoding="utf-8") as f:
     json.dump(course_to_data, f, ensure_ascii=False, indent=4)
 
 with open("USOS_API_data/final json/class_type_to_rooms.json", "w", encoding="utf-8") as f:
     json.dump(class_type_to_rooms, f, ensure_ascii=False, indent=4)
 
-print("Pliki zapisane: course_direction_type_name_mapping.json, class_type_to_rooms.json")
+print("Pliki zapisane: course_field_type_name_mapping.json, class_type_to_rooms.json")
