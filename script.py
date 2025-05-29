@@ -21,6 +21,11 @@ def teacher_conflicts_constraint(sol):
     return np.all(sol.sum(axis=(0, 2)) <= 1)
 
 
+def student_groups_conflicts_constraint(sol):
+    """ Jeda grupa studencka nie może mieć więcej niż 1 kurs w tym samym momencie"""
+    return None
+
+
 def all_courses_assigned_once_constraint(sol):
     """ Każdy kurs musi zostać przypisany dokładnie 1 raz. """
     return np.all(sol.sum(axis=(1, 2, 3)) == 1)
@@ -37,6 +42,11 @@ def courses_assigned_to_teachers_constraint(sol, c, t, c_t_mapping):
                 if np.any(sol[course_idx, teacher_idx, :, :] == 1):
                     return False
     return True
+
+
+def courses_assigned_to_rooms_constraint():
+    """Kurs musi być prowadzony w salach odpowiadających typowi kursu. """
+    return None
 
 
 def count_gaps(sol):
@@ -74,10 +84,10 @@ def courses_standard_deviation(sol):
 
 def fitness(sol):
     """ Funkcja celu. """
-    return count_gaps(sol) + courses_standard_deviation(sol)
+    return count_gaps(sol)
 
 
-def genetic_algorithm(c, t, r, ts, c_t_mapping, generations, population_size, mutation_rate):
+def genetic_algorithm(c, t, r, ts, c_t_mapping, c_sg_r_mapping, r_type_mapping, generations, population_size, mutation_rate):
 
     print(f"len(c) = {len(c)}")
     print(f"len(t) = {len(t)}")
@@ -137,10 +147,11 @@ def genetic_algorithm(c, t, r, ts, c_t_mapping, generations, population_size, mu
 
 if __name__ == "__main__":
 
-    data = open_json("USOS_API_data/final json/FINAL_all_data_combined.json")
-    courses = data["courses"]
-    teachers = data["lecturers"]
-    rooms = data["rooms"]
+    data1 = open_json("USOS_API_data/final json/FINAL_all_data_combined.json")
+    data2 = open_json("USOS_API_data/final json/final_course_data.json")
+    courses = list(data2.keys())
+    teachers = data1["lecturers"]
+    rooms = data1["rooms"]
     time_slots = [
         "Pon 7:30", "Pon 9:15", "Pon 11:15", "Pon 13:15", "Pon 15:15", "Pon 17:05", "Pon 18:45",
         "Wto 7:30", "Wto 9:15", "Wto 11:15", "Wto 13:15", "Wto 15:15", "Wto 17:05", "Wto 18:45",
@@ -148,8 +159,10 @@ if __name__ == "__main__":
         "Czw 7:30", "Czw 9:15", "Czw 11:15", "Czw 13:15", "Czw 15:15", "Czw 17:05", "Czw 18:45",
         "Pią 7:30", "Pią 9:15", "Pią 11:15", "Pią 13:15", "Pią 15:15", "Pią 17:05", "Pią 18:45",
     ]
+    # students_groups = list({f"{info['field']}-{info['degree']}" for info in data2.values()})
 
-    c_t_mapping_data = open_json("USOS_API_data/final json/course_lecturer_mapping.json")
+    c_t_mapping_data = open_json("USOS_API_data/final json/final_course_lecturers.json")
+    r_type_mapping_data = open_json("USOS_API_data/final json/final_class_type_to_rooms.json")
 
     solution = genetic_algorithm(
         c=courses,
@@ -157,20 +170,26 @@ if __name__ == "__main__":
         r=rooms,
         ts=time_slots,
         c_t_mapping=c_t_mapping_data,
+        c_sg_r_mapping=data2,
+        r_type_mapping=r_type_mapping_data,
         generations=100,
         population_size=10,
-        mutation_rate=0.001,
+        mutation_rate=0.0005,
     )
 
 
 """
 TODO:
-- jakakolwiek walidacja / wizualizacja (wyprintowanie planu dla każdego przypisanego prowadzącego)
+- dodać ograniczenie kurs-sala i gs-kurs
+- ograniczenia liczące każde naruszenie
 
 - losowanie populacji spełniającej ograniczenia
 - mutacja spełniająca ograniczenia
-- krzyżowanie spełniające ograniczenia??
-- funkcja celu (ograniczenia miękkie + ograniczenia twarde w formie kary stałej lub w formie kary za każde naruszenie / w innej formie)
+- krzyżowanie spełniające ograniczenia?? (z naprawianiem?)
+
+- jakakolwiek walidacja / wizualizacja (wyprintowanie planu dla każdego przypisanego prowadzącego)
+
+- zapisywanie wyników
 - testy, wykresy
 """
 
