@@ -1,0 +1,4755 @@
+{
+    "W04IST-SM0311W": {
+        "course_name": "Zaawansowane metody i techniki analizy danych",
+        "field": "IST",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Ngoc Nguyen"
+        ]
+    },
+    "W04ISA-SM0116W": {
+        "course_name": "Ekonomia dla inżynierów",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Michał Lower",
+            "Łukasz Korus",
+            "Andrzej Jabłoński"
+        ]
+    },
+    "W04IST-SI4013L": {
+        "course_name": "Data Warehouses",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Wojciech Lorkiewicz",
+            "Marcin Jodłowiec"
+        ]
+    },
+    "W04MTR-SM0001W": {
+        "course_name": "Optymalizacja",
+        "field": "MTR",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Czesław Smutnicki"
+        ]
+    },
+    "W04INA-SM4117W": {
+        "course_name": "Legal Issues in Computer Security",
+        "field": "INA",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Mirosław Kutyłowski"
+        ]
+    },
+    "W04TEL-SM0006W": {
+        "course_name": "Technika wysokich częstotliwości w telekomunikacji",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Grzegorz Jaworski"
+        ]
+    },
+    "W04TEL-SM0006L": {
+        "course_name": "Technika wysokich częstotliwości w telekomunikacji",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Grzegorz Jaworski"
+        ]
+    },
+    "W04ITE-SI0011W": {
+        "course_name": "Inżynieria oprogramowania",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Olgierd Unold",
+            "Paweł Głuchowski",
+            "Tomasz Babczyński",
+            "Marian Jureczko",
+            "Jan Magott"
+        ]
+    },
+    "W04ITE-SI0011L": {
+        "course_name": "Inżynieria oprogramowania",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Olgierd Unold",
+            "Paweł Głuchowski",
+            "Tomasz Babczyński",
+            "Marian Jureczko",
+            "Jan Magott"
+        ]
+    },
+    "W04ISA-SI0015W": {
+        "course_name": "Technika cyfrowa i mikroprocesorowa",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Wojciech Tarnawski",
+            "Andrzej Stachno",
+            "Wojciech Rafajłowicz"
+        ]
+    },
+    "W04ISA-SI0015L": {
+        "course_name": "Technika cyfrowa i mikroprocesorowa",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Wojciech Tarnawski",
+            "Andrzej Stachno",
+            "Wojciech Rafajłowicz"
+        ]
+    },
+    "W04SZT-SM0805L": {
+        "course_name": "Analiza mediów cyfrowych",
+        "field": "SZT",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Tomasz Kajdanowicz"
+        ]
+    },
+    "W04ISA-SM0209P": {
+        "course_name": "Projekt przejściowy",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "projekt",
+        "lecturers": [
+            "Łukasz Jeleń",
+            "Michał Piórek"
+        ]
+    },
+    "W04TEL-SM0220P": {
+        "course_name": "Projekt internet rzeczy",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "projekt",
+        "lecturers": [
+            "Bartłomiej Zubrzak",
+            "Łukasz Skomra"
+        ]
+    },
+    "W04MTR-SM0003L": {
+        "course_name": "Optymalizacja",
+        "field": "MTR",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Czesław Smutnicki"
+        ]
+    },
+    "W04ITE-SM4242W": {
+        "course_name": "Research Project 2",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Wojciech Kmiecik"
+        ]
+    },
+    "W04ITE-SM4242L": {
+        "course_name": "Research Project 2",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Wojciech Kmiecik"
+        ]
+    },
+    "W04IST-SI4012W": {
+        "course_name": "Introduction to IoT",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Piotr Jóźwiak"
+        ]
+    },
+    "W04IST-SI4019L": {
+        "course_name": "Effective Programming Techniques",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Marcin Jodłowiec",
+            "Marcin Komarnicki",
+            "Artur Zawisza"
+        ]
+    },
+    "W04IST-SI4014L": {
+        "course_name": "Structural and Object oriented Programming",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Maciej Walczyński",
+            "Barbara Wędrychowicz"
+        ]
+    },
+    "W04ITEWB-SI0050W": {
+        "course_name": "Architektura komputerów 1",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Piotr Patronik"
+        ]
+    },
+    "W04ITEWB-SI0050L": {
+        "course_name": "Architektura komputerów 1",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Piotr Patronik"
+        ]
+    },
+    "W04IST-SI4011W": {
+        "course_name": "Script Languages",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Wojciech Thomas"
+        ]
+    },
+    "W04ISA-SM0412S": {
+        "course_name": "Seminarium dyplomowe",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Iwona Karcz-Dulęba"
+        ]
+    },
+    "W04IST-SM4018W": {
+        "course_name": "Advanced Databases",
+        "field": "IST",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Artur Wilczek"
+        ]
+    },
+    "W04IST-SM4018L": {
+        "course_name": "Advanced Databases",
+        "field": "IST",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Artur Wilczek"
+        ]
+    },
+    "W04CBE-SI0112W": {
+        "course_name": "Aspekty prawne i etyczne w obszarze bezpieczeństwa",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Renata Kopczyk"
+        ]
+    },
+    "W04CBE-SM0501W": {
+        "course_name": "Metody AI w badaniu zagrożeń w systemach komputerowych",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Henryk Maciejewski",
+            "Mateusz Gniewkowski",
+            "Radosław Grymin",
+            "Tomasz Walkowiak"
+        ]
+    },
+    "W04CBE-SM0501L": {
+        "course_name": "Metody AI w badaniu zagrożeń w systemach komputerowych",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Henryk Maciejewski",
+            "Mateusz Gniewkowski",
+            "Radosław Grymin",
+            "Tomasz Walkowiak"
+        ]
+    },
+    "W04TIN-SI0041W": {
+        "course_name": "Podstawy automatyki i robotyki",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Krzysztof Halawa",
+            "Konrad Kluwak",
+            "Anna Czemplik",
+            "Paweł Drąg",
+            "Andrzej Jabłoński",
+            "Wojciech Rafajłowicz"
+        ]
+    },
+    "W04TIN-SM0004W": {
+        "course_name": "Analiza i przetwarzanie sygnałów akustycznych",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Piotr Staroniewicz"
+        ]
+    },
+    "W04INS-SM0011C": {
+        "course_name": "Psychologia Komunikacji w Biznesie",
+        "field": "INS",
+        "degree": "SM",
+        "class_type": "ćwiczenia",
+        "lecturers": [
+            "Remigiusz Szczepanowski"
+        ]
+    },
+    "W04CBE-SM0009W": {
+        "course_name": "Fizyka",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Ewa Frączek"
+        ]
+    },
+    "W04TIN-SM0016P": {
+        "course_name": "Systemy wbudowane 2",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "projekt",
+        "lecturers": [
+            "Marcin Jaroszewski"
+        ]
+    },
+    "W04IST-SI4016L": {
+        "course_name": "Computer Architecture",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Maciej Huk",
+            "Jan Kwiatkowski"
+        ]
+    },
+    "W04TIN-SM0107S": {
+        "course_name": "Seminarium dyplomowe",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Krzysztof Walkowiak"
+        ]
+    },
+    "W04TAI-SM0003W": {
+        "course_name": "Nowoczesne architectury sieci teleinformatycznych",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Przemysław Ryba",
+            "Marcin Markowski",
+            "Kamil Staniec",
+            "Zbigniew Jóskiewicz",
+            "Ryszard Zieliński"
+        ]
+    },
+    "W04TAI-SM0003L": {
+        "course_name": "Nowoczesne architectury sieci teleinformatycznych",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Przemysław Ryba",
+            "Marcin Markowski",
+            "Kamil Staniec",
+            "Zbigniew Jóskiewicz",
+            "Ryszard Zieliński"
+        ]
+    },
+    "W04INA-SI0020W": {
+        "course_name": "Analiza matematyczna 1",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Rafał Kapelko"
+        ]
+    },
+    "W04INA-SI0020L": {
+        "course_name": "Analiza matematyczna 1",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Rafał Kapelko"
+        ]
+    },
+    "W04SZT-SM0016L": {
+        "course_name": "Sieci złożone",
+        "field": "SZT",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Damian Serwata",
+            "Michał Czuba"
+        ]
+    },
+    "W04ITEWB-SI0014W": {
+        "course_name": "Inżynierskie zastosowania statystyki",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Joanna Balbus"
+        ]
+    },
+    "W04ITEWB-SI0014L": {
+        "course_name": "Inżynierskie zastosowania statystyki",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Joanna Balbus"
+        ]
+    },
+    "W04ISA-SI0404W": {
+        "course_name": "Platformy programistyczne .Net i Java",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Michał Jaroszczuk",
+            "Radosław Idzikowski"
+        ]
+    },
+    "W04ISA-SI0404L": {
+        "course_name": "Platformy programistyczne .Net i Java",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Michał Jaroszczuk",
+            "Radosław Idzikowski"
+        ]
+    },
+    "W04INA-SM4012L": {
+        "course_name": "Software Engineering Lab in Cybersecurity",
+        "field": "INA",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Łukasz Krzywiecki"
+        ]
+    },
+    "W04CBE-SM0203W": {
+        "course_name": "Informatyka śledcza",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Marcin Kaczmarek",
+            "Michał Stojke",
+            "Robert Czechowski"
+        ]
+    },
+    "W04CBE-SM0203L": {
+        "course_name": "Informatyka śledcza",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Marcin Kaczmarek",
+            "Michał Stojke",
+            "Robert Czechowski"
+        ]
+    },
+    "W04INA-SI0802W": {
+        "course_name": "Języki i paradygmaty programowania",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Szymon Wróbel",
+            "Maciej Gębala",
+            "Karol Gotfryd",
+            "Błażej Wróbel",
+            "Marcin Kik",
+            "Patryk Stopyra"
+        ]
+    },
+    "W04INA-SI0802L": {
+        "course_name": "Języki i paradygmaty programowania",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Szymon Wróbel",
+            "Maciej Gębala",
+            "Karol Gotfryd",
+            "Błażej Wróbel",
+            "Marcin Kik",
+            "Patryk Stopyra"
+        ]
+    },
+    "W04TEL-SM0210S": {
+        "course_name": "Seminarium specjalnościowe",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Ryszard Zieliński"
+        ]
+    },
+    "W04CBE-SM0301W": {
+        "course_name": "Zaawansowane testy penetracyjne sieci i aplikacji Web",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Michał Walkowski",
+            "Jakub Tomaszewski",
+            "Bartłomiej Balcerek"
+        ]
+    },
+    "W04CBE-SM0301L": {
+        "course_name": "Zaawansowane testy penetracyjne sieci i aplikacji Web",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Michał Walkowski",
+            "Jakub Tomaszewski",
+            "Bartłomiej Balcerek"
+        ]
+    },
+    "W04ISA-SM0108S": {
+        "course_name": "Seminarium specjalnościowe",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Iwona Karcz-Dulęba"
+        ]
+    },
+    "W04TEL-SI0005W": {
+        "course_name": "Inżynieria ruchu",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Janusz Klink"
+        ]
+    },
+    "W04ITEWB-SI0029W": {
+        "course_name": "Sieci komputerowe",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Krzysztof Walkowiak",
+            "Wojciech Kmiecik"
+        ]
+    },
+    "W04ITEWB-SI0029L": {
+        "course_name": "Sieci komputerowe",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Krzysztof Walkowiak",
+            "Wojciech Kmiecik"
+        ]
+    },
+    "W04SZT-SM0801L": {
+        "course_name": "Uczenie reprezentacji",
+        "field": "SZT",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Piotr Bielak"
+        ]
+    },
+    "W04ITE-SM4120W": {
+        "course_name": "Advanced databases",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Maciej Nikodem"
+        ]
+    },
+    "W04ITE-SM4120L": {
+        "course_name": "Advanced databases",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Maciej Nikodem"
+        ]
+    },
+    "W04MTR-SM2002L": {
+        "course_name": "Zaawansowane sterowanie",
+        "field": "MTR",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Piotr Koruba"
+        ]
+    },
+    "W04IST-SI4017W": {
+        "course_name": "Operating Systems",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Krzysztof Juszczyszyn"
+        ]
+    },
+    "W04ISA-SI0008W": {
+        "course_name": "Elementy elektroniki i elektrotechniki",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Artur Chorążyczewski",
+            "Wojciech Tarnawski",
+            "Adam Ratajczak",
+            "Łukasz Korus",
+            "Wojciech Rafajłowicz"
+        ]
+    },
+    "W04ISA-SI0008L": {
+        "course_name": "Elementy elektroniki i elektrotechniki",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Artur Chorążyczewski",
+            "Wojciech Tarnawski",
+            "Adam Ratajczak",
+            "Łukasz Korus",
+            "Wojciech Rafajłowicz"
+        ]
+    },
+    "W04ISA-SI0004W": {
+        "course_name": "Informatyczne zastosowania statystyki",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Krzysztof Halawa",
+            "Katarzyna Topolska",
+            "Maciej Filiński",
+            "Piotr Ciskowski",
+            "Wojciech Rafajłowicz"
+        ]
+    },
+    "W04ISA-SI0004L": {
+        "course_name": "Informatyczne zastosowania statystyki",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Krzysztof Halawa",
+            "Katarzyna Topolska",
+            "Maciej Filiński",
+            "Piotr Ciskowski",
+            "Wojciech Rafajłowicz"
+        ]
+    },
+    "W04INS-SM0803W": {
+        "course_name": "Sieci złożone w inżynierii systemów",
+        "field": "INS",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Krzysztof Juszczyszyn"
+        ]
+    },
+    "W04TEL-SI0021L": {
+        "course_name": "Miernictwo 2",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Marek Zaradny",
+            "Mateusz Kucharski"
+        ]
+    },
+    "W04ISA-SM0109S": {
+        "course_name": "Seminarium dyplomowe",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Michał Lower",
+            "Iwona Karcz-Dulęba"
+        ]
+    },
+    "W04TIN-SI0112S": {
+        "course_name": "Seminarium dyplomowe",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Andrzej Kucharski",
+            "Paweł Bieńkowski",
+            "Paweł Ksieniewicz",
+            "Paweł Zyblewski",
+            "Weronika Borek-Marciniec"
+        ]
+    },
+    "W04TAI-SM0202W": {
+        "course_name": "Systemy obliczeniowe AI (GPU, MPI, cloud)",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Paweł Trajdos"
+        ]
+    },
+    "W04TAI-SM0202L": {
+        "course_name": "Systemy obliczeniowe AI (GPU, MPI, cloud)",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Paweł Trajdos"
+        ]
+    },
+    "W04IST-SM4003W": {
+        "course_name": "Advanced Topics in Artificial Intelligence",
+        "field": "IST",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Halina Kwaśnicka",
+            "Artur Zawisza"
+        ]
+    },
+    "W04IST-SM4003L": {
+        "course_name": "Advanced Topics in Artificial Intelligence",
+        "field": "IST",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Halina Kwaśnicka",
+            "Artur Zawisza"
+        ]
+    },
+    "W04TIN-SI0009P": {
+        "course_name": "Kodowanie 2",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "projekt",
+        "lecturers": [
+            "Andrzej Zygmunt"
+        ]
+    },
+    "W04IST-SI4019W": {
+        "course_name": "Effective Programming Techniques",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Michał Przewoźniczek"
+        ]
+    },
+    "W04CBE-SM0011W": {
+        "course_name": "Analiza ryzyka i reakcja na incydenty",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jacek Herold",
+            "Marcin Kaczmarek",
+            "Tomasz Janiczek",
+            "Robert Czechowski",
+            "Bartłomiej Balcerek"
+        ]
+    },
+    "W04CBE-SM0011L": {
+        "course_name": "Analiza ryzyka i reakcja na incydenty",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Jacek Herold",
+            "Marcin Kaczmarek",
+            "Tomasz Janiczek",
+            "Robert Czechowski",
+            "Bartłomiej Balcerek"
+        ]
+    },
+    "W04TIN-SM0106S": {
+        "course_name": "Seminarium specjalnościowe",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Paweł Ksieniewicz"
+        ]
+    },
+    "W04IST-SI4011L": {
+        "course_name": "Script Languages",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Wojciech Thomas",
+            "Natalia Piórkowska",
+            "Piotr Bielak"
+        ]
+    },
+    "W04INS-SI0821L": {
+        "course_name": "Systemy złożone i analiza danych",
+        "field": "INS",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Klaudia Tomaszewska"
+        ]
+    },
+    "W04INA-SI0806W": {
+        "course_name": "Wprowadzenie do teorii grafów",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Małgorzata Sulkowska",
+            "Zbigniew Gołębiewski"
+        ]
+    },
+    "W04INA-SI0806L": {
+        "course_name": "Wprowadzenie do teorii grafów",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Małgorzata Sulkowska",
+            "Zbigniew Gołębiewski"
+        ]
+    },
+    "W04ISA-SM0105W": {
+        "course_name": "Zaawansowane algorytmy sterowania",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Anna Czemplik"
+        ]
+    },
+    "W04ISA-SM0105L": {
+        "course_name": "Zaawansowane algorytmy sterowania",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Anna Czemplik"
+        ]
+    },
+    "W04INA-SI0803W": {
+        "course_name": "Wprowadzenie do funkcji zespolonych",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Łukasz Mazurkiewicz",
+            "Rafał Kapelko",
+            "Dominik Bojko"
+        ]
+    },
+    "W04INA-SI0803L": {
+        "course_name": "Wprowadzenie do funkcji zespolonych",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Łukasz Mazurkiewicz",
+            "Rafał Kapelko",
+            "Dominik Bojko"
+        ]
+    },
+    "W04INA-SI0804W": {
+        "course_name": "Wprowadzenie do kombinatoryki analitycznej",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Patryk Kozieł",
+            "Zbigniew Gołębiewski",
+            "Jacek Cichoń"
+        ]
+    },
+    "W04INA-SI0804L": {
+        "course_name": "Wprowadzenie do kombinatoryki analitycznej",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Patryk Kozieł",
+            "Zbigniew Gołębiewski",
+            "Jacek Cichoń"
+        ]
+    },
+    "W04ISA-SM0411S": {
+        "course_name": "Seminarium specjalnościowe",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Teodor Niżyński",
+            "Radosław Grymin"
+        ]
+    },
+    "W04INS-SM0014W": {
+        "course_name": "Bezpieczeństwo Systemów",
+        "field": "INS",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Grzegorz Kołaczek"
+        ]
+    },
+    "W04INS-SM0010L": {
+        "course_name": "Wizualizacja i symulacja procesów",
+        "field": "INS",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Maciej Hojda"
+        ]
+    },
+    "W04INA-SI0811W": {
+        "course_name": "Programowanie w logice",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Przemysław Kobylański"
+        ]
+    },
+    "W04INA-SI0811L": {
+        "course_name": "Programowanie w logice",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Przemysław Kobylański"
+        ]
+    },
+    "W04INS-SM0802L": {
+        "course_name": "Metody profilowania użytkowników",
+        "field": "INS",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Krzysztof Juszczyszyn"
+        ]
+    },
+    "W04SZT-SM0808W": {
+        "course_name": "Analiza i przetwarzanie obrazów i wideo (2)",
+        "field": "SZT",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Przemysław Dolata"
+        ]
+    },
+    "W04INA-SI0031W": {
+        "course_name": "Algebra abstrakcyjna i kodowanie",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Krzysztof Majcher"
+        ]
+    },
+    "W04INA-SI0031L": {
+        "course_name": "Algebra abstrakcyjna i kodowanie",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Krzysztof Majcher"
+        ]
+    },
+    "W04ITEJG-SI0010W": {
+        "course_name": "Podstawy przetwarzania sygnałów",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Maciej Pawłowski"
+        ]
+    },
+    "W04ITEJG-SI0010L": {
+        "course_name": "Podstawy przetwarzania sygnałów",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Maciej Pawłowski"
+        ]
+    },
+    "W04ITEJG-SI0034W": {
+        "course_name": "Bazy danych 1",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Tadeusz Smolnicki",
+            "Paweł Maślak"
+        ]
+    },
+    "W04ITEJG-SI0034L": {
+        "course_name": "Bazy danych 1",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Tadeusz Smolnicki",
+            "Paweł Maślak"
+        ]
+    },
+    "W04TIN-SI0116P": {
+        "course_name": "Projekt zespołowy",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "projekt",
+        "lecturers": [
+            "Robert Burduk",
+            "Arkadiusz Grzybowski"
+        ]
+    },
+    "W04MTR-SM0001L": {
+        "course_name": "Optymalizacja",
+        "field": "MTR",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Czesław Smutnicki"
+        ]
+    },
+    "W04CBE-SI0041W": {
+        "course_name": "Podstawy cyberbezpieczeństwa",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Sławomir Kubal"
+        ]
+    },
+    "W04ITE-SM0444W": {
+        "course_name": "Administrowanie sieciową infrastrukturą IT",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Przemysław Ryba",
+            "Mariusz Kozioł"
+        ]
+    },
+    "W04ITE-SM0444L": {
+        "course_name": "Administrowanie sieciową infrastrukturą IT",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Przemysław Ryba",
+            "Mariusz Kozioł"
+        ]
+    },
+    "W04TIN-SI0042W": {
+        "course_name": "Podstawy telekomunikacji",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Michał Kowal",
+            "Grzegorz Jaworski",
+            "Janusz Klink",
+            "Kamil Staniec",
+            "Paweł Bieńkowski",
+            "Zbigniew Jóskiewicz",
+            "Piotr Słobodzian",
+            "Robert Borowiec",
+            "Waldemar Grzebyk",
+            "Bogusław Szczupak",
+            "Ryszard Zieliński",
+            "Sławomir Kubal"
+        ]
+    },
+    "W04TIN-SM0011W": {
+        "course_name": "Ochrona środowiska elektromagnetycznego",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Paweł Bieńkowski"
+        ]
+    },
+    "W04TIN-SM0011L": {
+        "course_name": "Ochrona środowiska elektromagnetycznego",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Paweł Bieńkowski"
+        ]
+    },
+    "W04TEL-SI0204W": {
+        "course_name": "Propagacja fal radiowych",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jarosław Janiszewski"
+        ]
+    },
+    "W04ITE-SM4240W": {
+        "course_name": "Neural Networks",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Paweł Zyblewski"
+        ]
+    },
+    "W04ITE-SM4240L": {
+        "course_name": "Neural Networks",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Paweł Zyblewski"
+        ]
+    },
+    "W04ITE-SI0429W": {
+        "course_name": "Projektowanie usług internetowych",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Dominik Ciura"
+        ]
+    },
+    "W04ITE-SI0429L": {
+        "course_name": "Projektowanie usług internetowych",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Dominik Ciura"
+        ]
+    },
+    "W04INS-SM0012P": {
+        "course_name": "Design thinking w inżynierii systemów 1",
+        "field": "INS",
+        "degree": "SM",
+        "class_type": "projekt",
+        "lecturers": [
+            "Jarosław Drapała"
+        ]
+    },
+    "W04ITEWB-SI0011W": {
+        "course_name": "Inżynieria oprogramowania",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Paweł Głuchowski",
+            "Olgierd Unold"
+        ]
+    },
+    "W04ITEWB-SI0011L": {
+        "course_name": "Inżynieria oprogramowania",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Paweł Głuchowski",
+            "Olgierd Unold"
+        ]
+    },
+    "W04ISA-SI0042W": {
+        "course_name": "Analiza matematyczna 1.2A",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Mieczysław Wodecki",
+            "Wiktor Ejsmont",
+            "Elżbieta Liszewska",
+            "Sławomir Szczepaniak",
+            "Wojciech Mulak",
+            "Patrycja Hęćka"
+        ]
+    },
+    "W04ISA-SI0042L": {
+        "course_name": "Analiza matematyczna 1.2A",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Mieczysław Wodecki",
+            "Wiktor Ejsmont",
+            "Elżbieta Liszewska",
+            "Sławomir Szczepaniak",
+            "Wojciech Mulak",
+            "Patrycja Hęćka"
+        ]
+    },
+    "W04INA-SI0019W": {
+        "course_name": "Matematyka dyskretna",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Małgorzata Sulkowska"
+        ]
+    },
+    "W04INA-SI0019L": {
+        "course_name": "Matematyka dyskretna",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Małgorzata Sulkowska"
+        ]
+    },
+    "W04SZT-SM0802L": {
+        "course_name": "Systemy rekomendacyjne i personalizacja",
+        "field": "SZT",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Bartosz Perz"
+        ]
+    },
+    "W04INA-SM4011W": {
+        "course_name": "Communication and Security Infrastructure",
+        "field": "INA",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Marcin Słowik",
+            "Przemysław Kubiak"
+        ]
+    },
+    "W04INA-SM4011L": {
+        "course_name": "Communication and Security Infrastructure",
+        "field": "INA",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Marcin Słowik",
+            "Przemysław Kubiak"
+        ]
+    },
+    "W04IST-SI4022L": {
+        "course_name": "Cybersecurity",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Patient Zihisire Muke",
+            "Arkadiusz Warzyński",
+            "Aulia Wardana"
+        ]
+    },
+    "W04INS-SM0802W": {
+        "course_name": "Metody profilowania użytkowników",
+        "field": "INS",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Krzysztof Juszczyszyn"
+        ]
+    },
+    "W04ITE-SI0015W": {
+        "course_name": "Urządzenia peryferyjne",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jan Nikodem",
+            "Jarosław Mierzwa",
+            "Dariusz Caban",
+            "Dominik Żelazny"
+        ]
+    },
+    "W04ITE-SI0015L": {
+        "course_name": "Urządzenia peryferyjne",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Jan Nikodem",
+            "Jarosław Mierzwa",
+            "Dariusz Caban",
+            "Dominik Żelazny"
+        ]
+    },
+    "W04ISA-SI0030W": {
+        "course_name": "Komputerowo zintegrowane wytwarzanie",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jerzy Ramert-Greblicki",
+            "Radosław Grymin",
+            "Mariusz Makuchowski"
+        ]
+    },
+    "W04ISA-SI0030L": {
+        "course_name": "Komputerowo zintegrowane wytwarzanie",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Jerzy Ramert-Greblicki",
+            "Radosław Grymin",
+            "Mariusz Makuchowski"
+        ]
+    },
+    "W04CBE-SI0023W": {
+        "course_name": "Podstawy telekomunikacji",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Michał Kowal",
+            "Grzegorz Jaworski",
+            "Janusz Klink",
+            "Paweł Bieńkowski",
+            "Zbigniew Jóskiewicz",
+            "Piotr Słobodzian",
+            "Waldemar Grzebyk",
+            "Robert Borowiec",
+            "Jarosław Janiszewski",
+            "Bogusław Szczupak",
+            "Ryszard Zieliński",
+            "Sławomir Kubal"
+        ]
+    },
+    "W04ITE-SI0001W": {
+        "course_name": "Logika układów cyfrowych",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Tomasz Kapłon",
+            "Zbigniew Buchalski",
+            "Jarosław Mierzwa",
+            "Damian Mroziński",
+            "Dariusz Banasiak"
+        ]
+    },
+    "W04ITE-SI0001L": {
+        "course_name": "Logika układów cyfrowych",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Tomasz Kapłon",
+            "Zbigniew Buchalski",
+            "Jarosław Mierzwa",
+            "Damian Mroziński",
+            "Dariusz Banasiak"
+        ]
+    },
+    "W04ITE-SI0008W": {
+        "course_name": "Teoria systemów",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Tomasz Kozłowski",
+            "Andrzej Żołnierek"
+        ]
+    },
+    "W04ITE-SI0008L": {
+        "course_name": "Teoria systemów",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Tomasz Kozłowski",
+            "Andrzej Żołnierek"
+        ]
+    },
+    "W04TEL-SI0059W": {
+        "course_name": "Technika cyfrowa 1",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Sławomir Sambor"
+        ]
+    },
+    "W04MTR-SM2001L": {
+        "course_name": "Identyfikacja",
+        "field": "MTR",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Piotr Koruba"
+        ]
+    },
+    "W04ISA-SM0211S": {
+        "course_name": "Seminarium specjalnosciowe",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Łukasz Jeleń",
+            "Konrad Kluwak",
+            "Andrzej Rusiecki"
+        ]
+    },
+    "W04TAI-SM0006W": {
+        "course_name": "Kierunki rozwoju sztucznej inteligencji",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Olgierd Unold"
+        ]
+    },
+    "W04CBE-SM0007S": {
+        "course_name": "Seminarium dyplomowe",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Jarosław Janiszewski"
+        ]
+    },
+    "W04INA-SM4121W": {
+        "course_name": "Machine Learning and Security",
+        "field": "INA",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Łukasz Krzywiecki"
+        ]
+    },
+    "W04INA-SM4121L": {
+        "course_name": "Machine Learning and Security",
+        "field": "INA",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Łukasz Krzywiecki"
+        ]
+    },
+    "W04TIN-SM0019W": {
+        "course_name": "Matematyka",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Wiktor Ejsmont"
+        ]
+    },
+    "W04IST-SI4012L": {
+        "course_name": "Introduction to IoT",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Piotr Jóźwiak",
+            "Natalia Piórkowska"
+        ]
+    },
+    "W04CBE-SI0017W": {
+        "course_name": "Metody monitorowania jakości produkcji",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Łukasz Jeleń"
+        ]
+    },
+    "W04CBE-SM0006S": {
+        "course_name": "Seminarium kierunkowe",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Michał Walkowski",
+            "Krzysztof Kępa",
+            "Jacek Oko",
+            "Robert Czechowski"
+        ]
+    },
+    "W04IST-SM4002W": {
+        "course_name": "Advanced Databases",
+        "field": "IST",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Marek Krótkiewicz",
+            "Artur Wilczek"
+        ]
+    },
+    "W04IST-SM4002L": {
+        "course_name": "Advanced Databases",
+        "field": "IST",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Marek Krótkiewicz",
+            "Artur Wilczek"
+        ]
+    },
+    "W04TAI-SM0301W": {
+        "course_name": "Systemy inspekcji wizualnej",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Łukasz Jeleń"
+        ]
+    },
+    "W04TAI-SM0301L": {
+        "course_name": "Systemy inspekcji wizualnej",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Łukasz Jeleń"
+        ]
+    },
+    "W04TIN-SM0205S": {
+        "course_name": "Seminarium specjalnościowe",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Ryszard Zieliński"
+        ]
+    },
+    "W04TAI-SM0022W": {
+        "course_name": "Statystyczna analiza danych",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Ewaryst Rafajłowicz",
+            "Agata Migalska",
+            "Piotr Ciskowski"
+        ]
+    },
+    "W04TAI-SM0022L": {
+        "course_name": "Statystyczna analiza danych",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Ewaryst Rafajłowicz",
+            "Agata Migalska",
+            "Piotr Ciskowski"
+        ]
+    },
+    "W04ITE-SI0121W": {
+        "course_name": "Zaawansowane zagadnienia projektowania obiektowego",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jacek Cichosz"
+        ]
+    },
+    "W04ITE-SI0121L": {
+        "course_name": "Zaawansowane zagadnienia projektowania obiektowego",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Jacek Cichosz"
+        ]
+    },
+    "W04TIN-SI0110W": {
+        "course_name": "Administracja systemem  Windows",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Mariusz Kozioł"
+        ]
+    },
+    "W04TIN-SI0110L": {
+        "course_name": "Administracja systemem  Windows",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Mariusz Kozioł"
+        ]
+    },
+    "W04CBE-SI0111P": {
+        "course_name": "Projekt zespołowy",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "projekt",
+        "lecturers": [
+            "Wojciech Drzewiński",
+            "Sławomir Sujecki",
+            "Robert Czechowski"
+        ]
+    },
+    "W04CBE-SI0021L": {
+        "course_name": "Miernictwo 2",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Marek Zaradny",
+            "Marek Michalak",
+            "Mateusz Kucharski",
+            "Paweł Bieńkowski"
+        ]
+    },
+    "W04TAI-SM0004W": {
+        "course_name": "Uczenie maszynowe",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Robert Burduk",
+            "Szymon Wojciechowski",
+            "Paweł Trajdos"
+        ]
+    },
+    "W04TAI-SM0004L": {
+        "course_name": "Uczenie maszynowe",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Robert Burduk",
+            "Szymon Wojciechowski",
+            "Paweł Trajdos"
+        ]
+    },
+    "W04TIN-SI0010W": {
+        "course_name": "Sieci bezprzewodowe 1",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Zbigniew Jóskiewicz"
+        ]
+    },
+    "W04INA-SM0101W": {
+        "course_name": "Algorytmiczna teoria gier",
+        "field": "INA",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Dominik Bojko"
+        ]
+    },
+    "W04INA-SM0101L": {
+        "course_name": "Algorytmiczna teoria gier",
+        "field": "INA",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Dominik Bojko"
+        ]
+    },
+    "W04TAI-SM0101W": {
+        "course_name": "Zaawansowane metody analizy i zabezpieczania dowodów informatycznych (informatyka śledcza)",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Marcin Kaczmarek",
+            "Robert Czechowski"
+        ]
+    },
+    "W04TAI-SM0101L": {
+        "course_name": "Zaawansowane metody analizy i zabezpieczania dowodów informatycznych (informatyka śledcza)",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Marcin Kaczmarek",
+            "Robert Czechowski"
+        ]
+    },
+    "W04INS-SM0013W": {
+        "course_name": "Programowanie dynamiczne i teoria gier",
+        "field": "INS",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "David Ramsey"
+        ]
+    },
+    "W04TAI-SM0019S": {
+        "course_name": "Seminarium dyplomowe",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Andrzej Pawłowski"
+        ]
+    },
+    "W04ITEJG-SI0040W": {
+        "course_name": "Programowanie obiektowe",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Tomasz Bartłomowicz"
+        ]
+    },
+    "W04ITEJG-SI0040L": {
+        "course_name": "Programowanie obiektowe",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Tomasz Bartłomowicz"
+        ]
+    },
+    "W04ISA-SI0013W": {
+        "course_name": "Projektowanie i analiza algorytmów",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Magda Skoczeń",
+            "Łukasz Jeleń",
+            "Krzysztof Halawa",
+            "Piotr Ciskowski"
+        ]
+    },
+    "W04ISA-SI0013L": {
+        "course_name": "Projektowanie i analiza algorytmów",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Magda Skoczeń",
+            "Łukasz Jeleń",
+            "Krzysztof Halawa",
+            "Piotr Ciskowski"
+        ]
+    },
+    "W04INS-SI0820L": {
+        "course_name": "Systemy i aplikacje rozproszone",
+        "field": "INS",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Mariusz Fraś"
+        ]
+    },
+    "W04TIN-SM0020W": {
+        "course_name": "Fizyka",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Ewa Frączek"
+        ]
+    },
+    "W04TEL-SM0001W": {
+        "course_name": "Metody optymalizacji",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Ewa Szlachcic"
+        ]
+    },
+    "W04ISA-SM0406P": {
+        "course_name": "Projekt przejściowy",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "projekt",
+        "lecturers": [
+            "Teodor Niżyński",
+            "Piotr Nowak"
+        ]
+    },
+    "W04TAI-SM0008W": {
+        "course_name": "Infrastruktura krytyczna",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Kacper Nowak",
+            "Monika Szafrańska",
+            "Janusz Klink",
+            "Marcin Kaczmarek",
+            "Marek Wąsowski",
+            "Robert Czechowski",
+            "Robert Łukomski",
+            "Zbigniew Jóskiewicz",
+            "Rafał Królikowski"
+        ]
+    },
+    "W04TAI-SM0008L": {
+        "course_name": "Infrastruktura krytyczna",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Kacper Nowak",
+            "Monika Szafrańska",
+            "Janusz Klink",
+            "Marcin Kaczmarek",
+            "Marek Wąsowski",
+            "Robert Czechowski",
+            "Robert Łukomski",
+            "Zbigniew Jóskiewicz",
+            "Rafał Królikowski"
+        ]
+    },
+    "W04INA-SM4010W": {
+        "course_name": "Algorithmic Number Theory",
+        "field": "INA",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Przemysław Kubiak"
+        ]
+    },
+    "W04INA-SM4010L": {
+        "course_name": "Algorithmic Number Theory",
+        "field": "INA",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Przemysław Kubiak"
+        ]
+    },
+    "W04ISA-SI0029W": {
+        "course_name": "Optymalizacja procesów dyskretnych",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Wojciech Bożejko",
+            "Katarzyna Topolska",
+            "Piotr Nowak",
+            "Mariusz Makuchowski",
+            "Jerzy Ramert-Greblicki"
+        ]
+    },
+    "W04ISA-SI0029L": {
+        "course_name": "Optymalizacja procesów dyskretnych",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Wojciech Bożejko",
+            "Katarzyna Topolska",
+            "Piotr Nowak",
+            "Mariusz Makuchowski",
+            "Jerzy Ramert-Greblicki"
+        ]
+    },
+    "W04ITEWB-SI0010W": {
+        "course_name": "Podstawy przetwarzania sygnałów",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Maciej Pawłowski"
+        ]
+    },
+    "W04ITEWB-SI0010L": {
+        "course_name": "Podstawy przetwarzania sygnałów",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Maciej Pawłowski"
+        ]
+    },
+    "W04TIN-SM0204W": {
+        "course_name": "Zaawansowane metody badania sieci teleinformatycznych",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Waldemar Grzebyk",
+            "Marcin Głowacki"
+        ]
+    },
+    "W04TIN-SM0204L": {
+        "course_name": "Zaawansowane metody badania sieci teleinformatycznych",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Waldemar Grzebyk",
+            "Marcin Głowacki"
+        ]
+    },
+    "W04ITEJG-SI0011W": {
+        "course_name": "Inżynieria oprogramowania",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Beata Laszkiewicz"
+        ]
+    },
+    "W04ITEJG-SI0011L": {
+        "course_name": "Inżynieria oprogramowania",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Beata Laszkiewicz"
+        ]
+    },
+    "W04INA-SI0021W": {
+        "course_name": "Algebra z geometrią analityczną",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Krzysztof Majcher"
+        ]
+    },
+    "W04INA-SI0021L": {
+        "course_name": "Algebra z geometrią analityczną",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Krzysztof Majcher"
+        ]
+    },
+    "W04INA-SM0009S": {
+        "course_name": "Seminarium przeglądowe",
+        "field": "INA",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Paweł Zieliński",
+            "Jacek Cichoń"
+        ]
+    },
+    "W04TEL-SM0010W": {
+        "course_name": "Statystyka matematyczna",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Ewaryst Rafajłowicz",
+            "Piotr Ciskowski"
+        ]
+    },
+    "W04TEL-SM0010L": {
+        "course_name": "Statystyka matematyczna",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Ewaryst Rafajłowicz",
+            "Piotr Ciskowski"
+        ]
+    },
+    "W04TEL-SI0229L": {
+        "course_name": "Programowanie w języku Java",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Władysław Magiera"
+        ]
+    },
+    "W04ITEWB-SI0055W": {
+        "course_name": "Arytmetyka komputerów",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Tadeusz Tomczak"
+        ]
+    },
+    "W04ITEWB-SI0055L": {
+        "course_name": "Arytmetyka komputerów",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Tadeusz Tomczak"
+        ]
+    },
+    "W04IST-SI0812W": {
+        "course_name": "Aplikacje webowe na platformę .NET",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Dariusz Konieczny",
+            "Marek Kopel"
+        ]
+    },
+    "W04IST-SI0812L": {
+        "course_name": "Aplikacje webowe na platformę .NET",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Dariusz Konieczny",
+            "Marek Kopel"
+        ]
+    },
+    "W04CBE-SM0600W": {
+        "course_name": "Bezpieczeństwo aplikacji webowych",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Przemysław Świercz",
+            "Tomasz Surmacz"
+        ]
+    },
+    "W04CBE-SM0600L": {
+        "course_name": "Bezpieczeństwo aplikacji webowych",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Przemysław Świercz",
+            "Tomasz Surmacz"
+        ]
+    },
+    "W04ISA-SM0115W": {
+        "course_name": "Obliczenia neuronowe",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Krzysztof Halawa"
+        ]
+    },
+    "W04ISA-SI0009W": {
+        "course_name": "Sygnały i obrazy cyfrowe",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Maciej Filiński",
+            "Krzysztof Zając",
+            "Przemysław Śliwiński",
+            "Wojciech Sopot"
+        ]
+    },
+    "W04ISA-SI0009L": {
+        "course_name": "Sygnały i obrazy cyfrowe",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Maciej Filiński",
+            "Krzysztof Zając",
+            "Przemysław Śliwiński",
+            "Wojciech Sopot"
+        ]
+    },
+    "W04INS-SM0014P": {
+        "course_name": "Bezpieczeństwo Systemów",
+        "field": "INS",
+        "degree": "SM",
+        "class_type": "projekt",
+        "lecturers": [
+            "Arkadiusz Warzyński"
+        ]
+    },
+    "W04ISA-SI0003W": {
+        "course_name": "Teoria systemów",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Edward Puchała"
+        ]
+    },
+    "W04ISA-SI0003L": {
+        "course_name": "Teoria systemów",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Edward Puchała"
+        ]
+    },
+    "W04TEL-SI0203S": {
+        "course_name": "Seminarium dyplomowe",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Tadeusz Więckowski"
+        ]
+    },
+    "W04SZT-SM0817L": {
+        "course_name": "Zaawansowane modele głebokich sieci neuronowych",
+        "field": "SZT",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Jan Kocoń"
+        ]
+    },
+    "W04ITEWB-SI0004W": {
+        "course_name": "Języki programowania",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Wojciech Połowczuk"
+        ]
+    },
+    "W04ITEWB-SI0004L": {
+        "course_name": "Języki programowania",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Wojciech Połowczuk"
+        ]
+    },
+    "W04TAI-SM0201W": {
+        "course_name": "Uczenie głębokie",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Tomasz Walkowiak",
+            "Kamil Szyc"
+        ]
+    },
+    "W04TAI-SM0201L": {
+        "course_name": "Uczenie głębokie",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Tomasz Walkowiak",
+            "Kamil Szyc"
+        ]
+    },
+    "W04ITEJG-SI0032W": {
+        "course_name": "Projektowanie efektywnych algorytmów",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Beata Laszkiewicz"
+        ]
+    },
+    "W04ITEJG-SI0032L": {
+        "course_name": "Projektowanie efektywnych algorytmów",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Beata Laszkiewicz"
+        ]
+    },
+    "W04ISA-SI0007W": {
+        "course_name": "Systemy operacyjne",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Piotr Nowak",
+            "Jarosław Rudy",
+            "Mariusz Makuchowski"
+        ]
+    },
+    "W04ISA-SI0007L": {
+        "course_name": "Systemy operacyjne",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Piotr Nowak",
+            "Jarosław Rudy",
+            "Mariusz Makuchowski"
+        ]
+    },
+    "W04CBE-SI0015W": {
+        "course_name": "Zaawansowana kombinatoryka",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Mieczysław Wodecki",
+            "Sławomir Szczepaniak",
+            "Milena Andrzejewska"
+        ]
+    },
+    "W04CBE-SI0015L": {
+        "course_name": "Zaawansowana kombinatoryka",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Mieczysław Wodecki",
+            "Sławomir Szczepaniak",
+            "Milena Andrzejewska"
+        ]
+    },
+    "W04TEL-SI0006W": {
+        "course_name": "Podstawy techniki mikroprocesorowej 1",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jarosław Emilianowicz"
+        ]
+    },
+    "W04TEL-SI0006L": {
+        "course_name": "Podstawy techniki mikroprocesorowej 1",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Jarosław Emilianowicz"
+        ]
+    },
+    "W04ISA-SM0113S": {
+        "course_name": "Przemysłowe systemy wizyjne i identyfikacyjne",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Adam Ratajczak"
+        ]
+    },
+    "W04INS-SM0809S": {
+        "course_name": "Zaawansowane techniki zastosowania Internetu w przedsiębiorstwie",
+        "field": "INS",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Grzegorz Chodak"
+        ]
+    },
+    "W04ITE-SM0004W": {
+        "course_name": "Modelowanie i analiza systemów informatycznych",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Tomasz Babczyński",
+            "Paweł Głuchowski",
+            "Jan Magott"
+        ]
+    },
+    "W04ITE-SM0004L": {
+        "course_name": "Modelowanie i analiza systemów informatycznych",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Tomasz Babczyński",
+            "Paweł Głuchowski",
+            "Jan Magott"
+        ]
+    },
+    "W04IST-SM0212P": {
+        "course_name": "Zaawansowane systemy baz danych",
+        "field": "IST",
+        "degree": "SM",
+        "class_type": "projekt",
+        "lecturers": [
+            "Artur Wilczek"
+        ]
+    },
+    "W04SZT-SM0016W": {
+        "course_name": "Sieci złożone",
+        "field": "SZT",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Michał Czuba",
+            "Piotr Bródka"
+        ]
+    },
+    "W04ITE-SI0014W": {
+        "course_name": "Inżynierskie zastosowania statystyki",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Agata Kirjanów-Błażej",
+            "Tomasz Kozłowski",
+            "Weronika Węgier"
+        ]
+    },
+    "W04ITE-SI0014L": {
+        "course_name": "Inżynierskie zastosowania statystyki",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Agata Kirjanów-Błażej",
+            "Tomasz Kozłowski",
+            "Weronika Węgier"
+        ]
+    },
+    "W04ITEJG-SI0030W": {
+        "course_name": "Technologie sieciowe",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Kamil Nowak"
+        ]
+    },
+    "W04ITEJG-SI0030L": {
+        "course_name": "Technologie sieciowe",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Kamil Nowak"
+        ]
+    },
+    "W04ITE-SI0007W": {
+        "course_name": "Technologie informacyjne",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jacek Jagodziński",
+            "Ryszard Klempous",
+            "Marlena Drąg",
+            "Maciej Filiński",
+            "Marta Emirsajłow",
+            "Marek Bazan",
+            "Cyprian Mataczyński",
+            "Andrzej Wytyczak-Partyka",
+            "Mariusz Makuchowski",
+            "Ewa Szlachcic"
+        ]
+    },
+    "W04ITE-SI0007L": {
+        "course_name": "Technologie informacyjne",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Jacek Jagodziński",
+            "Ryszard Klempous",
+            "Marlena Drąg",
+            "Maciej Filiński",
+            "Marta Emirsajłow",
+            "Marek Bazan",
+            "Cyprian Mataczyński",
+            "Andrzej Wytyczak-Partyka",
+            "Mariusz Makuchowski",
+            "Ewa Szlachcic"
+        ]
+    },
+    "W04CBE-SI0012W": {
+        "course_name": "Zaawansowane techniki sieciowe",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Monika Szafrańska",
+            "Waldemar Grzebyk",
+            "Michał Kowal",
+            "Jarosław Janukiewicz"
+        ]
+    },
+    "W04CBE-SI0012L": {
+        "course_name": "Zaawansowane techniki sieciowe",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Monika Szafrańska",
+            "Waldemar Grzebyk",
+            "Michał Kowal",
+            "Jarosław Janukiewicz"
+        ]
+    },
+    "W04TIN-SM0104W": {
+        "course_name": "Zaawansowane metody projektowania sieci teleinformatycznych",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Aleksandra Knapińska",
+            "Róża Goścień"
+        ]
+    },
+    "W04TIN-SM0104L": {
+        "course_name": "Zaawansowane metody projektowania sieci teleinformatycznych",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Aleksandra Knapińska",
+            "Róża Goścień"
+        ]
+    },
+    "W04CBE-SI0018W": {
+        "course_name": "Zaawansowana kombinatoryka",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Mieczysław Wodecki",
+            "Sławomir Szczepaniak",
+            "Milena Andrzejewska"
+        ]
+    },
+    "W04CBE-SI0018L": {
+        "course_name": "Zaawansowana kombinatoryka",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Mieczysław Wodecki",
+            "Sławomir Szczepaniak",
+            "Milena Andrzejewska"
+        ]
+    },
+    "W04IST-SI4017L": {
+        "course_name": "Operating Systems",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Arkadiusz Liber",
+            "Krzysztof Juszczyszyn"
+        ]
+    },
+    "W04ITE-SI0010W": {
+        "course_name": "Podstawy przetwarzania sygnałów",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Ewaryst Rafajłowicz",
+            "Jacek Jagodziński",
+            "Mateusz Kucharski",
+            "Piotr Ciskowski",
+            "Wojciech Rafajłowicz"
+        ]
+    },
+    "W04ITE-SI0010L": {
+        "course_name": "Podstawy przetwarzania sygnałów",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Ewaryst Rafajłowicz",
+            "Jacek Jagodziński",
+            "Mateusz Kucharski",
+            "Piotr Ciskowski",
+            "Wojciech Rafajłowicz"
+        ]
+    },
+    "W04INA-SI0024W": {
+        "course_name": "Analiza matematyczna 2",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Rafał Kapelko"
+        ]
+    },
+    "W04INA-SI0024L": {
+        "course_name": "Analiza matematyczna 2",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Rafał Kapelko"
+        ]
+    },
+    "W04INA-SI0017W": {
+        "course_name": "Architektura komputerów i systemy operacyjne",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Marcin Zawada",
+            "Przemysław Błaśkiewicz",
+            "Wojciech Wodo",
+            "Mateusz Wasylkiewicz"
+        ]
+    },
+    "W04INA-SI0017L": {
+        "course_name": "Architektura komputerów i systemy operacyjne",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Marcin Zawada",
+            "Przemysław Błaśkiewicz",
+            "Wojciech Wodo",
+            "Mateusz Wasylkiewicz"
+        ]
+    },
+    "W04TIN-SM0005W": {
+        "course_name": "Bezpieczeństwo sieci teleinformatycznych",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Marcin Markowski"
+        ]
+    },
+    "W04TIN-SM0005L": {
+        "course_name": "Bezpieczeństwo sieci teleinformatycznych",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Marcin Markowski"
+        ]
+    },
+    "W04CBE-SM0004W": {
+        "course_name": "Zarządzanie bezpieczeństwem informacji",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Marcin Kaczmarek",
+            "Tomasz Janiczek",
+            "Łukasz Skierski"
+        ]
+    },
+    "W04CBE-SM0004L": {
+        "course_name": "Zarządzanie bezpieczeństwem informacji",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Marcin Kaczmarek",
+            "Tomasz Janiczek",
+            "Łukasz Skierski"
+        ]
+    },
+    "W04TEL-SI0002W": {
+        "course_name": "Elektromagnetyzm",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Adrian Lewandowski",
+            "Anna Grytsko"
+        ]
+    },
+    "W04TEL-SI0002L": {
+        "course_name": "Elektromagnetyzm",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Adrian Lewandowski",
+            "Anna Grytsko"
+        ]
+    },
+    "W04CBE-SI0109S": {
+        "course_name": "Seminarium dyplomowe",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Łukasz Sójka",
+            "Jarosław Janiszewski"
+        ]
+    },
+    "W04ITE-SM0002W": {
+        "course_name": "Zastosowania informatyki w gospodarce",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Tomasz Walkowiak",
+            "Marek Woda",
+            "Dariusz Caban",
+            "Tomasz Szandała",
+            "Kamil Szyc"
+        ]
+    },
+    "W04ITE-SM0002L": {
+        "course_name": "Zastosowania informatyki w gospodarce",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Tomasz Walkowiak",
+            "Marek Woda",
+            "Dariusz Caban",
+            "Tomasz Szandała",
+            "Kamil Szyc"
+        ]
+    },
+    "W04TEL-SM0008W": {
+        "course_name": "Przedsiębiorczość w ICT",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jarosław Janiszewski"
+        ]
+    },
+    "W04ITE-SM0008W": {
+        "course_name": "Zaawansowane bazy danych",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Roman Ptak",
+            "Konrad Kluwak",
+            "Maciej Nikodem"
+        ]
+    },
+    "W04ITE-SM0008L": {
+        "course_name": "Zaawansowane bazy danych",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Roman Ptak",
+            "Konrad Kluwak",
+            "Maciej Nikodem"
+        ]
+    },
+    "W04ITEWB-SI0006W": {
+        "course_name": "Podstawy techniki mikroprocesorowej 1",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Adam Szyszka"
+        ]
+    },
+    "W04ITEWB-SI0006L": {
+        "course_name": "Podstawy techniki mikroprocesorowej 1",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Adam Szyszka"
+        ]
+    },
+    "W04TAI-SM0021W": {
+        "course_name": "Fizyka i algorytmika kwantowa",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Tyll Krüger"
+        ]
+    },
+    "W04SZT-SM0804W": {
+        "course_name": "Przetwarzanie danych przestrzennych",
+        "field": "SZT",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Piotr Szymański"
+        ]
+    },
+    "W04ISA-SI0014W": {
+        "course_name": "Technika regulacji",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Krzysztof Kowalczyk",
+            "Wojciech Sopot",
+            "Gabriel Maik",
+            "Grzegorz Mzyk",
+            "Andrzej Pawłowski"
+        ]
+    },
+    "W04ISA-SI0014L": {
+        "course_name": "Technika regulacji",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Krzysztof Kowalczyk",
+            "Wojciech Sopot",
+            "Gabriel Maik",
+            "Grzegorz Mzyk",
+            "Andrzej Pawłowski"
+        ]
+    },
+    "W04ITE-SI0506W": {
+        "course_name": "Akceleracja obliczeń w przetwarzaniu danych",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Dariusz Caban",
+            "Marek Woda"
+        ]
+    },
+    "W04ITE-SI0506L": {
+        "course_name": "Akceleracja obliczeń w przetwarzaniu danych",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Dariusz Caban",
+            "Marek Woda"
+        ]
+    },
+    "W04TIN-SM0009P": {
+        "course_name": "Pracownia problemowa",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "projekt",
+        "lecturers": [
+            "Róża Goścień"
+        ]
+    },
+    "W04INS-SM0010W": {
+        "course_name": "Wizualizacja i symulacja procesów",
+        "field": "INS",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Maciej Hojda"
+        ]
+    },
+    "W04TEL-SM0003W": {
+        "course_name": "Elementy sieci optycznych",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Mateusz Mądry",
+            "Łukasz Sójka"
+        ]
+    },
+    "W04TEL-SM0003L": {
+        "course_name": "Elementy sieci optycznych",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Mateusz Mądry",
+            "Łukasz Sójka"
+        ]
+    },
+    "W04ISA-SM0408W": {
+        "course_name": "Obliczenia ewolucyjne",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Przemysław Śliwiński",
+            "Iwona Karcz-Dulęba"
+        ]
+    },
+    "W04ISA-SM0114W": {
+        "course_name": "Inteligencja rozproszona w Przemyśle 4.0",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Radosław Idzikowski"
+        ]
+    },
+    "W04TEL-SM0012W": {
+        "course_name": "Kompresja informacji",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Marek Michalak",
+            "Maciej Gębala"
+        ]
+    },
+    "W04TEL-SM0012L": {
+        "course_name": "Kompresja informacji",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Marek Michalak",
+            "Maciej Gębala"
+        ]
+    },
+    "W04MTR-SM0003W": {
+        "course_name": "Optymalizacja",
+        "field": "MTR",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Czesław Smutnicki"
+        ]
+    },
+    "W04IST-SI4013W": {
+        "course_name": "Data Warehouses",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Wojciech Lorkiewicz"
+        ]
+    },
+    "W04ISA-SM0107P": {
+        "course_name": "Projekt specjalnościowy",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "projekt",
+        "lecturers": [
+            "Michał Lower"
+        ]
+    },
+    "W04ISA-SI0011W": {
+        "course_name": "Sieci komputerowe",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Michał Kucharzak",
+            "Karol Puchała",
+            "Wojciech Kmiecik",
+            "Arkadiusz Grzybowski"
+        ]
+    },
+    "W04ISA-SI0011L": {
+        "course_name": "Sieci komputerowe",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Michał Kucharzak",
+            "Karol Puchała",
+            "Wojciech Kmiecik",
+            "Arkadiusz Grzybowski"
+        ]
+    },
+    "W04ITEJG-SI0008W": {
+        "course_name": "Teoria systemów",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Mariusz Kozioł"
+        ]
+    },
+    "W04ITEJG-SI0008L": {
+        "course_name": "Teoria systemów",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Mariusz Kozioł"
+        ]
+    },
+    "W04TAI-SM0010W": {
+        "course_name": "Sieci neuronowe",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Ewa Skubalska-Rafajłowicz",
+            "Andrzej Rusiecki"
+        ]
+    },
+    "W04TAI-SM0010L": {
+        "course_name": "Sieci neuronowe",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Ewa Skubalska-Rafajłowicz",
+            "Andrzej Rusiecki"
+        ]
+    },
+    "W04TIN-SI0057W": {
+        "course_name": "Algebra liniowa 2",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Joanna Jureczko"
+        ]
+    },
+    "W04IST-SI4015L": {
+        "course_name": "Data Structures and Algorithms",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Thanh Ngo Nguyen",
+            "Dariusz Konieczny",
+            "Maciej Walczyński"
+        ]
+    },
+    "W04IST-SI4018L": {
+        "course_name": "Computer Networks",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Patient Zihisire Muke"
+        ]
+    },
+    "W04TEL-SI0007W": {
+        "course_name": "Chmury obliczeniowe",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Marcin Głowacki",
+            "Maciej Nowak"
+        ]
+    },
+    "W04TEL-SI0007L": {
+        "course_name": "Chmury obliczeniowe",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Marcin Głowacki",
+            "Maciej Nowak"
+        ]
+    },
+    "W04ITEWB-SI0007W": {
+        "course_name": "Technologie informacyjne",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Wojciech Połowczuk"
+        ]
+    },
+    "W04ITEWB-SI0007L": {
+        "course_name": "Technologie informacyjne",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Wojciech Połowczuk"
+        ]
+    },
+    "W04MTR-SM2002W": {
+        "course_name": "Zaawansowane sterowanie",
+        "field": "MTR",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Anna Czemplik"
+        ]
+    },
+    "W04TEL-SI0057W": {
+        "course_name": "Rachunek prawdopodobieństwa",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Wiktor Ejsmont"
+        ]
+    },
+    "W04ITEJG-SI0036W": {
+        "course_name": "Logika układów cyfrowych",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Paweł Żyłka"
+        ]
+    },
+    "W04ITEJG-SI0036L": {
+        "course_name": "Logika układów cyfrowych",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Paweł Żyłka"
+        ]
+    },
+    "W04SZT-SM0808L": {
+        "course_name": "Analiza i przetwarzanie obrazów i wideo (2)",
+        "field": "SZT",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Przemysław Dolata"
+        ]
+    },
+    "W04ITE-SM0446W": {
+        "course_name": "Administrowanie sieciową infrastrukturą IT",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Przemysław Ryba",
+            "Mariusz Kozioł"
+        ]
+    },
+    "W04ITE-SM0446L": {
+        "course_name": "Administrowanie sieciową infrastrukturą IT",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Przemysław Ryba",
+            "Mariusz Kozioł"
+        ]
+    },
+    "W04TEL-SM0005W": {
+        "course_name": "Optyka",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Ewa Frączek"
+        ]
+    },
+    "W04TIN-SM0206S": {
+        "course_name": "Seminarium dyplomowe",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Ryszard Zieliński"
+        ]
+    },
+    "W04CBE-SM0001W": {
+        "course_name": "Monitorowanie i detekcja zagrożeń",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Łukasz Ferenc",
+            "Ireneusz Tarnowski",
+            "Konrad Kałużny"
+        ]
+    },
+    "W04CBE-SM0001L": {
+        "course_name": "Monitorowanie i detekcja zagrożeń",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Łukasz Ferenc",
+            "Ireneusz Tarnowski",
+            "Konrad Kałużny"
+        ]
+    },
+    "W04ITE-SI0058W": {
+        "course_name": "Wprowadzenie do wysokowydajnych komputerów",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Marek Bawiec",
+            "Tadeusz Tomczak",
+            "Tomasz Serafin"
+        ]
+    },
+    "W04ITE-SI0058L": {
+        "course_name": "Wprowadzenie do wysokowydajnych komputerów",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Marek Bawiec",
+            "Tadeusz Tomczak",
+            "Tomasz Serafin"
+        ]
+    },
+    "W04ITEJG-SI0014W": {
+        "course_name": "Inżynierskie zastosowania statystyki",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "David Ramsey"
+        ]
+    },
+    "W04ITEJG-SI0014L": {
+        "course_name": "Inżynierskie zastosowania statystyki",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "David Ramsey"
+        ]
+    },
+    "W04ISA-SI0010W": {
+        "course_name": "Modelowanie i symulacja",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Anna Czemplik",
+            "Iwona Karcz-Dulęba"
+        ]
+    },
+    "W04ISA-SI0010L": {
+        "course_name": "Modelowanie i symulacja",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Anna Czemplik",
+            "Iwona Karcz-Dulęba"
+        ]
+    },
+    "W04TIN-SI0016P": {
+        "course_name": "Kryptografia 2",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "projekt",
+        "lecturers": [
+            "Andrzej Zygmunt"
+        ]
+    },
+    "W04IST-SM0212W": {
+        "course_name": "Zaawansowane systemy baz danych",
+        "field": "IST",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Artur Wilczek"
+        ]
+    },
+    "W04TIN-SI0049W": {
+        "course_name": "Miernictwo 1",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Marek Zaradny",
+            "Paweł Bieńkowski",
+            "Ewa Frączek"
+        ]
+    },
+    "W04IST-SM4031W": {
+        "course_name": "Advanced Cybersecurity Issues",
+        "field": "IST",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Michał Kędziora"
+        ]
+    },
+    "W04IST-SM4031L": {
+        "course_name": "Advanced Cybersecurity Issues",
+        "field": "IST",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Michał Kędziora"
+        ]
+    },
+    "W04TAI-SM0005W": {
+        "course_name": "Zaawansowane techniki optymalizacji",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jarosław Rudy",
+            "Czesław Smutnicki",
+            "Radosław Idzikowski"
+        ]
+    },
+    "W04TAI-SM0005L": {
+        "course_name": "Zaawansowane techniki optymalizacji",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Jarosław Rudy",
+            "Czesław Smutnicki",
+            "Radosław Idzikowski"
+        ]
+    },
+    "W04SZT-SM0802W": {
+        "course_name": "Systemy rekomendacyjne i personalizacja",
+        "field": "SZT",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Przemysław Kazienko"
+        ]
+    },
+    "W04INS-SM0011W": {
+        "course_name": "Psychologia Komunikacji w Biznesie",
+        "field": "INS",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Remigiusz Szczepanowski"
+        ]
+    },
+    "W04TAI-SM0007P": {
+        "course_name": "Projekt naukowo-wdrożeniowy 2",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "projekt",
+        "lecturers": [
+            "Paweł Trajdos",
+            "Bogusław Szczupak"
+        ]
+    },
+    "W04ITEWB-SI0008W": {
+        "course_name": "Teoria systemów",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Tomasz Kozłowski",
+            "Mariusz Kozioł"
+        ]
+    },
+    "W04ITEWB-SI0008L": {
+        "course_name": "Teoria systemów",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Tomasz Kozłowski",
+            "Mariusz Kozioł"
+        ]
+    },
+    "W04TEL-SI0208P": {
+        "course_name": "Projekt zespołowy",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "projekt",
+        "lecturers": [
+            "Dariusz Więcek",
+            "Łukasz Sójka"
+        ]
+    },
+    "W04SZT-SM0830W": {
+        "course_name": "Zaawansowane modele głebokich sieci neuronowych",
+        "field": "SZT",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Urszula Markowska-Kaczmar",
+            "Maciej Zięba",
+            "Jan Kocoń"
+        ]
+    },
+    "W04INA-SI0025W": {
+        "course_name": "Algebra abstrakcyjna i kodowanie",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Krzysztof Majcher"
+        ]
+    },
+    "W04INA-SI0025L": {
+        "course_name": "Algebra abstrakcyjna i kodowanie",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Krzysztof Majcher"
+        ]
+    },
+    "W04SZT-SM0804L": {
+        "course_name": "Przetwarzanie danych przestrzennych",
+        "field": "SZT",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Piotr Szymański"
+        ]
+    },
+    "W04TAI-SM0002W": {
+        "course_name": "Projektowanie bezpiecznej architektury ICT",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Maciej Nowak",
+            "Mateusz Mądry",
+            "Łukasz Sójka",
+            "Bogusław Szczupak",
+            "Łukasz Pajewski"
+        ]
+    },
+    "W04TAI-SM0002L": {
+        "course_name": "Projektowanie bezpiecznej architektury ICT",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Maciej Nowak",
+            "Mateusz Mądry",
+            "Łukasz Sójka",
+            "Bogusław Szczupak",
+            "Łukasz Pajewski"
+        ]
+    },
+    "W04TEL-SM0203W": {
+        "course_name": "Ocena jakości usług w sieciach teleinformatycznych",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Janusz Klink",
+            "Przemysław Sobkiewicz"
+        ]
+    },
+    "W04TEL-SM0203L": {
+        "course_name": "Ocena jakości usług w sieciach teleinformatycznych",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Janusz Klink",
+            "Przemysław Sobkiewicz"
+        ]
+    },
+    "W04ITE-SM0005W": {
+        "course_name": "Współczesne trendy w informatyce",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Robert Burduk",
+            "Przemysław Ryba",
+            "Marcin Markowski",
+            "Jakub Klikowski",
+            "Mariusz Topolski",
+            "Piotr Lechowicz",
+            "Krzysztof Walkowiak",
+            "Paweł Ksieniewicz",
+            "Jacek Cichosz",
+            "Paweł Zyblewski",
+            "Michał Woźniak",
+            "Paweł Trajdos"
+        ]
+    },
+    "W04ITE-SM0005L": {
+        "course_name": "Współczesne trendy w informatyce",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Robert Burduk",
+            "Przemysław Ryba",
+            "Marcin Markowski",
+            "Jakub Klikowski",
+            "Mariusz Topolski",
+            "Piotr Lechowicz",
+            "Krzysztof Walkowiak",
+            "Paweł Ksieniewicz",
+            "Jacek Cichosz",
+            "Paweł Zyblewski",
+            "Michał Woźniak",
+            "Paweł Trajdos"
+        ]
+    },
+    "W04CBE-SI0039W": {
+        "course_name": "Algebra liniowa 2",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Joanna Jureczko"
+        ]
+    },
+    "W04ITEJG-SI0006W": {
+        "course_name": "Podstawy techniki mikroprocesorowej 1",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Sławomir Sambor"
+        ]
+    },
+    "W04ITEJG-SI0006L": {
+        "course_name": "Podstawy techniki mikroprocesorowej 1",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Sławomir Sambor"
+        ]
+    },
+    "W04ISA-SI0001W": {
+        "course_name": "Podstawy telekomunikacji",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Michał Kowal",
+            "Grzegorz Jaworski",
+            "Janusz Klink",
+            "Kamil Staniec",
+            "Paweł Bieńkowski",
+            "Zbigniew Jóskiewicz",
+            "Piotr Słobodzian",
+            "Robert Borowiec",
+            "Waldemar Grzebyk",
+            "Bogusław Szczupak",
+            "Ryszard Zieliński",
+            "Sławomir Kubal"
+        ]
+    },
+    "W04ITE-SI0004W": {
+        "course_name": "Języki programowania",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Norbert Kozłowski",
+            "Roman Ptak",
+            "Marcin Łopuszyński",
+            "Tomasz Babczyński",
+            "Tomasz Kubik"
+        ]
+    },
+    "W04ITE-SI0004L": {
+        "course_name": "Języki programowania",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Norbert Kozłowski",
+            "Roman Ptak",
+            "Marcin Łopuszyński",
+            "Tomasz Babczyński",
+            "Tomasz Kubik"
+        ]
+    },
+    "W04INA-SM0103W": {
+        "course_name": "Algorytmy on-line",
+        "field": "INA",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Marcel Jackiewicz",
+            "Maciej Gębala"
+        ]
+    },
+    "W04INA-SM0103L": {
+        "course_name": "Algorytmy on-line",
+        "field": "INA",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Marcel Jackiewicz",
+            "Maciej Gębala"
+        ]
+    },
+    "W04ITE-SM4241P": {
+        "course_name": "Research Project",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "projekt",
+        "lecturers": [
+            "Wojciech Kmiecik"
+        ]
+    },
+    "W04ITE-SI0012W": {
+        "course_name": "Grafika komputerowa i komunikacja człowiek-komputer",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jan Nikodem",
+            "Mateusz Gniewkowski",
+            "Tomasz Zamojski",
+            "Marek Woda"
+        ]
+    },
+    "W04ITE-SI0012L": {
+        "course_name": "Grafika komputerowa i komunikacja człowiek-komputer",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Jan Nikodem",
+            "Mateusz Gniewkowski",
+            "Tomasz Zamojski",
+            "Marek Woda"
+        ]
+    },
+    "W04ISA-SI0002W": {
+        "course_name": "Paradygmaty programowania obiektowego",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Mariusz Uchroński",
+            "Andrzej Wytyczak-Partyka",
+            "Marta Lampasiak"
+        ]
+    },
+    "W04ISA-SI0002L": {
+        "course_name": "Paradygmaty programowania obiektowego",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Mariusz Uchroński",
+            "Andrzej Wytyczak-Partyka",
+            "Marta Lampasiak"
+        ]
+    },
+    "W04TAI-SM0011P": {
+        "course_name": "Projekt naukowo-wdrożeniowy 3",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "projekt",
+        "lecturers": [
+            "Paweł Trajdos",
+            "Bogusław Szczupak"
+        ]
+    },
+    "W04CBE-SI0025L": {
+        "course_name": "Skryptowe języki programowania",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Michał Stojke",
+            "Bogusław Szczupak",
+            "Tomasz Surmacz",
+            "Marcin Jaroszewski"
+        ]
+    },
+    "W04INS-SM0015P": {
+        "course_name": "Design thinking w inżynierii systemów 2",
+        "field": "INS",
+        "degree": "SM",
+        "class_type": "projekt",
+        "lecturers": [
+            "Jarosław Drapała"
+        ]
+    },
+    "W04ITE-SM4244W": {
+        "course_name": "Machine Learning",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Paweł Zyblewski"
+        ]
+    },
+    "W04ITE-SM4244L": {
+        "course_name": "Machine Learning",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Paweł Zyblewski"
+        ]
+    },
+    "W04CBE-SM0201W": {
+        "course_name": "Ochrona centrów danych",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Marcin Głowacki",
+            "Krzysztof Kępa",
+            "Tomasz Janiczek"
+        ]
+    },
+    "W04CBE-SM0201L": {
+        "course_name": "Ochrona centrów danych",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Marcin Głowacki",
+            "Krzysztof Kępa",
+            "Tomasz Janiczek"
+        ]
+    },
+    "W04TIN-SI0202P": {
+        "course_name": "Planowanie rozległych sieci komputerowych",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "projekt",
+        "lecturers": [
+            "Przemysław Ryba",
+            "Marcin Markowski"
+        ]
+    },
+    "W04TIN-SM0013W": {
+        "course_name": "Systemy wbudowane 1",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jarosław Emilianowicz",
+            "Marcin Jaroszewski"
+        ]
+    },
+    "W04TIN-SM0013L": {
+        "course_name": "Systemy wbudowane 1",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Jarosław Emilianowicz",
+            "Marcin Jaroszewski"
+        ]
+    },
+    "W04ITE-SM4243W": {
+        "course_name": "Natural Language Processing",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jakub Klikowski"
+        ]
+    },
+    "W04ITE-SM4243L": {
+        "course_name": "Natural Language Processing",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Jakub Klikowski"
+        ]
+    },
+    "W04TIN-SI0201P": {
+        "course_name": "Planowanie lokalnych sieci komputerowych",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "projekt",
+        "lecturers": [
+            "Przemysław Ryba",
+            "Michał Kucharzak"
+        ]
+    },
+    "W04TEL-SM0007W": {
+        "course_name": "Systemy wbudowane",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jarosław Emilianowicz",
+            "Marcin Jaroszewski"
+        ]
+    },
+    "W04TEL-SM0007L": {
+        "course_name": "Systemy wbudowane",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Jarosław Emilianowicz",
+            "Marcin Jaroszewski"
+        ]
+    },
+    "W04ISA-SI0006W": {
+        "course_name": "Wstęp do architektury komputerów",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jerzy Ramert-Greblicki",
+            "Tomasz Serafin"
+        ]
+    },
+    "W04ISA-SI0006L": {
+        "course_name": "Wstęp do architektury komputerów",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Jerzy Ramert-Greblicki",
+            "Tomasz Serafin"
+        ]
+    },
+    "W04ITEJG-SI0015W": {
+        "course_name": "Urządzenia peryferyjne",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Paweł Maślak"
+        ]
+    },
+    "W04ITEJG-SI0015L": {
+        "course_name": "Urządzenia peryferyjne",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Paweł Maślak"
+        ]
+    },
+    "W04TEL-SI0102S": {
+        "course_name": "Seminarium dyplomowe",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Tadeusz Więckowski"
+        ]
+    },
+    "W04INS-SI0027L": {
+        "course_name": "Zarządzanie cyklem życia systemu",
+        "field": "INS",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Magdalena Turowska"
+        ]
+    },
+    "W04ISA-SI0027W": {
+        "course_name": "Sterowanie adaptacyjne",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Grzegorz Mzyk"
+        ]
+    },
+    "W04ISA-SI0027L": {
+        "course_name": "Sterowanie adaptacyjne",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Grzegorz Mzyk"
+        ]
+    },
+    "W04IST-SI4018W": {
+        "course_name": "Computer Networks",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Kamil Nowak"
+        ]
+    },
+    "W04INA-SM0007W": {
+        "course_name": "Wybrane zagadnienia informatyki",
+        "field": "INA",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Paweł Zieliński",
+            "Jacek Cichoń"
+        ]
+    },
+    "W04TIN-SM0212L": {
+        "course_name": "Skalowanie i łączenie sieci teleinformatycznych",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Waldemar Grzebyk"
+        ]
+    },
+    "W04INA-SI0018W": {
+        "course_name": "Języki formalne i techniki translacji",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Szymon Wróbel",
+            "Maciej Gębala"
+        ]
+    },
+    "W04INA-SI0018L": {
+        "course_name": "Języki formalne i techniki translacji",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Szymon Wróbel",
+            "Maciej Gębala"
+        ]
+    },
+    "W04ITEJG-SI0007W": {
+        "course_name": "Technologie informacyjne",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Paweł Maślak"
+        ]
+    },
+    "W04ITEJG-SI0007L": {
+        "course_name": "Technologie informacyjne",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Paweł Maślak"
+        ]
+    },
+    "W04ITEJG-SI0004W": {
+        "course_name": "Języki programowania",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Tomasz Bartłomowicz"
+        ]
+    },
+    "W04ITEJG-SI0004L": {
+        "course_name": "Języki programowania",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Tomasz Bartłomowicz"
+        ]
+    },
+    "W04INS-SI0026L": {
+        "course_name": "Podstawy sieci komputerowych i Internetu",
+        "field": "INS",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Łukasz Falas",
+            "Dominika Dudziak-Gajowiak"
+        ]
+    },
+    "W04MTR-SM2001W": {
+        "course_name": "Identyfikacja",
+        "field": "MTR",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Grzegorz Mzyk"
+        ]
+    },
+    "W04INA-SM4009W": {
+        "course_name": "High level security - vulnerabilities and attacks",
+        "field": "INA",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Bartosz Drzazga",
+            "Łukasz Krzywiecki"
+        ]
+    },
+    "W04INA-SM4009L": {
+        "course_name": "High level security - vulnerabilities and attacks",
+        "field": "INA",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Bartosz Drzazga",
+            "Łukasz Krzywiecki"
+        ]
+    },
+    "W04INS-SM0013C": {
+        "course_name": "Programowanie dynamiczne i teoria gier",
+        "field": "INS",
+        "degree": "SM",
+        "class_type": "ćwiczenia",
+        "lecturers": [
+            "David Ramsey"
+        ]
+    },
+    "W04SZT-SM0817W": {
+        "course_name": "Zaawansowane modele głebokich sieci neuronowych",
+        "field": "SZT",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jan Kocoń"
+        ]
+    },
+    "W04ITEJG-SI0029W": {
+        "course_name": "Sieci komputerowe",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Kamil Nowak"
+        ]
+    },
+    "W04ITEJG-SI0029L": {
+        "course_name": "Sieci komputerowe",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Kamil Nowak"
+        ]
+    },
+    "W04TEL-SM0202S": {
+        "course_name": "Seminarium dyplomowe",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Piotr Słobodzian"
+        ]
+    },
+    "W04INA-SM4013W": {
+        "course_name": "Quantum Physics and Computing",
+        "field": "INA",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Mirosław Kutyłowski"
+        ]
+    },
+    "W04TEL-SI0105P": {
+        "course_name": "Projekt zespołowy",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "projekt",
+        "lecturers": [
+            "Grzegorz Jaworski",
+            "Krzysztof Siwy"
+        ]
+    },
+    "W04CBE-SM0401W": {
+        "course_name": "Audytowanie infrastruktury IT",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Tomasz Janiczek",
+            "Łukasz Skierski"
+        ]
+    },
+    "W04CBE-SM0401L": {
+        "course_name": "Audytowanie infrastruktury IT",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Tomasz Janiczek",
+            "Łukasz Skierski"
+        ]
+    },
+    "W04CBE-SI0026W": {
+        "course_name": "Podstawy automatyki i robotyki",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Wojciech Rafajłowicz",
+            "Andrzej Jabłoński"
+        ]
+    },
+    "W04TAI-SM0009W": {
+        "course_name": "Analiza danych eksperymentalnych",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Krzysztof Halawa"
+        ]
+    },
+    "W04TAI-SM0009L": {
+        "course_name": "Analiza danych eksperymentalnych",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Krzysztof Halawa"
+        ]
+    },
+    "W04TEL-SI0128P": {
+        "course_name": "Inżynieria ruchu 2",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "projekt",
+        "lecturers": [
+            "Janusz Klink",
+            "Przemysław Sobkiewicz"
+        ]
+    },
+    "W04TEL-SI0020W": {
+        "course_name": "Miernictwo 1",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Marek Zaradny",
+            "Paweł Bieńkowski",
+            "Ewa Frączek"
+        ]
+    },
+    "W04ITEWB-SI0012W": {
+        "course_name": "Grafika komputerowa i komunikacja człowiek-komputer",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Tomasz Zamojski",
+            "Marek Woda"
+        ]
+    },
+    "W04ITEWB-SI0012L": {
+        "course_name": "Grafika komputerowa i komunikacja człowiek-komputer",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Tomasz Zamojski",
+            "Marek Woda"
+        ]
+    },
+    "W04INS-SM0809W": {
+        "course_name": "Zaawansowane techniki zastosowania Internetu w przedsiębiorstwie",
+        "field": "INS",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Grzegorz Chodak"
+        ]
+    },
+    "W04ISA-SM0001W": {
+        "course_name": "Wieloetapowe procesy decyzyjne",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Ewaryst Rafajłowicz",
+            "Marlena Drąg",
+            "Maciej Filiński"
+        ]
+    },
+    "W04ISA-SM0001L": {
+        "course_name": "Wieloetapowe procesy decyzyjne",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Ewaryst Rafajłowicz",
+            "Marlena Drąg",
+            "Maciej Filiński"
+        ]
+    },
+    "W04TIN-SM0007W": {
+        "course_name": "Metody optymalizacji",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Piotr Lechowicz"
+        ]
+    },
+    "W04TIN-SM0007L": {
+        "course_name": "Metody optymalizacji",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Piotr Lechowicz"
+        ]
+    },
+    "W04SZT-SM0801W": {
+        "course_name": "Uczenie reprezentacji",
+        "field": "SZT",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Tomasz Kajdanowicz"
+        ]
+    },
+    "W04SZT-SM0830L": {
+        "course_name": "Zaawansowane modele głebokich sieci neuronowych",
+        "field": "SZT",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Jan Kocoń",
+            "Joanna Szołomicka"
+        ]
+    },
+    "W04IST-SM0311L": {
+        "course_name": "Zaawansowane metody i techniki analizy danych",
+        "field": "IST",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Adrianna Kozierkiewicz"
+        ]
+    },
+    "W04ITEJG-SI0001W": {
+        "course_name": "Podstawy programowania",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Tomasz Bartłomowicz"
+        ]
+    },
+    "W04ITEJG-SI0001L": {
+        "course_name": "Podstawy programowania",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Tomasz Bartłomowicz"
+        ]
+    },
+    "W04IST-SM0003S": {
+        "course_name": "Seminarium dyplomowe",
+        "field": "IST",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Ngoc Nguyen",
+            "Marek Krótkiewicz",
+            "Adrianna Kozierkiewicz",
+            "Leszek Borzemski",
+            "Marcin Maleszka",
+            "Ireneusz Jóźwiak"
+        ]
+    },
+    "W04TIN-SM0014W": {
+        "course_name": "Systemy lokalizacyjne i nawigacyjne",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Dariusz Więcek"
+        ]
+    },
+    "W04TIN-SM0014L": {
+        "course_name": "Systemy lokalizacyjne i nawigacyjne",
+        "field": "TIN",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Dariusz Więcek"
+        ]
+    },
+    "W04ITEWB-SI0016W": {
+        "course_name": "Systemy operacyjne 1",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Wojciech Połowczuk",
+            "Piotr Czaja"
+        ]
+    },
+    "W04INA-SI0022W": {
+        "course_name": "Metody probabilistyczne i statystyka",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Marcin Michalski",
+            "Przemysław Szczepaniak",
+            "Karol Gotfryd"
+        ]
+    },
+    "W04INA-SI0022L": {
+        "course_name": "Metody probabilistyczne i statystyka",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Marcin Michalski",
+            "Przemysław Szczepaniak",
+            "Karol Gotfryd"
+        ]
+    },
+    "W04ITE-SM4245S": {
+        "course_name": "ACS Seminar 2",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Michał Panek",
+            "Michał Woźniak"
+        ]
+    },
+    "W04INA-SI0023W": {
+        "course_name": "Logika i struktury formalne",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Dominik Bojko",
+            "Marcin Michalski",
+            "Jacek Cichoń"
+        ]
+    },
+    "W04INA-SI0023L": {
+        "course_name": "Logika i struktury formalne",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Dominik Bojko",
+            "Marcin Michalski",
+            "Jacek Cichoń"
+        ]
+    },
+    "W04TEL-SM0011L": {
+        "course_name": "Zaawansowane techniki sieciowe",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Łukasz Pajewski",
+            "Maciej Nowak"
+        ]
+    },
+    "W04INA-SI0805W": {
+        "course_name": "Teoretyczne podstawy informatyki",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Karol Gotfryd",
+            "Maciej Gębala"
+        ]
+    },
+    "W04INA-SI0805L": {
+        "course_name": "Teoretyczne podstawy informatyki",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Karol Gotfryd",
+            "Maciej Gębala"
+        ]
+    },
+    "W04IST-SI4021L": {
+        "course_name": "Basics of Software Engineering",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Dariusz Gall"
+        ]
+    },
+    "W04IST-SI4020L": {
+        "course_name": "Programming Paradigms",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Dariusz Gall",
+            "Barbara Wędrychowicz"
+        ]
+    },
+    "W04CBE-SI0020W": {
+        "course_name": "Miernictwo 1",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Marek Zaradny",
+            "Paweł Bieńkowski",
+            "Ewa Frączek"
+        ]
+    },
+    "W04ITE-SI0056W": {
+        "course_name": "Algorytmy i złożoność obliczeniowa",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Tomasz Kapłon",
+            "Zbigniew Buchalski",
+            "Jarosław Mierzwa",
+            "Marcin Łopuszyński",
+            "Dariusz Banasiak",
+            "Jan Magott"
+        ]
+    },
+    "W04ITE-SI0056L": {
+        "course_name": "Algorytmy i złożoność obliczeniowa",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Tomasz Kapłon",
+            "Zbigniew Buchalski",
+            "Jarosław Mierzwa",
+            "Marcin Łopuszyński",
+            "Dariusz Banasiak",
+            "Jan Magott"
+        ]
+    },
+    "W04ITEWB-SI0015W": {
+        "course_name": "Urządzenia peryferyjne",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Paweł Maślak"
+        ]
+    },
+    "W04ITEWB-SI0015L": {
+        "course_name": "Urządzenia peryferyjne",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Paweł Maślak"
+        ]
+    },
+    "W04IST-SM4102W": {
+        "course_name": "Advanced Computer Network",
+        "field": "IST",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Patient Zihisire Muke",
+            "Kamil Nowak"
+        ]
+    },
+    "W04IST-SM4102L": {
+        "course_name": "Advanced Computer Network",
+        "field": "IST",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Patient Zihisire Muke",
+            "Kamil Nowak"
+        ]
+    },
+    "W04TIN-SI0106P": {
+        "course_name": "Projektowanie sieci teleinformatycznych",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "projekt",
+        "lecturers": [
+            "Przemysław Ryba",
+            "Aleksandra Knapińska"
+        ]
+    },
+    "W04CBE-SI0008C": {
+        "course_name": "Elektryczność i magnetyzm",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "ćwiczenia",
+        "lecturers": [
+            "Anna Grytsko"
+        ]
+    },
+    "W04TIN-SI0008W": {
+        "course_name": "Media transmisyjne 1",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Waldemar Grzebyk",
+            "Jarosław Janiszewski"
+        ]
+    },
+    "W04INA-SI0016W": {
+        "course_name": "Bazy danych i zarządzanie informacją",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Anna Lauks-Dutka",
+            "Mateusz Wasylkiewicz"
+        ]
+    },
+    "W04INA-SI0016L": {
+        "course_name": "Bazy danych i zarządzanie informacją",
+        "field": "INA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Anna Lauks-Dutka",
+            "Mateusz Wasylkiewicz"
+        ]
+    },
+    "W04TIN-SI0038W": {
+        "course_name": "Lokalne sieci komputerowe",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Krzysztof Walkowiak"
+        ]
+    },
+    "W04TEL-SI0004W": {
+        "course_name": "Podstawy telekomunikacji",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Michał Kowal",
+            "Grzegorz Jaworski",
+            "Janusz Klink",
+            "Paweł Bieńkowski",
+            "Zbigniew Jóskiewicz",
+            "Piotr Słobodzian",
+            "Waldemar Grzebyk",
+            "Robert Borowiec",
+            "Jarosław Janiszewski",
+            "Bogusław Szczupak",
+            "Ryszard Zieliński",
+            "Sławomir Kubal"
+        ]
+    },
+    "W04ISA-SI0012W": {
+        "course_name": "Struktury danych",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Piotr Nowak",
+            "Jarosław Rudy",
+            "Marta Lampasiak"
+        ]
+    },
+    "W04ISA-SI0012L": {
+        "course_name": "Struktury danych",
+        "field": "ISA",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Piotr Nowak",
+            "Jarosław Rudy",
+            "Marta Lampasiak"
+        ]
+    },
+    "W04CBE-SM0005W": {
+        "course_name": "Przedsiębiorczość w ICT",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jarosław Janiszewski"
+        ]
+    },
+    "W04CBE-SM0005L": {
+        "course_name": "Przedsiębiorczość w ICT",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Jarosław Janiszewski"
+        ]
+    },
+    "W04ITE-SI0006W": {
+        "course_name": "Podstawy techniki mikroprocesorowej 1",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jacek Mazurkiewicz",
+            "Tomasz Kapłon"
+        ]
+    },
+    "W04ITE-SI0006L": {
+        "course_name": "Podstawy techniki mikroprocesorowej 1",
+        "field": "ITE",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Jacek Mazurkiewicz",
+            "Tomasz Kapłon"
+        ]
+    },
+    "W04TEL-SI0044W": {
+        "course_name": "Podstawy automatyki i robotyki",
+        "field": "TEL",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Krzysztof Halawa",
+            "Konrad Kluwak",
+            "Anna Czemplik",
+            "Paweł Drąg",
+            "Andrzej Jabłoński",
+            "Wojciech Rafajłowicz"
+        ]
+    },
+    "W04CBE-SI0105W": {
+        "course_name": "Sieci komórkowe",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Zbigniew Jóskiewicz"
+        ]
+    },
+    "W04TEL-SM0004W": {
+        "course_name": "Metody numeryczne",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Grzegorz Pawlik",
+            "Marta Gładysiewicz-Kudrawiec"
+        ]
+    },
+    "W04TEL-SM0004L": {
+        "course_name": "Metody numeryczne",
+        "field": "TEL",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Grzegorz Pawlik",
+            "Marta Gładysiewicz-Kudrawiec"
+        ]
+    },
+    "W04CBE-SM0002W": {
+        "course_name": "Testy penetracyjne",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Michał Walkowski",
+            "Jakub Tomaszewski",
+            "Bartłomiej Balcerek",
+            "Jacek Herold"
+        ]
+    },
+    "W04CBE-SM0002L": {
+        "course_name": "Testy penetracyjne",
+        "field": "CBE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Michał Walkowski",
+            "Jakub Tomaszewski",
+            "Bartłomiej Balcerek",
+            "Jacek Herold"
+        ]
+    },
+    "W04ITEJG-SI0031W": {
+        "course_name": "Układy cyfrowe i systemy wbudowane 1",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Sławomir Sambor"
+        ]
+    },
+    "W04ITEJG-SI0031L": {
+        "course_name": "Układy cyfrowe i systemy wbudowane 1",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Sławomir Sambor"
+        ]
+    },
+    "W04ITEJG-SI0012W": {
+        "course_name": "Grafika komputerowa i komunikacja człowiek-komputer",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Tomasz Zamojski",
+            "Marek Woda"
+        ]
+    },
+    "W04ITEJG-SI0012L": {
+        "course_name": "Grafika komputerowa i komunikacja człowiek-komputer",
+        "field": "ITEJG",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Tomasz Zamojski",
+            "Marek Woda"
+        ]
+    },
+    "W04TIN-SI0050L": {
+        "course_name": "Miernictwo 2",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Damian Kaliszuk",
+            "Marek Zaradny",
+            "Marek Michalak",
+            "Piotr Jopek"
+        ]
+    },
+    "W04IST-SI4010L": {
+        "course_name": "Systems Analysis and Decision Support Methods",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Arkadiusz Liber"
+        ]
+    },
+    "W04ITE-SM0405W": {
+        "course_name": "Zaawansowane metody programowania",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jacek Cichosz"
+        ]
+    },
+    "W04ITE-SM0405L": {
+        "course_name": "Zaawansowane metody programowania",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Jacek Cichosz"
+        ]
+    },
+    "W04TIN-SI0052W": {
+        "course_name": "Rachunek prawdopodobieństwa",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Wiktor Ejsmont"
+        ]
+    },
+    "W04ISA-SM0212S": {
+        "course_name": "Seminarium dyplomowe",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Ewa Skubalska-Rafajłowicz"
+        ]
+    },
+    "W04TIN-SI0011W": {
+        "course_name": "Kryptografia 1",
+        "field": "TIN",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Robert Borowiec"
+        ]
+    },
+    "W04ITE-SM0120W": {
+        "course_name": "Uczenie maszyn",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Weronika Borek-Marciniec",
+            "Szymon Wojciechowski",
+            "Michał Woźniak"
+        ]
+    },
+    "W04ITE-SM0120L": {
+        "course_name": "Uczenie maszyn",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Weronika Borek-Marciniec",
+            "Szymon Wojciechowski",
+            "Michał Woźniak"
+        ]
+    },
+    "W04INS-SM0803P": {
+        "course_name": "Sieci złożone w inżynierii systemów",
+        "field": "INS",
+        "degree": "SM",
+        "class_type": "projekt",
+        "lecturers": [
+            "Krzysztof Juszczyszyn"
+        ]
+    },
+    "W04CBE-SI0040W": {
+        "course_name": "Rachunek prawdopodobieństwa",
+        "field": "CBE",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Wiktor Ejsmont"
+        ]
+    },
+    "W04SZT-SM0805W": {
+        "course_name": "Analiza mediów cyfrowych",
+        "field": "SZT",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Tomasz Kajdanowicz"
+        ]
+    },
+    "W04IST-SI4016W": {
+        "course_name": "Computer Architecture",
+        "field": "IST",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Jan Kwiatkowski"
+        ]
+    },
+    "W04TAI-SM0001P": {
+        "course_name": "Projekt naukowo-wdrożeniowy 1",
+        "field": "TAI",
+        "degree": "SM",
+        "class_type": "projekt",
+        "lecturers": [
+            "Paweł Trajdos",
+            "Bogusław Szczupak"
+        ]
+    },
+    "W04ITEWB-SI0001W": {
+        "course_name": "Podstawy programowania",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "wykład",
+        "lecturers": [
+            "Wojciech Połowczuk"
+        ]
+    },
+    "W04ITEWB-SI0001L": {
+        "course_name": "Podstawy programowania",
+        "field": "ITEWB",
+        "degree": "SI",
+        "class_type": "laboratorium",
+        "lecturers": [
+            "Wojciech Połowczuk"
+        ]
+    },
+    "W04ISA-SM0112W": {
+        "course_name": "Bezpieczeństwo funkcjonalne systemów sterowania",
+        "field": "ISA",
+        "degree": "SM",
+        "class_type": "wykład",
+        "lecturers": [
+            "Adam Ratajczak"
+        ]
+    },
+    "W04ITE-SM4226S": {
+        "course_name": "ACS Seminar 1",
+        "field": "ITE",
+        "degree": "SM",
+        "class_type": "seminarium",
+        "lecturers": [
+            "Paweł Zyblewski"
+        ]
+    }
+}

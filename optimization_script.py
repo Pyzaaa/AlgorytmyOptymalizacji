@@ -390,21 +390,20 @@ def show_numbers(sol):
     print()
 
 
+def open_json(filepath):
+    import json
+    with open(filepath, 'r', encoding='utf-8') as f:
+        return json.load(f)
+
 if __name__ == "__main__":
 
-    course_data = open_json("USOS_API_data/final json/final_course_data.json")
-    course_teacher_mapping_data = open_json("USOS_API_data/final json/final_course_lecturers.json")
-    rooms_type_mapping_data = open_json("USOS_API_data/final json/final_class_type_to_rooms.json")
+    # Load merged data with embedded lecturers
+    course_data = open_json("Final_load_data/merged_filtered_course_data.json")
+    rooms_type_mapping_data = open_json("Final_load_data/final_class_type_to_rooms.json")
 
-    # rodza = {}
-    # for kurs, dane in course_data.items():
-    #     if not rodza.get(dane["class_type"]):
-    #         rodza[dane["class_type"]] = 0
-    #     rodza[dane["class_type"]] += 1
-    # print(rodza)
-
+    # Prepare data
     courses = list(course_data.keys())
-    teachers = list(set(v for l in course_teacher_mapping_data.values() for v in l))
+    teachers = list(set(v for course in course_data.values() for v in course.get("lecturers", [])))
     rooms = list(set(v for l in rooms_type_mapping_data.values() for v in l))
     time_slots = [
         "Pon 7:30", "Pon 9:15", "Pon 11:15", "Pon 13:15", "Pon 15:15", "Pon 17:05", "Pon 18:45",
@@ -414,10 +413,14 @@ if __name__ == "__main__":
         "Pią 7:30", "Pią 9:15", "Pią 11:15", "Pią 13:15", "Pią 15:15", "Pią 17:05", "Pią 18:45",
     ]
 
-    course_teacher_mapping = create_c_t_mapping(course_teacher_mapping_data, courses, teachers)
+    # Generate mappings
+    course_teacher_mapping = create_c_t_mapping(
+        {k: v["lecturers"] for k, v in course_data.items()}, courses, teachers
+    )
     courses_rooms_mapping = create_c_r_mapping(rooms_type_mapping_data, course_data, rooms, courses)
     groups_courses_mapping = create_g_c_mapping(course_data, courses)
 
+    # Run the genetic algorithm
     solution = genetic_algorithm(
         c=len(courses),
         t=len(teachers),
@@ -430,6 +433,7 @@ if __name__ == "__main__":
         population_size=10,
         mutation_rate=0.0005,
     )
+
 
 
 """
