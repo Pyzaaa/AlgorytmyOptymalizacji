@@ -126,22 +126,6 @@ def courses_assigned_to_rooms_constraint_n(sol, c_r_mapping):
     return total
 
 
-def print_constraints_values(sol, g_c_mapping, c_t_mapping, c_r_mapping):
-    print("NARUSZENIA OGRANICZEŃ")
-    print("pokój więcej niż raz")
-    print(room_conflicts_constraint_n(sol))
-    print("prowadzący więcej niż raz")
-    print(teacher_conflicts_constraint_n(sol))
-    print("grupa studencka więcej niż raz")
-    print(student_groups_conflicts_constraint_n(sol, g_c_mapping))
-    print("kurs nieprzypisany lub więcej niż raz")
-    print(all_courses_assigned_once_constraint_n(sol))
-    print("nieprawidłowy prowadzący")
-    print(courses_assigned_to_teachers_constraint_n(sol, c_t_mapping))
-    print("nieprawidłowy pokój")
-    print(courses_assigned_to_rooms_constraint_n(sol, c_r_mapping))
-
-
 def count_gaps(sol):
     """
         Funkcja liczy sumę 'okienek' w planie prowadzących.
@@ -194,7 +178,7 @@ def generate_population(c, t, r, ts, population_size):
     return [np.random.randint(0, 2, size=(c, t, r, ts)) for _ in range(population_size)]
 
 
-def generate_population_satisfying_constraints(c, t, r, ts, population_size, g_c_mapping, c_t_mapping, c_r_mapping, courses):
+def generate_population_satisfying_constraints(c, t, r, ts, population_size, g_c_mapping, c_t_mapping, c_r_mapping):
     """
         Populacja generowana w sposób pozwalający wstępnie spełnić ograniczenia.
     """
@@ -227,7 +211,7 @@ def generate_population_satisfying_constraints(c, t, r, ts, population_size, g_c
                             possible_assignments.append((t_idx, r_idx, ts_idx))
 
             if not possible_assignments:
-                print(f"Nie znaleziono dopuszczalnego przypisania dla kursu: {c_idx} {courses[c_idx]}")
+                print(f"Nie znaleziono dopuszczalnego przypisania dla kursu: {c_idx}")
             else:
                 t_idx, r_idx, ts_idx = random.choice(possible_assignments)
                 individual[c_idx, t_idx, r_idx, ts_idx] = 1
@@ -235,13 +219,6 @@ def generate_population_satisfying_constraints(c, t, r, ts, population_size, g_c
                 t_occupied[t_idx, ts_idx] = True
                 for g in g_of_course:
                     g_occupied[g][ts_idx] = True
-
-        # printowanie zajętości sal
-        print(r_occupied.sum(axis=1))
-
-        # printowanie zajętości grup
-        for g, v in g_occupied.items():
-            print(f"{g} {v.sum()}")
 
         population.append(individual)
     return population
@@ -259,6 +236,7 @@ def genetic_algorithm(c, t, r, ts, c_t_mapping, c_r_mapping, g_c_mapping, genera
         return
 
     population = generate_population(c, t, r, ts, population_size)
+    population = generate_population_satisfying_constraints(c, t, r, ts, population_size, g_c_mapping, c_t_mapping, c_r_mapping)
 
     best_individual = None
     best_ind_value = 999_999_999
@@ -307,7 +285,7 @@ def genetic_algorithm(c, t, r, ts, c_t_mapping, c_r_mapping, g_c_mapping, genera
 
 def create_c_t_mapping(data, c_s, t_s):
     """
-        Wstępne przetwarzanie informacji kurs->prowadzący.
+        Wstępna transformacja informacji kurs->prowadzący.
     """
     mapping = {}
     course_to_index = {course: idx for idx, course in enumerate(c_s)}
@@ -320,7 +298,7 @@ def create_c_t_mapping(data, c_s, t_s):
 
 def create_c_r_mapping(r_data, c_data, r_s, c_s):
     """
-        Wstępne przetwarzanie informacji kurs->pokój.
+        Wstępna transformacja informacji kurs->pokój.
     """
     class_type_to_room_type = {
         "wykład": ["SALA_WYK_MALA"],
@@ -346,7 +324,7 @@ def create_c_r_mapping(r_data, c_data, r_s, c_s):
 
 def create_g_c_mapping(data, c_s):
     """
-        Wstępne przetwarzanie informacji grupa->kurs.
+        Wstępna transformacja informacji grupa->kurs.
     """
     mapping = {}
     for idx, course in enumerate(c_s):
@@ -357,18 +335,73 @@ def create_g_c_mapping(data, c_s):
     return mapping
 
 
+def show_constraints_values(sol, g_c_mapping, c_t_mapping, c_r_mapping):
+    print("NARUSZENIA OGRANICZEŃ")
+    print("pokój więcej niż raz")
+    print(room_conflicts_constraint_n(sol))
+    print("prowadzący więcej niż raz")
+    print(teacher_conflicts_constraint_n(sol))
+    print("grupa studencka więcej niż raz")
+    print(student_groups_conflicts_constraint_n(sol, g_c_mapping))
+    print("kurs nieprzypisany lub więcej niż raz")
+    print(all_courses_assigned_once_constraint_n(sol))
+    print("nieprawidłowy prowadzący")
+    print(courses_assigned_to_teachers_constraint_n(sol, c_t_mapping))
+    print("nieprawidłowy pokój")
+    print(courses_assigned_to_rooms_constraint_n(sol, c_r_mapping))
+
+
+def show_occupation(sol, g_c_mapping, r_s, t_s):
+    """
+        Printowanie podsumowań w celu walidacji.
+    """
+    s1 = {
+        g: int(np.any(sol, axis=(1, 2, 3))[idx].sum())
+        for g, idx in g_c_mapping.items()
+    }
+    print("Zajętość grup studenckich:")
+    print(json.dumps(s1, indent=2))
+
+    s2 = {
+        room: int(sol.sum(axis=(0, 1, 3))[idx])
+        for idx, room in enumerate(r_s)
+    }
+    print("Zajętość pokoi:")
+    print(json.dumps(s2, indent=2))
+
+    s3 = {
+        teacher: int(sol.sum(axis=(0, 2, 3))[idx])
+        for idx, teacher in enumerate(t_s)
+    }
+    print("Zajętość prowadzących (top 10):")
+    print(sorted(list(s3.items()), key=lambda x: x[1], reverse=True)[:10])
+    print()
+
+
+def show_numbers(sol):
+    """
+        Printowanie wymiarów macierzy.
+    """
+    c, t, r, ts = sol.shape
+    print(f"kursy: {c}")
+    print(f"prowadzący: {t}")
+    print(f"pokoje: {r}")
+    print(f"okna czasowe: {ts}")
+    print()
+
+
 if __name__ == "__main__":
 
     course_data = open_json("USOS_API_data/final json/final_course_data.json")
     course_teacher_mapping_data = open_json("USOS_API_data/final json/final_course_lecturers.json")
     rooms_type_mapping_data = open_json("USOS_API_data/final json/final_class_type_to_rooms.json")
 
-    rodza = {}
-    for kurs, dane in course_data.items():
-        if not rodza.get(dane["class_type"]):
-            rodza[dane["class_type"]] = 0
-        rodza[dane["class_type"]] += 1
-    print(rodza)
+    # rodza = {}
+    # for kurs, dane in course_data.items():
+    #     if not rodza.get(dane["class_type"]):
+    #         rodza[dane["class_type"]] = 0
+    #     rodza[dane["class_type"]] += 1
+    # print(rodza)
 
     courses = list(course_data.keys())
     teachers = list(set(v for l in course_teacher_mapping_data.values() for v in l))
@@ -385,18 +418,18 @@ if __name__ == "__main__":
     courses_rooms_mapping = create_c_r_mapping(rooms_type_mapping_data, course_data, rooms, courses)
     groups_courses_mapping = create_g_c_mapping(course_data, courses)
 
-    # solution = genetic_algorithm(
-    #     c=len(courses),
-    #     t=len(teachers),
-    #     r=len(rooms),
-    #     ts=len(time_slots),
-    #     c_t_mapping=course_teacher_mapping,
-    #     c_r_mapping=courses_rooms_mapping,
-    #     g_c_mapping=groups_courses_mapping,
-    #     generations=100,
-    #     population_size=10,
-    #     mutation_rate=0.0005,
-    # )
+    solution = genetic_algorithm(
+        c=len(courses),
+        t=len(teachers),
+        r=len(rooms),
+        ts=len(time_slots),
+        c_t_mapping=course_teacher_mapping,
+        c_r_mapping=courses_rooms_mapping,
+        g_c_mapping=groups_courses_mapping,
+        generations=100,
+        population_size=10,
+        mutation_rate=0.0005,
+    )
 
 
 """
@@ -404,9 +437,13 @@ TODO:
 - mutacja spełniająca ograniczenia
 - krzyżowanie spełniające ograniczenia?? (z naprawianiem?)
 
-- jakakolwiek walidacja / wizualizacja (wyprintowanie planu dla każdego przypisanego prowadzącego)
+- wizualizacja wyników?
 
-- zapisywanie wyników
+- zapisywanie wyników co generacje
+- mierzenie czasu?
+- możliwość kontynuowania, wczytywanie populacji z pliku
+- zapisywanie wszystkich wartości fitness co generację
+
 - testy, wykresy
 
 - uporządkowanie danych wejściowych (zredukować powtarzające się dane)

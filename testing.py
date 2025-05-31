@@ -31,13 +31,8 @@ if __name__ == "__main__":
         c_t_mapping=course_teacher_mapping,
         c_r_mapping=courses_rooms_mapping,
         g_c_mapping=groups_courses_mapping,
-        courses=courses
     )
 
-    print(rooms)
-    print(f"len(c) = {len(courses)}")
-    print(f"len(t) = {len(teachers)}")
-    print(f"len(r) = {len(rooms)}")
-    print(f"len(ts) = {len(time_slots)}")
-
-    print_constraints_values(population[0], groups_courses_mapping, course_teacher_mapping, courses_rooms_mapping)
+    show_numbers(population[0])
+    show_occupation(population[0], groups_courses_mapping, rooms, teachers)
+    show_constraints_values(population[0], groups_courses_mapping, course_teacher_mapping, courses_rooms_mapping)
