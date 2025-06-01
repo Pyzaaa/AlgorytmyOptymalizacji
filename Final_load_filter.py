@@ -20,9 +20,11 @@ with open(lecturers_path, 'r', encoding='utf-8') as f:
 with open(courses_path, 'r', encoding='utf-8') as f:
     course_data = json.load(f)
 
+
 # Define filtering function
 def is_valid_course(code):
     return not code.endswith(('G', 'D'))
+
 
 # Filter and merge data
 merged_data = {}
