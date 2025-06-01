@@ -523,9 +523,10 @@ if __name__ == "__main__":
     course_data = open_json("Final_load_data/merged_filtered_course_data.json")
     rooms_type_mapping_data = open_json("Final_load_data/final_class_type_to_rooms.json")
 
-    courses = list(course_data.keys())
-    teachers = list(set(v for course in course_data.values() for v in course.get("lecturers", [])))
-    rooms = list(set(v for l in rooms_type_mapping_data.values() for v in l))
+    # !! importowanie setów powoduje że listy zawsze są inne
+    courses = sorted(course_data.keys())
+    teachers = sorted(set(v for course in course_data.values() for v in course.get("lecturers", [])))
+    rooms = sorted(set(v for l in rooms_type_mapping_data.values() for v in l))
     time_slots = [
         "Pon 7:30", "Pon 9:15", "Pon 11:15", "Pon 13:15", "Pon 15:15", "Pon 17:05", "Pon 18:45",
         "Wto 7:30", "Wto 9:15", "Wto 11:15", "Wto 13:15", "Wto 15:15", "Wto 17:05", "Wto 18:45",
@@ -547,9 +548,9 @@ if __name__ == "__main__":
         c_t_mapping=course_teacher_mapping,
         c_r_mapping=courses_rooms_mapping,
         g_c_mapping=groups_courses_mapping,
-        generations=100,
+        generations=10,
         mutation_rate=0.0005,
-        saving_every=10,     # dla False nie zapisuje w ogóle
+        saving_every=1,     # dla False nie zapisuje w ogóle
         # loaded_population=np.load("population.npz")["population"],
     )
 
