@@ -116,9 +116,16 @@ def print_timeslot_schedule(ind, ts_name, c_s, t_s, r_s, ts_s):
         print("No assignments found at this time slot.")
 
 
+import os
+import matplotlib.pyplot as plt
+from collections import defaultdict
+
+def sanitize_filename(name):
+    return name.replace("/", "_").replace("\\", "_").replace(":", "_").replace("*", "_")
+
 def plot_schedule_from_data(s_data, label, image_path=None):
     """
-        Tworzy wizualizację planu zajęć.
+    Tworzy wizualizację planu zajęć.
     """
     days = ["Pon", "Wto", "Śro", "Czw", "Pią"]
     hours = ["7:30", "9:15", "11:15", "13:15", "15:15", "17:05", "18:45"]
@@ -156,9 +163,11 @@ def plot_schedule_from_data(s_data, label, image_path=None):
 
     if image_path:
         plt.savefig(image_path, dpi=300)
+        plt.close(fig)
         print(f"Plan zapisany do {image_path}")
     else:
         plt.show()
+
 
 
 def get_group_schedule_data(ind, group_code, c_s, t_s, r_s, ts_s):
@@ -237,7 +246,7 @@ if __name__ == "__main__":
 
     groups_courses_mapping = create_g_c_mapping(course_data, courses)
 
-    # print_occupation(best, groups_courses_mapping, rooms, teachers)
+    print_occupation(best, groups_courses_mapping, rooms, teachers)
 
     # for t_idx in range(len(teachers)):
     #     print_teacher_schedule(best, t_idx, courses, teachers, rooms, time_slots)
@@ -263,9 +272,38 @@ if __name__ == "__main__":
     # room_schedule = get_room_schedule_data(best, r_idx, courses, teachers, rooms, time_slots)
     # plot_schedule_from_data(room_schedule, f"Sala {r_name}")
 
+    '''import os
+    import re
+
+    # Create output directory
     output_dir = "schedules"
     os.makedirs(output_dir, exist_ok=True)
-    for name in teachers[260:]:
+
+    # Extract unique group names from course codes
+    group_names = set()
+    for course in courses:
+        match = re.match(r"W\d{2}([A-Z\-]+)", course)
+        if match:
+            group_names.add(match.group(1))
+
+    # Generate and plot schedule for each group
+    for g_name in group_names:
+        schedule_data = get_group_schedule_data(best, g_name, courses, teachers, rooms, time_slots)
+        plot_schedule_from_data(schedule_data, g_name, image_path=f"{output_dir}/{g_name}.png")
+
+    output_dir = "schedules"
+    os.makedirs(output_dir, exist_ok=True)
+    for name in teachers:
+
         t_idx = teachers.index(name)
         teacher_schedule = get_teacher_schedule_data(best, t_idx, courses, teachers, rooms, time_slots)
+
         plot_schedule_from_data(teacher_schedule, name, image_path=f"{output_dir}/{name}.png")
+
+    output_dir = "schedules"
+    os.makedirs(output_dir, exist_ok=True)
+    for name in rooms:
+        t_idx = rooms.index(name)
+        room_schedule = get_room_schedule_data(best, t_idx, courses, teachers, rooms, time_slots)
+        safe_name = sanitize_filename(name)
+        plot_schedule_from_data(room_schedule, name, image_path=f"{output_dir}/{safe_name}.png")'''

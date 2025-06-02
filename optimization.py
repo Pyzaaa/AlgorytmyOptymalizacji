@@ -7,7 +7,7 @@ import time
 import pickle
 import os
 
-
+global teacher_preferences
 def open_json(file_name):
     with open(file_name, 'r', encoding='utf-8') as file:
         d = json.load(file)
@@ -208,6 +208,74 @@ def courses_assigned_to_rooms_constraint_n(sol, c_r_mapping):
         total += np.sum(~np.isin(np.nonzero(sol_reduced[c_idx])[0], c_r_mapping.get(c_idx, [])))
     return total
 
+def count_teaching_days(sol):
+    """
+    Count total number of days each teacher is scheduled to teach.
+    """
+    _, t, _, ts = sol.shape
+    sol_reduced = sol.sum(axis=(0, 2))  # shape: (t, ts)
+    time_slots_per_day = int(ts / 5)
+    teaching_days_per_teacher = np.zeros(t, dtype=int)
+
+    for i in range(t):
+        teacher_times = sol_reduced[i, :] > 0
+        for d in range(5):
+            daily_slots = teacher_times[d * time_slots_per_day:(d + 1) * time_slots_per_day]
+            if np.any(daily_slots):
+                teaching_days_per_teacher[i] += 1
+
+    return teaching_days_per_teacher.sum()
+
+def count_early_assignments(sol):
+    """
+    Penalize early classes:
+    - Full penalty for slot 0 of each day.
+    - Half penalty for slot 1 of each day.
+    """
+    _, t, _, ts = sol.shape
+    sol_reduced = sol.sum(axis=(0, 2))  # shape: (t, ts)
+    time_slots_per_day = int(ts / 5)
+    early_penalty = 0.0
+
+    for i in range(t):  # For each teacher
+        for d in range(5):  # 5 weekdays
+            day_start = d * time_slots_per_day
+            if sol_reduced[i, day_start] > 0:
+                early_penalty += 1.0  # Full penalty for slot 0
+            if sol_reduced[i, day_start + 1] > 0:
+                early_penalty += 0.5  # Half penalty for slot 1
+
+    return early_penalty
+
+def count_room_changes(sol):
+    """
+    Penalizes room changes for teachers across their daily schedules.
+    """
+    _, t, r, ts = sol.shape
+    time_slots_per_day = int(ts / 5)
+    penalty = 0
+
+    for teacher in range(t):
+        for day in range(5):
+            day_start = day * time_slots_per_day
+            day_end = (day + 1) * time_slots_per_day
+
+            # Get teacher's schedule for the day across rooms
+            teacher_day = sol[:, teacher, :, day_start:day_end]  # shape: (c, r, slots)
+            room_assignments = np.argmax(teacher_day.sum(axis=0), axis=0)  # shape: (slots,)
+            active_slots = teacher_day.sum(axis=(0, 1)) > 0  # bool mask of teaching slots
+
+            prev_room = None
+            for slot, active in enumerate(active_slots):
+                if not active:
+                    continue
+                current_room = room_assignments[slot]
+                if prev_room is not None and current_room != prev_room:
+                    penalty += 1
+                prev_room = current_room
+
+    return penalty
+
 
 def count_gaps(sol):
     """
@@ -227,12 +295,132 @@ def count_gaps(sol):
                 gaps_per_teacher[i] += np.sum(~daily_slots[first:last+1])
     return gaps_per_teacher.sum()
 
+def count_preference_penalty_sparse(sol):
+    """
+    teacher_preferences should be a preloaded dictionary:
+    { "0": { "12": 1, "20": 5, ... }, ... }
+    """
+    _, t, _, ts = sol.shape
+    teacher_time_assignments = sol.sum(axis=(0, 2)) > 0  # shape: (t, ts)
 
-def fitness(sol):
+    penalty = 0.0
+
+    for teacher_idx in range(t):
+        t_key = str(teacher_idx)
+        if t_key not in teacher_preferences:
+            continue
+
+        prefs = teacher_preferences[t_key]
+        for ts_key, pref_score in prefs.items():
+            ts_idx = int(ts_key)
+            if teacher_time_assignments[teacher_idx, ts_idx]:
+                penalty += 1.0 - (int(pref_score) / 5.0)
+
+    return penalty
+
+
+def count_group_room_changes(sol, g_c_mapping):
     """
-        Funkcja celu.
+    Optimized penalty calculation for room changes per student group per day.
+
+    Parameters:
+        sol: np.array, shape (c, t, r, ts)
+        g_c_mapping: dict of group_index -> list of course indices
+
+    Returns:
+        Total penalty (int)
     """
+    c, t, r, ts = sol.shape
+    time_slots_per_day = ts // 5
+    penalty = 0
+
+    for group_courses in g_c_mapping.values():
+        if not group_courses:
+            continue
+        # Precompute total schedule for the group: sum over teachers
+        group_schedule = sol[group_courses].sum(axis=1)  # shape: (len(courses), r, ts)
+        group_schedule = group_schedule.sum(axis=0)      # shape: (r, ts)
+
+        for day in range(5):
+            day_start = day * time_slots_per_day
+            day_end = (day + 1) * time_slots_per_day
+
+            day_sched = group_schedule[:, day_start:day_end]  # shape: (r, slots)
+            room_per_slot = np.argmax(day_sched, axis=0)      # shape: (slots,)
+            active_slots = np.any(day_sched > 0, axis=0)       # shape: (slots,)
+
+            # Get active room sequence
+            active_rooms = room_per_slot[active_slots]
+            if len(active_rooms) > 1:
+                # Count room changes by comparing adjacent room assignments
+                penalty += np.sum(active_rooms[1:] != active_rooms[:-1])
+
+    return int(penalty)
+
+
+
+def fitness(
+    sol,
+    c_t_mapping,
+    c_r_mapping,
+    g_c_mapping,
+    w=(2.0, 0.5, 1.0, 1.0),
+    teacher_preferences=None
+):
+    """
+    w[0]: gaps
+    w[1]: teacher time preference penalties
+    w[2]: room changes
+    """
+    gap_score = count_gaps(sol)
+    if teacher_preferences:
+        preference_penalty = count_preference_penalty_sparse(sol)
+    else:
+        preference_penalty = 0
+    room_change_penalty = count_room_changes(sol)
+    group_room_change_penalty = count_group_room_changes(sol, g_c_mapping)
+
+    return (
+        w[0] * gap_score +
+        w[1] * preference_penalty +
+        w[2] * room_change_penalty +
+        w[3] * group_room_change_penalty
+    )
+
+from concurrent.futures import ThreadPoolExecutor
+
+# Top-level helper functions (outside any other function)
+def compute_gaps_wrapper(sol):
     return count_gaps(sol)
+
+def compute_preferences_wrapper(sol, teacher_preferences):
+    return count_preference_penalty_sparse(sol) if teacher_preferences else 0
+
+def compute_teacher_room_changes_wrapper(sol):
+    return count_room_changes(sol)
+
+def compute_group_room_changes_wrapper(sol, g_c_mapping):
+    return count_group_room_changes(sol, g_c_mapping)
+
+
+def pararell_fitness(sol, c_t_mapping, c_r_mapping, g_c_mapping, w=(2.0, 0.5, 1.0, 1.0), teacher_preferences=None):
+    with ThreadPoolExecutor(max_workers=4) as executor:
+        futures = {
+            'gaps': executor.submit(compute_gaps_wrapper, sol),
+            'prefs': executor.submit(compute_preferences_wrapper, sol, teacher_preferences),
+            'room_changes': executor.submit(compute_teacher_room_changes_wrapper, sol),
+            'group_room_changes': executor.submit(compute_group_room_changes_wrapper, sol, g_c_mapping),
+        }
+
+        results = {k: f.result() for k, f in futures.items()}
+
+    return (
+        w[0] * results['gaps'] +
+        w[1] * results['prefs'] +
+        w[2] * results['room_changes'] +
+        w[3] * results['group_room_changes']
+    )
+
 
 
 def get_occupied_table(t, r, ts, g_c_mapping):
@@ -380,7 +568,10 @@ def mutate_swap_timeslots(population, mutation_rate):
 
 
 def genetic_algorithm(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_c_mapping, generations, mutation_rate, saving_every,
-                      loaded_population=None, output_dir='output'):
+                      loaded_population=None, output_dir='output', preferences_path = None):
+    if preferences_path:
+        with open("teacher_preferences2.json") as f:
+            teacher_preferences = json.load(f)
 
     print_numbers(c, t, r, ts, population_size)
 
@@ -401,15 +592,39 @@ def genetic_algorithm(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_
             print("Rozmiary podanej populacji nie zgadzają się z podanymi parametrami.")
             return
         population = loaded_population
+
+        # Load saved stats
+        try:
+            with open(f'{output_dir}/fitness_history.pkl', 'rb') as f:
+                fitness_history = pickle.load(f)
+            with open(f'{output_dir}/computing_times.pkl', 'rb') as f:
+                computing_times = pickle.load(f)
+            best_individual = np.load(f'{output_dir}/best.npz')['best']
+            # Recalculate best_ind_value if needed
+            best_ind_value = fitness(population[:, :, :, :, 0], c_t_mapping, c_r_mapping, g_c_mapping)
+            for j in range(population.shape[-1]):
+                value = fitness(population[:, :, :, :, j], c_t_mapping, c_r_mapping, g_c_mapping)
+                if value < best_ind_value:
+                    best_ind_value = value
+                    best_individual = population[:, :, :, :, j]
+            print("Załadowano poprzednie dane statystyczne.")
+        except Exception as e:
+            print(f"Nie udało się załadować danych statystycznych: {e}")
+            fitness_history = []
+            computing_times = []
+            best_individual = None
+            best_ind_value = float('inf')
     else:
-        population = generate_population_satisfying_constraints(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_c_mapping,
+        population = generate_population_satisfying_constraints(c, t, r, ts, population_size, c_t_mapping, c_r_mapping,
+                                                                g_c_mapping,
                                                                 c_g_mapping)
+        fitness_history = []
+        computing_times = []
+        best_individual = None
+        best_ind_value = float('inf')
 
-    best_individual = None
-    best_ind_value = float('inf')
-
-    computing_times = []
-    fitness_history = []
+    # save original pop
+    np.savez_compressed(f'{output_dir}/original_population.npz', population=population)
 
     for i in range(generations):
         print(f"--- generacja {i+1}/{generations} ---")
@@ -428,7 +643,7 @@ def genetic_algorithm(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_
 
         # ewaluacja
         print("ewaluacja")
-        fitness_values = [fitness(population[:, :, :, :, j], c_t_mapping, c_r_mapping, g_c_mapping) for j in range(population_size)]
+        fitness_values = [pararell_fitness(population[:, :, :, :, j], c_t_mapping, c_r_mapping, g_c_mapping) for j in range(population_size)]
         print(fitness_values)
         min_ind_value = min(fitness_values)
         if best_ind_value > min_ind_value:
@@ -464,7 +679,7 @@ def genetic_algorithm(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_
 
     # ewaluacja końcowa
     print("ewaluacja końcowa")
-    fitness_values = [fitness(population[:, :, :, :, j], c_t_mapping, c_r_mapping, g_c_mapping) for j in range(population_size)]
+    fitness_values = [pararell_fitness(population[:, :, :, :, j], c_t_mapping, c_r_mapping, g_c_mapping) for j in range(population_size)]
     print(fitness_values)
     min_ind_value = min(fitness_values)
     if best_ind_value > min_ind_value:
@@ -506,19 +721,22 @@ if __name__ == "__main__":
     courses_rooms_mapping = create_c_r_mapping(rooms_type_mapping_data, course_data, rooms, courses)
     groups_courses_mapping = create_g_c_mapping(course_data, courses)
 
+
+
     solution = genetic_algorithm(
         c=len(courses),
         t=len(teachers),
         r=len(rooms),
         ts=len(time_slots),
-        population_size=100,
+        population_size=10,
         c_t_mapping=course_teacher_mapping,
         c_r_mapping=courses_rooms_mapping,
         g_c_mapping=groups_courses_mapping,
-        generations=5,
-        mutation_rate=0.05,
+        generations=100,
+        mutation_rate=0.3,
         saving_every=5,     # dla False nie zapisuje w ogóle
         # loaded_population=np.load("output/population.npz")["population"],
+        preferences_path = "teacher_preferences2.json",
     )
 
 """
