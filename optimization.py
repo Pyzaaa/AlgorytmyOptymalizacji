@@ -95,62 +95,6 @@ def print_constraints_values(sol, g_c_mapping, c_t_mapping, c_r_mapping):
     print(courses_assigned_to_rooms_constraint_n(sol, c_r_mapping))
 
 
-def print_occupation(sol, g_c_mapping, r_s, t_s):
-    """
-        Wypisanie podsumowań w celu walidacji.
-    """
-    s1 = {
-        g: int(np.any(sol, axis=(1, 2, 3))[idx].sum())
-        for g, idx in g_c_mapping.items()
-    }
-    print("Zajętość grup studenckich:")
-    print(json.dumps(s1, indent=2))
-
-    s2 = {
-        room: int(sol.sum(axis=(0, 1, 3))[idx])
-        for idx, room in enumerate(r_s)
-    }
-    print("Zajętość pokoi:")
-    print(json.dumps(s2, indent=2))
-
-    s3 = {
-        teacher: int(sol.sum(axis=(0, 2, 3))[idx])
-        for idx, teacher in enumerate(t_s)
-    }
-    print("Zajętość prowadzących (top 10):")
-    print(sorted(list(s3.items()), key=lambda x: x[1], reverse=True)[:10])
-    print()
-
-
-def print_teacher_schedule(sol, t_idx, c_s, t_s, r_s, ts_s):
-    """
-        Wypisuje listę przypisanych kursów dla danego nauczyciela.
-    """
-    c, _, r, ts = sol.shape
-    print(f"Plan zajęć: {t_s[t_idx]}")
-    for ts_idx in range(ts):
-        for c_idx in range(c):
-            for r_idx in range(r):
-                if sol[c_idx, t_idx, r_idx, ts_idx]:
-                    print(f"{ts_s[ts_idx]}, sala: {r_s[r_idx]} - {c_s[c_idx]}")
-    print()
-
-
-def print_student_group_schedule(sol, sg_code, c_s, t_s, r_s, ts_s, g_c_mapping):
-    """
-        Wypisuje listę przypisanych kursów dla danej grupy studenckiej.
-    """
-    c, t, r, ts = sol.shape
-    print(f"Plan zajęć: {sg_code}")
-    for ts_idx in range(ts):
-        for r_idx in range(r):
-            for t_idx in range(t):
-                for c_idx in g_c_mapping[sg_code]:
-                    if sol[c_idx, t_idx, r_idx, ts_idx]:
-                        print(f"{ts_s[ts_idx]}, sala: {r_s[r_idx]} - {c_s[c_idx]} - {t_s[t_idx]}")
-    print()
-
-
 def room_conflicts_constraint(sol):
     """
         Jeden pokój nie może być przypisany więcej niż jeden raz z tym samym czasie.
@@ -284,40 +228,11 @@ def count_gaps(sol):
     return gaps_per_teacher.sum()
 
 
-def courses_standard_deviation(sol):
-    """
-        Odchylenie standardowe liczby kursów w tygodniu.
-    """
-    _, _, _, ts = sol.shape
-    time_slots_per_day = int(ts / 5)
-    daily_counts = [
-        np.sum(sol[d*time_slots_per_day: (d+1)*time_slots_per_day])
-        for d in range(5)
-    ]
-    return np.std(daily_counts)
-
-
-def fitness(sol, c_t_mapping, c_r_mapping, g_c_mapping, w=(1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0)):
+def fitness(sol):
     """
         Funkcja celu.
     """
     return count_gaps(sol)
-    # return (
-    #         w[0] * count_gaps(sol) +
-    #         w[1] * room_conflicts_constraint_n(sol) +
-    #         w[2] * teacher_conflicts_constraint_n(sol) +
-    #         w[3] * student_groups_conflicts_constraint_n(sol, g_c_mapping) +
-    #         w[4] * all_courses_assigned_once_constraint_n(sol) +
-    #         w[5] * courses_assigned_to_teachers_constraint_n(sol, c_t_mapping) +
-    #         w[6] * courses_assigned_to_rooms_constraint_n(sol, c_r_mapping)
-    # )
-
-
-def generate_population(c, t, r, ts, population_size):
-    """
-        Zupełnie losowo generowana populacja.
-    """
-    return np.random.randint(0, 2, size=(c, t, r, ts, population_size))
 
 
 def get_occupied_table(t, r, ts, g_c_mapping):
@@ -332,6 +247,9 @@ def get_occupied_table(t, r, ts, g_c_mapping):
 
 
 def course_assignment(sol, c_idx, occ, a, c_g_mapping):
+    """
+        Funkcja przypisująca kurs oraz zapisująca tablice zajęcia.
+    """
     t_idx, r_idx, ts_idx = a
     sol[c_idx, t_idx, r_idx, ts_idx] = True
     occ['t'][t_idx, ts_idx] = True
@@ -369,22 +287,6 @@ def generate_population_satisfying_constraints(c, t, r, ts, population_size, c_t
         occ = get_occupied_table(t, r, ts, g_c_mapping)
         for c_idx in range(c):
             population[:, :, :, :, i], occ = random_possible_course_assignment(population[:, :, :, :, i], c_idx, occ, c_t_mapping, c_r_mapping, c_g_mapping)
-    return population
-
-
-def crossover_by_timeslots(population):
-    """
-        Krzyżowanie populacji poprzez losowanie punktu podziału osobników na osi okien czasowych.
-    """
-    _, _, _, ts, n = population.shape
-    indices = np.arange(n)
-    np.random.shuffle(indices)
-    population = population[:, :, :, :, indices]
-    for j in range(0, n - 1, 2):
-        crossover_point = random.randint(1, ts - 1)
-        temp = population[:, :, :, crossover_point:, j].copy()
-        population[:, :, :, crossover_point:, j] = population[:, :, :, crossover_point:, j + 1]
-        population[:, :, :, crossover_point:, j + 1] = temp
     return population
 
 
@@ -463,21 +365,6 @@ def fix_unassigned_courses(population, c_t_mapping, c_r_mapping, c_g_mapping, g_
     return population
 
 
-def mutate_random(population, mutation_rate):
-    """
-        Zupełnie losowe mutowanie.
-    """
-    c, t, r, ts, n = population.shape
-    for j in range(n):
-        for _ in range(int(np.prod((c, t, r, ts)) * mutation_rate)):
-            j1 = np.random.randint(0, c)
-            j2 = np.random.randint(0, t)
-            j3 = np.random.randint(0, r)
-            j4 = np.random.randint(0, ts)
-            population[j1, j2, j3, j4, j] ^= 1
-    return population
-
-
 def mutate_swap_timeslots(population, mutation_rate):
     """
         Mutowanie oparte na zamianie dwóch losowych okien czasowych.
@@ -515,7 +402,6 @@ def genetic_algorithm(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_
             return
         population = loaded_population
     else:
-        # population = generate_population(c, t, r, ts, population_size)
         population = generate_population_satisfying_constraints(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_c_mapping,
                                                                 c_g_mapping)
 
@@ -529,7 +415,7 @@ def genetic_algorithm(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_
         print(f"--- generacja {i+1}/{generations} ---")
 
         # zapis do pliku
-        if saving_every:
+        if saving_every and i != 0:
             if i % saving_every == 0:
                 np.savez_compressed(f'{output_dir}/population.npz', population=population)
                 np.savez_compressed(f'{output_dir}/best.npz', best=best_individual)
@@ -605,7 +491,6 @@ if __name__ == "__main__":
     course_data = open_json("Final_load_data/merged_filtered_course_data.json")
     rooms_type_mapping_data = open_json("Final_load_data/final_class_type_to_rooms.json")
 
-    # !! importowanie setów powoduje, że listy zawsze są inne
     courses = sorted(course_data.keys())
     teachers = sorted(set(v for course in course_data.values() for v in course.get("lecturers", [])))
     rooms = sorted(set(v for l in rooms_type_mapping_data.values() for v in l))
@@ -630,7 +515,7 @@ if __name__ == "__main__":
         c_t_mapping=course_teacher_mapping,
         c_r_mapping=courses_rooms_mapping,
         g_c_mapping=groups_courses_mapping,
-        generations=2,
+        generations=5,
         mutation_rate=0.05,
         saving_every=5,     # dla False nie zapisuje w ogóle
         # loaded_population=np.load("output/population.npz")["population"],
@@ -638,17 +523,16 @@ if __name__ == "__main__":
 
 """
 TODO:
-- naprawianie
-
-- wybranie parametrów i f celu
-- testy, odpalenie i zobaczenie co się stanie
-- ewentualne dostrojenie parametrów (lub danych)
-- wykresy
-
-- inna mutacja
-- inne krzyżowanie (całych dni tygodnia?)
+ważne:
+- rozbudować f celu (jak najmniej prowadzących?, jak najmniej dni w tygodniu dla prowadzącego, jak najmniej okienek bez sumowania)
+- testy, odpalenie dla dużych danych, ew dostrojenie parametrów (lub danych)
 - sprawozdanie
 - rozwiązać za pomocą solvera np cplex
+
+mniej ważne:
+- zamodelowanie tak żeby nie zjadało tyle pamięci
+- inna mutacja
+- inne krzyżowanie (całych dni tygodnia?)
 
 MUTACJA
 pomysł 1: zamiana dwóch kursów według czasu
