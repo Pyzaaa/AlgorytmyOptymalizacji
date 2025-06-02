@@ -8,7 +8,7 @@ if __name__ == "__main__":
     course_data = open_json("Final_load_data/merged_filtered_course_data.json")
     rooms_type_mapping_data = open_json("Final_load_data/final_class_type_to_rooms.json")
 
-    # !! importowanie setów powoduje że listy zawsze są inne
+    # !! importowanie setów powoduje, że listy zawsze są inne
     courses = sorted(course_data.keys())
     teachers = sorted(set(v for course in course_data.values() for v in course.get("lecturers", [])))
     rooms = sorted(set(v for l in rooms_type_mapping_data.values() for v in l))
@@ -43,12 +43,12 @@ if __name__ == "__main__":
     population = np.load("population-elo.npz")["population"]
     print(time.time() - t0)
 
-    print_numbers(*population.shape)
+    # print_numbers(*population.shape)
     # print_occupation(population[:, :, :, :, 0], groups_courses_mapping, rooms, teachers)
-    print_constraints_values(population[:, :, :, :, 0], groups_courses_mapping, course_teacher_mapping, courses_rooms_mapping)
+    # print_constraints_values(population[:, :, :, :, 0], groups_courses_mapping, course_teacher_mapping, courses_rooms_mapping)
 
     # for t_idx in range(len(teachers)):
     #     print_teacher_schedule(population[:, :, :, :, 0], t_idx, courses, teachers, rooms, time_slots)
-
+    #
     # for sg_code in groups_courses_mapping.keys():
     #     print_student_group_schedule(population[:, :, :, :, 0], sg_code, courses, teachers, rooms, time_slots, groups_courses_mapping)

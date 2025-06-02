@@ -5,6 +5,7 @@ from bisect import bisect_left
 from itertools import accumulate
 import time
 import pickle
+import os
 
 
 def open_json(file_name):
@@ -64,6 +65,17 @@ def create_g_c_mapping(data, c_s):
     return mapping
 
 
+def print_numbers(c, t, r, ts, n):
+    """
+        Wypisanie wymiarów macierzy.
+    """
+    print(f"kursy: {c}")
+    print(f"prowadzący: {t}")
+    print(f"pokoje: {r}")
+    print(f"okna czasowe: {ts}")
+    print()
+
+
 def print_constraints_values(sol, g_c_mapping, c_t_mapping, c_r_mapping):
     """
         Wypisanie liczby naruszeń wszystkich ograniczeń
@@ -107,17 +119,6 @@ def print_occupation(sol, g_c_mapping, r_s, t_s):
     }
     print("Zajętość prowadzących (top 10):")
     print(sorted(list(s3.items()), key=lambda x: x[1], reverse=True)[:10])
-    print()
-
-
-def print_numbers(c, t, r, ts, n):
-    """
-        Wypisanie wymiarów macierzy.
-    """
-    print(f"kursy: {c}")
-    print(f"prowadzący: {t}")
-    print(f"pokoje: {r}")
-    print(f"okna czasowe: {ts}")
     print()
 
 
@@ -319,115 +320,194 @@ def generate_population(c, t, r, ts, population_size):
     return np.random.randint(0, 2, size=(c, t, r, ts, population_size))
 
 
-def generate_population_satisfying_constraints(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_c_mapping):
+def get_occupied_table(t, r, ts, g_c_mapping):
+    """
+        Funkcja tworząca słownik z tablicami zajęcia.
+    """
+    return {
+        't': np.zeros((t, ts), dtype=bool),
+        'r': np.zeros((r, ts), dtype=bool),
+        'g': {g: np.zeros(ts, dtype=bool) for g in g_c_mapping.keys()}
+    }
+
+
+def course_assignment(sol, c_idx, occ, a, c_g_mapping):
+    t_idx, r_idx, ts_idx = a
+    sol[c_idx, t_idx, r_idx, ts_idx] = True
+    occ['t'][t_idx, ts_idx] = True
+    occ['r'][r_idx, ts_idx] = True
+    for g in c_g_mapping[c_idx]:
+        occ['g'][g][ts_idx] = True
+    return sol, occ
+
+
+def random_possible_course_assignment(sol, c_idx, occ, c_t_mapping, c_r_mapping, c_g_mapping):
+    """
+        Funkcja losująca przypisanie dla danego kursu z listy możliwych przypisań.
+    """
+    allowed_t = c_t_mapping[c_idx]
+    allowed_r = c_r_mapping[c_idx]
+    groups = c_g_mapping[c_idx]
+    possible = []
+    for t_idx in allowed_t:
+        for r_idx in allowed_r:
+            for ts_idx in range(occ['r'].shape[1]):
+                if not occ['r'][r_idx, ts_idx] and not occ['t'][t_idx, ts_idx]:
+                    if all(not occ['g'][g][ts_idx] for g in groups):
+                        possible.append((t_idx, r_idx, ts_idx))
+    if not possible:
+        return sol, occ
+    return course_assignment(sol, c_idx, occ, random.choice(possible), c_g_mapping)
+
+
+def generate_population_satisfying_constraints(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_c_mapping, c_g_mapping):
     """
         Populacja generowana w sposób pozwalający wstępnie spełnić ograniczenia.
     """
     population = np.zeros((c, t, r, ts, population_size), dtype=bool)
-
-    c_g_mapping = {course_idx: [] for course_idx in range(c)}
-    for g, courses_in_group in g_c_mapping.items():
-        for c_idx in courses_in_group:
-            c_g_mapping[c_idx].append(g)
-
     for i in range(population_size):
-        r_occupied = np.zeros((r, ts), dtype=bool)
-        t_occupied = np.zeros((t, ts), dtype=bool)
-        g_occupied = {g: np.zeros(ts, dtype=bool) for g in g_c_mapping.keys()}
-
+        occ = get_occupied_table(t, r, ts, g_c_mapping)
         for c_idx in range(c):
-            allowed_t = c_t_mapping[c_idx]
-            allowed_r = c_r_mapping[c_idx]
-            g_of_course = c_g_mapping[c_idx]
-
-            possible_assignments = []
-            for t_idx in allowed_t:
-                for r_idx in allowed_r:
-                    for ts_idx in range(ts):
-                        if (not r_occupied[r_idx, ts_idx]
-                            and not t_occupied[t_idx, ts_idx]
-                                and all(not g_occupied[g][ts_idx] for g in g_of_course)):
-                            possible_assignments.append((t_idx, r_idx, ts_idx))
-
-            if not possible_assignments:
-                print(f"Nie znaleziono dopuszczalnego przypisania dla kursu: {c_idx}")
-            else:
-                t_idx, r_idx, ts_idx = random.choice(possible_assignments)
-                population[c_idx, t_idx, r_idx, ts_idx, i] = 1
-                r_occupied[r_idx, ts_idx] = True
-                t_occupied[t_idx, ts_idx] = True
-                for g in g_of_course:
-                    g_occupied[g][ts_idx] = True
+            population[:, :, :, :, i], occ = random_possible_course_assignment(population[:, :, :, :, i], c_idx, occ, c_t_mapping, c_r_mapping, c_g_mapping)
     return population
 
 
-def mutate_by_swap(sol, c_t_mapping, c_r_mapping, g_c_mapping, max_attempts=100):
+def crossover_by_timeslots(population):
     """
-        Mutuje osobnika przez zamianę dwóch przypisań na jeden z czterech sposobów.
+        Krzyżowanie populacji poprzez losowanie punktu podziału osobników na osi okien czasowych.
     """
-    c, t, r, ts = sol.shape
-    assignments = np.argwhere(sol == 1)
-    swap_type = random.choice(["random", "same_teacher", "same_group", "same_room"])
+    _, _, _, ts, n = population.shape
+    indices = np.arange(n)
+    np.random.shuffle(indices)
+    population = population[:, :, :, :, indices]
+    for j in range(0, n - 1, 2):
+        crossover_point = random.randint(1, ts - 1)
+        temp = population[:, :, :, crossover_point:, j].copy()
+        population[:, :, :, crossover_point:, j] = population[:, :, :, crossover_point:, j + 1]
+        population[:, :, :, crossover_point:, j + 1] = temp
+    return population
 
-    for _ in range(max_attempts):
-        a1 = random.choice(assignments)
-        c1, t1, r1, ts1 = a1
 
-        candidates = []
-        for a2 in assignments:
-            if np.array_equal(a1, a2):
-                continue
-            c2, t2, r2, ts2 = a2
-            if ts1 == ts2:
-                continue
-            if swap_type == "same_teacher" and t1 != t2:
-                continue
-            if swap_type == "same_room" and r1 != r2:
-                continue
-            if swap_type == "same_group":
-                shared = any(c1 in courses and c2 in courses for courses in g_c_mapping.values())
-                if not shared:
-                    continue
-            candidates.append(a2)
-        if not candidates:
-            continue
+def crossover_advanced(population, g_c_mapping, c_t_mapping, c_r_mapping, c_g_mapping):
+    """
+        Krzyżowanie populacji poprzez losowe dobieranie kursów od rodziców.
+    """
+    c, t, r, ts, n = population.shape
+    new_population = np.zeros_like(population)
 
-        a2 = random.choice(candidates)
-        c2, t2, r2, ts2 = a2
+    for i in range(0, n, 2):
+        parent1 = population[:, :, :, :, i]
+        parent2 = population[:, :, :, :, i + 1]
+        child1 = np.zeros((c, t, r, ts), dtype=bool)
+        child2 = np.zeros((c, t, r, ts), dtype=bool)
+        occ1 = get_occupied_table(t, r, ts, g_c_mapping)
+        occ2 = get_occupied_table(t, r, ts, g_c_mapping)
 
-        # Sprawdź, czy nowa konfiguracja nauczyciel/pokój jest dopuszczalna
-        if (t2 in c_t_mapping[c1] and r2 in c_r_mapping[c1] and
-                t1 in c_t_mapping[c2] and r1 in c_r_mapping[c2]):
+        def find_course_assignment(individual, c_idx):
+            pos = np.argwhere(individual[c_idx])
+            return pos[0] if pos.size > 0 else None
 
-            # Tymczasowa zamiana
-            individual[c1, t1, r1, ts1] = 0
-            individual[c2, t2, r2, ts2] = 0
-            individual[c1, t2, r2, ts2] = 1
-            individual[c2, t1, r1, ts1] = 1
+        def is_valid(c_idx, t_idx, r_idx, ts_idx, occ):
+            if occ['r'][r_idx, ts_idx]:
+                return False
+            if occ['t'][t_idx, ts_idx]:
+                return False
+            for g in c_g_mapping[c_idx]:
+                if occ['g'][g][ts_idx]:
+                    return False
+            return True
 
-            if (is_valid_assignment(individual, c1, t2, r2, ts2, g_c_mapping, c_t_mapping, c_r_mapping) and
-                    is_valid_assignment(individual, c2, t1, r1, ts1, g_c_mapping, c_t_mapping, c_r_mapping)):
-                # Zapisz wynik do populacji
-                population[:, :, :, :, individual_index] = individual
-                return True
+        for c_idx in range(c):
+            parents = [parent1, parent2]
+            np.random.shuffle(parents)
+            a1, a2 = find_course_assignment(parents[0], c_idx), find_course_assignment(parents[1], c_idx)
 
-            # Cofnij jeśli konflikt
-            individual[c1, t2, r2, ts2] = 0
-            individual[c2, t1, r1, ts1] = 0
-            individual[c1, t1, r1, ts1] = 1
-            individual[c2, t2, r2, ts2] = 1
+            if a1 is not None and is_valid(c_idx, *a1, occ1):
+                child1, occ1 = course_assignment(child1, c_idx, occ1, a1, c_g_mapping)
+            elif a2 is not None and is_valid(c_idx, *a2, occ1):
+                child1, occ1 = course_assignment(child1, c_idx, occ1, a2, c_g_mapping)
+            else:
+                child1, occ1 = random_possible_course_assignment(child1, c_idx, occ1, c_t_mapping, c_r_mapping, c_g_mapping)
 
-    return False
+            if a2 is not None and is_valid(c_idx, *a2, occ2):
+                child2, occ2 = course_assignment(child2, c_idx, occ2, a2, c_g_mapping)
+            elif a1 is not None and is_valid(c_idx, *a1, occ2):
+                child2, occ2 = course_assignment(child2, c_idx, occ2, a1, c_g_mapping)
+            else:
+                child2, occ2 = random_possible_course_assignment(child2, c_idx, occ2, c_t_mapping, c_r_mapping, c_g_mapping)
+
+        new_population[:, :, :, :, i] = child1
+        new_population[:, :, :, :, i + 1] = child2
+    return new_population
+
+
+def fix_unassigned_courses(population, c_t_mapping, c_r_mapping, c_g_mapping, g_c_mapping):
+    """
+        Próba ponownego przypisania kursów, które wcześniej nie zostały przypisane.
+    """
+    c, t, r, ts, n = population.shape
+    for i in range(n):
+        individual = population[:, :, :, :, i]
+        occ = get_occupied_table(t, r, ts, g_c_mapping)
+        occ['t'] = np.any(np.any(individual, axis=2), axis=0)
+        occ['r'] = np.any(np.any(individual, axis=1), axis=0)
+        for c_idx in range(c):
+            assignment = np.argwhere(individual[c_idx])
+            if assignment.size > 0:
+                t_idx, r_idx, ts_idx = assignment[0]
+                for g in c_g_mapping[c_idx]:
+                    occ['g'][g][ts_idx] = True
+        for c_idx in range(c):
+            if not np.any(individual[c_idx, :, :, :]):
+                individual, occ = random_possible_course_assignment(individual, c_idx, occ, c_t_mapping, c_r_mapping, c_g_mapping)
+    return population
+
+
+def mutate_random(population, mutation_rate):
+    """
+        Zupełnie losowe mutowanie.
+    """
+    c, t, r, ts, n = population.shape
+    for j in range(n):
+        for _ in range(int(np.prod((c, t, r, ts)) * mutation_rate)):
+            j1 = np.random.randint(0, c)
+            j2 = np.random.randint(0, t)
+            j3 = np.random.randint(0, r)
+            j4 = np.random.randint(0, ts)
+            population[j1, j2, j3, j4, j] ^= 1
+    return population
+
+
+def mutate_swap_timeslots(population, mutation_rate):
+    """
+        Mutowanie oparte na zamianie dwóch losowych okien czasowych.
+    """
+    _, _, _, ts, n = population.shape
+    for i in range(n):
+        if random.random() < mutation_rate:
+            ts_idx1, ts_idx2 = np.random.choice(ts, size=2, replace=False)
+            temp = np.copy(population[:, :, :, ts_idx1, i])
+            population[:, :, :, ts_idx1, i] = population[:, :, :, ts_idx2, i]
+            population[:, :, :, ts_idx2, i] = temp
+    return population
 
 
 def genetic_algorithm(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_c_mapping, generations, mutation_rate, saving_every,
-                      loaded_population=None):
+                      loaded_population=None, output_dir='output'):
 
     print_numbers(c, t, r, ts, population_size)
 
     if population_size % 2:
         print("Rozmiar populacji powinien być parzysty.")
         return
+
+    # Tworzenie pomocniczego c_g_mapping
+    c_g_mapping = {c_idx: [] for c_idx in range(c)}
+    for g, courses_in_group in g_c_mapping.items():
+        for c_idx in courses_in_group:
+            c_g_mapping[c_idx].append(g)
+
+    os.makedirs(output_dir, exist_ok=True)
 
     if loaded_population is not None:
         if loaded_population.shape != (c, t, r, ts, population_size):
@@ -436,7 +516,8 @@ def genetic_algorithm(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_
         population = loaded_population
     else:
         # population = generate_population(c, t, r, ts, population_size)
-        population = generate_population_satisfying_constraints(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_c_mapping)
+        population = generate_population_satisfying_constraints(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_c_mapping,
+                                                                c_g_mapping)
 
     best_individual = None
     best_ind_value = float('inf')
@@ -445,16 +526,16 @@ def genetic_algorithm(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_
     fitness_history = []
 
     for i in range(generations):
-        print(f"--- generacja {i}/{generations} ---")
+        print(f"--- generacja {i+1}/{generations} ---")
 
         # zapis do pliku
         if saving_every:
             if i % saving_every == 0:
-                np.savez_compressed('population.npz', population=population)
-                np.savez_compressed('best.npz', best=best_individual)
-                with open('fitness_history.pkl', 'wb') as f:
+                np.savez_compressed(f'{output_dir}/population.npz', population=population)
+                np.savez_compressed(f'{output_dir}/best.npz', best=best_individual)
+                with open(f'{output_dir}/fitness_history.pkl', 'wb') as f:
                     pickle.dump(fitness_history, f)
-                with open('computing_times.pkl', 'wb') as f:
+                with open(f'{output_dir}/computing_times.pkl', 'wb') as f:
                     pickle.dump(computing_times, f)
 
         time_start = time.time()
@@ -463,8 +544,11 @@ def genetic_algorithm(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_
         print("ewaluacja")
         fitness_values = [fitness(population[:, :, :, :, j], c_t_mapping, c_r_mapping, g_c_mapping) for j in range(population_size)]
         print(fitness_values)
-        if best_ind_value > min(fitness_values):
-            best_individual = population[:, :, :, :, fitness_values.index(min(fitness_values))]
+        min_ind_value = min(fitness_values)
+        if best_ind_value > min_ind_value:
+            best_ind_value = min_ind_value
+            best_individual = population[:, :, :, :, fitness_values.index(min_ind_value)]
+        print(f"best overall: {best_ind_value}, best this gen: {min_ind_value}, average this gen: {sum(fitness_values) / population_size}")
         fitness_history.append(fitness_values)
 
         # selekcja
@@ -477,43 +561,41 @@ def genetic_algorithm(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_
 
         # krzyżowanie
         print("krzyżowanie")
-        indices = np.arange(population_size)
-        np.random.shuffle(indices)
-        population = population[:, :, :, :, indices]
-        for j in range(0, population_size - 1, 2):
-            crossover_point = random.randint(1, ts - 1)
-            temp = population[:, :, :, crossover_point:, j].copy()
-            population[:, :, :, crossover_point:, j] = population[:, :, :, crossover_point:, j + 1]
-            population[:, :, :, crossover_point:, j + 1] = temp
+        population = crossover_advanced(population, g_c_mapping, c_t_mapping, c_r_mapping, c_g_mapping)
+
+        # naprawianie
+        print("naprawianie")
+        population = fix_unassigned_courses(population, c_t_mapping, c_r_mapping, c_g_mapping, g_c_mapping)
 
         # mutacja
         print("mutacja")
-        for j in range(population_size):
-            for _ in range(int(np.prod((c, t, r, ts)) * mutation_rate)):
-                j1 = np.random.randint(0, c)
-                j2 = np.random.randint(0, t)
-                j3 = np.random.randint(0, r)
-                j4 = np.random.randint(0, ts)
-                population[j1, j2, j3, j4, j] ^= 1
+        population = mutate_swap_timeslots(population, mutation_rate)
 
         # zmierzenie czasu
         time_end = time.time() - time_start
-        print(f"### generacja {i}/{generations} ukończona w czasie {time_end} sekund")
+        print(f"### generacja {i+1}/{generations} ukończona w czasie {time_end:.2f} sekund\n")
         computing_times.append(time_end)
 
     # ewaluacja końcowa
+    print("ewaluacja końcowa")
     fitness_values = [fitness(population[:, :, :, :, j], c_t_mapping, c_r_mapping, g_c_mapping) for j in range(population_size)]
-    if best_ind_value > min(fitness_values):
-        best_individual = population[:, :, :, :, fitness_values.index(min(fitness_values))]
+    print(fitness_values)
+    min_ind_value = min(fitness_values)
+    if best_ind_value > min_ind_value:
+        best_ind_value = min_ind_value
+        best_individual = population[:, :, :, :, fitness_values.index(min_ind_value)]
+    print(f"best overall: {best_ind_value}, best this gen: {min_ind_value}, average this gen: {sum(fitness_values) / population_size}")
     fitness_history.append(fitness_values)
 
     # zapis końcowy
-    np.savez_compressed('population.npz', population=population)
-    np.savez_compressed('best.npz', best=best_individual)
-    with open('fitness_history.pkl', 'wb') as f:
+    np.savez_compressed(f'{output_dir}/population.npz', population=population)
+    np.savez_compressed(f'{output_dir}/best.npz', best=best_individual)
+    with open(f'{output_dir}/fitness_history.pkl', 'wb') as f:
         pickle.dump(fitness_history, f)
-    with open('computing_times.pkl', 'wb') as f:
+    with open(f'{output_dir}/computing_times.pkl', 'wb') as f:
         pickle.dump(computing_times, f)
+
+    print_constraints_values(best_individual, g_c_mapping, c_t_mapping, c_r_mapping)
 
     return best_individual
 
@@ -523,7 +605,7 @@ if __name__ == "__main__":
     course_data = open_json("Final_load_data/merged_filtered_course_data.json")
     rooms_type_mapping_data = open_json("Final_load_data/final_class_type_to_rooms.json")
 
-    # !! importowanie setów powoduje że listy zawsze są inne
+    # !! importowanie setów powoduje, że listy zawsze są inne
     courses = sorted(course_data.keys())
     teachers = sorted(set(v for course in course_data.values() for v in course.get("lecturers", [])))
     rooms = sorted(set(v for l in rooms_type_mapping_data.values() for v in l))
@@ -544,18 +626,30 @@ if __name__ == "__main__":
         t=len(teachers),
         r=len(rooms),
         ts=len(time_slots),
-        population_size=10,
+        population_size=100,
         c_t_mapping=course_teacher_mapping,
         c_r_mapping=courses_rooms_mapping,
         g_c_mapping=groups_courses_mapping,
-        generations=10,
-        mutation_rate=0.0005,
-        saving_every=1,     # dla False nie zapisuje w ogóle
-        # loaded_population=np.load("population.npz")["population"],
+        generations=2,
+        mutation_rate=0.05,
+        saving_every=5,     # dla False nie zapisuje w ogóle
+        # loaded_population=np.load("output/population.npz")["population"],
     )
 
 """
 TODO:
+- naprawianie
+
+- wybranie parametrów i f celu
+- testy, odpalenie i zobaczenie co się stanie
+- ewentualne dostrojenie parametrów (lub danych)
+- wykresy
+
+- inna mutacja
+- inne krzyżowanie (całych dni tygodnia?)
+- sprawozdanie
+- rozwiązać za pomocą solvera np cplex
+
 MUTACJA
 pomysł 1: zamiana dwóch kursów według czasu
 losujemy typ wybierania kursów 1 z 4
@@ -573,18 +667,4 @@ sprawdzanie co można w nim zmienić (lista możliwych pokoi, lista możliwych p
 losujemy jeden z tych trzech list
 losowanie jednego parametru z wylosowanej listy
 zmiana jednego parametru 
-
-
-- krzyżowanie spełniające ograniczenia?? (z naprawianiem?)
-
-- co jeżeli w generowaniu wstępnym nie udaje się przypisać kursu??
-(usunąć jak jest za dużo kursów na grupę, spróbować przypisać kurs po pierwszej iteracji?)
-
-- wybranie parametrów i f celu
-- testy, odpalenie i zobaczenie co się stanie
-- ewentualne dostrojenie parametrów (lub danych)
-- wizualizacja wyniku
-- wczytanie zapisanych danych i analiza, wykresy itd.
-
-- rozwiązać za pomocą solvera np cplex
 """

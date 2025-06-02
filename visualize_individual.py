@@ -1,13 +1,12 @@
 import numpy as np
 import json
+import matplotlib.pyplot as plt
+from collections import defaultdict
 
 
 def open_json(file_name):
     with open(file_name, 'r', encoding='utf-8') as file:
         return json.load(file)
-
-
-
 
 
 def find_top_teachers_and_print_schedules(individual, c_s, t_s, r_s, ts_s, top_n=10):
@@ -29,6 +28,7 @@ def find_top_teachers_and_print_schedules(individual, c_s, t_s, r_s, ts_s, top_n
             for ts_val, course, room in scheduled:
                 print(f"{ts_val}, Course: {course}, Room: {room}")
         print("-" * 40)
+
 
 def find_top_rooms_and_print_schedules(individual, c_s, t_s, r_s, ts_s, top_n=10):
     c, t, r, ts = individual.shape
@@ -115,8 +115,6 @@ def print_group_schedule(individual, group_code, c_s, t_s, r_s, ts_s):
     if not found:
         print("No classes found for this group.")
 
-import matplotlib.pyplot as plt
-from collections import defaultdict
 
 def plot_schedule_from_data(schedule_data, label, label_type="Group", image_path=None):
     """
@@ -193,6 +191,7 @@ def get_group_schedule_data(individual, group_code, c_s, t_s, r_s, ts_s):
                         })
     return schedule
 
+
 def get_room_schedule_data(individual, room_idx, c_s, t_s, r_s, ts_s):
     """
     Returns schedule entries for a room as a list of dicts.
@@ -234,10 +233,9 @@ def get_teacher_schedule_data(individual, teacher_idx, c_s, t_s, r_s, ts_s):
 
 
 if __name__ == "__main__":
-    # Load data
+
     course_data = open_json("Final_load_data/merged_filtered_course_data.json")
     rooms_type_mapping_data = open_json("Final_load_data/final_class_type_to_rooms.json")
-
 
     courses = sorted(course_data.keys())
     teachers = sorted(set(v for course in course_data.values() for v in course.get("lecturers", [])))
@@ -252,55 +250,32 @@ if __name__ == "__main__":
     ]
 
     population = np.load("population-elo.npz")["population"]
-    individual = population[:, :, :, :, 0]  # extract single individual
-    # Load the best individual solution matrix
+    individual = population[:, :, :, :, 0]
+    best = np.load("best.npz")['best']
 
-    data = np.load("best.npz")
-    best = data['best']
-    
+    # find_top_teachers_and_print_schedules(best, courses, teachers, rooms, time_slots, top_n=10)
+    # find_top_teachers_and_print_schedules(individual, courses, teachers, rooms, time_slots, top_n=10)
+    # find_top_rooms_and_print_schedules(individual, courses, teachers, rooms, time_slots, top_n=10)
+    # print_timeslot_schedule(individual, "Pon 7:30", courses, teachers, rooms, time_slots)
+    # print_group_schedule(individual, "IST-SI", courses, teachers, rooms, time_slots)
 
-
-    '''
-    #find_top_teachers_and_print_schedules(best, courses, teachers, rooms, time_slots, top_n=10)
-    find_top_teachers_and_print_schedules(individual, courses, teachers, rooms, time_slots, top_n=10)
-    find_top_rooms_and_print_schedules(individual, courses, teachers, rooms, time_slots, top_n=10)
-    
-    # Example: print schedule for "Pon 7:30"
-    print_timeslot_schedule(individual, "Pon 7:30", courses, teachers, rooms, time_slots)
-    '''
-
-    # Print all classes for group "IST-SI"
-    #print_group_schedule(individual, "IST-SI", courses, teachers, rooms, time_slots)
-
-    '''
-    # Extract schedule data
-    schedule_data = get_group_schedule_data(individual, "IST-SI", courses, teachers, rooms, time_slots)
-
-    # Visualize it
-    plot_schedule_from_data(schedule_data, "IST-SI")'''
-
-
-    # Load a specific teacher schedule
-    t_idx = teachers.index("Marek Woda")
-    teacher_schedule = get_teacher_schedule_data(individual, t_idx, courses, teachers, rooms, time_slots)
-    plot_schedule_from_data(teacher_schedule, "Marek Woda")
-
-    '''
-    # Load a specific teacher schedule
-    t_idx = teachers.index("Marek Woda")
-    teacher_schedule = get_teacher_schedule_data(best, t_idx, courses, teachers, rooms, time_slots)
-    plot_schedule_from_data(teacher_schedule, "Marek Woda")'''
-    '''
-    # Load a specific room schedule
-    r_idx = rooms.index("022")
-    room_schedule = get_room_schedule_data(individual, r_idx, courses, teachers, rooms, time_slots)
-    plot_schedule_from_data(room_schedule, "Room 022")'''
-
-
-
-
-
-
-
-
-
+    # # Extract schedule data
+    # schedule_data = get_group_schedule_data(individual, "IST-SI", courses, teachers, rooms, time_slots)
+    #
+    # # Visualize it
+    # plot_schedule_from_data(schedule_data, "IST-SI")
+    #
+    # # Load a specific teacher schedule
+    # t_idx = teachers.index("Marek Woda")
+    # teacher_schedule = get_teacher_schedule_data(individual, t_idx, courses, teachers, rooms, time_slots)
+    # plot_schedule_from_data(teacher_schedule, "Marek Woda")
+    #
+    # # Load a specific teacher schedule
+    # t_idx = teachers.index("Marek Woda")
+    # teacher_schedule = get_teacher_schedule_data(best, t_idx, courses, teachers, rooms, time_slots)
+    # plot_schedule_from_data(teacher_schedule, "Marek Woda")
+    #
+    # # Load a specific room schedule
+    # r_idx = rooms.index("022")
+    # room_schedule = get_room_schedule_data(individual, r_idx, courses, teachers, rooms, time_slots)
+    # plot_schedule_from_data(room_schedule, "Room 022")
