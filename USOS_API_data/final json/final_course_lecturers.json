@@ -1553,10 +1553,7 @@
     "W04TEL-SM0006W": [
         "Grzegorz Jaworski"
     ],
-    "W04TEL-SM0006L": [
-        "Grzegorz Jaworski"
-    ],
-    "W04ITE-SI0011W": [
+    "W04ITE-SI0011C": [
         "Olgierd Unold",
         "Paweł Głuchowski",
         "Tomasz Babczyński",
@@ -1570,33 +1567,36 @@
         "Marian Jureczko",
         "Jan Magott"
     ],
-    "W04ISA-SI0015W": [
+    "W04ISA-SI0015S": [
         "Wojciech Tarnawski",
         "Andrzej Stachno",
         "Wojciech Rafajłowicz"
     ],
-    "W04ISA-SI0015L": [
+    "W04ISA-SI0015P": [
         "Wojciech Tarnawski",
         "Andrzej Stachno",
         "Wojciech Rafajłowicz"
     ],
-    "W04ITE-SM4242W": [
+    "W04ITE-SM4242C": [
         "Wojciech Kmiecik"
     ],
     "W04ITE-SM4242L": [
         "Wojciech Kmiecik"
     ],
-    "W04ITEWB-SI0050W": [
-        "Piotr Patronik"
-    ],
     "W04ITEWB-SI0050L": [
         "Piotr Patronik"
+    ],
+    "W04IST-SM4018C": [
+        "Artur Wilczek"
     ],
     "W04IST-SM4018W": [
         "Artur Wilczek"
     ],
-    "W04IST-SM4018L": [
-        "Artur Wilczek"
+    "W04CBE-SM0501C": [
+        "Henryk Maciejewski",
+        "Mateusz Gniewkowski",
+        "Radosław Grymin",
+        "Tomasz Walkowiak"
     ],
     "W04CBE-SM0501W": [
         "Henryk Maciejewski",
@@ -1604,55 +1604,38 @@
         "Radosław Grymin",
         "Tomasz Walkowiak"
     ],
-    "W04CBE-SM0501L": [
-        "Henryk Maciejewski",
-        "Mateusz Gniewkowski",
-        "Radosław Grymin",
-        "Tomasz Walkowiak"
-    ],
-    "W04TAI-SM0003W": [
+    "W04TAI-SM0003S": [
         "Przemysław Ryba",
         "Marcin Markowski",
         "Kamil Staniec",
         "Zbigniew Jóskiewicz",
         "Ryszard Zieliński"
     ],
-    "W04TAI-SM0003L": [
-        "Przemysław Ryba",
-        "Marcin Markowski",
-        "Kamil Staniec",
-        "Zbigniew Jóskiewicz",
-        "Ryszard Zieliński"
-    ],
-    "W04INA-SI0020W": [
+    "W04INA-SI0020C": [
         "Rafał Kapelko"
     ],
     "W04INA-SI0020L": [
         "Rafał Kapelko"
     ],
-    "W04ITEWB-SI0014W": [
+    "W04ITEWB-SI0014C": [
         "Joanna Balbus"
     ],
-    "W04ITEWB-SI0014L": [
-        "Joanna Balbus"
-    ],
-    "W04ISA-SI0404W": [
+    "W04ISA-SI0404C": [
         "Michał Jaroszczuk",
         "Radosław Idzikowski"
-    ],
-    "W04ISA-SI0404L": [
-        "Michał Jaroszczuk",
-        "Radosław Idzikowski"
-    ],
-    "W04CBE-SM0203W": [
-        "Marcin Kaczmarek",
-        "Michał Stojke",
-        "Robert Czechowski"
     ],
     "W04CBE-SM0203L": [
         "Marcin Kaczmarek",
         "Michał Stojke",
         "Robert Czechowski"
+    ],
+    "W04INA-SI0802P": [
+        "Szymon Wróbel",
+        "Maciej Gębala",
+        "Karol Gotfryd",
+        "Błażej Wróbel",
+        "Marcin Kik",
+        "Patryk Stopyra"
     ],
     "W04INA-SI0802W": [
         "Szymon Wróbel",
@@ -1662,44 +1645,26 @@
         "Marcin Kik",
         "Patryk Stopyra"
     ],
-    "W04INA-SI0802L": [
-        "Szymon Wróbel",
-        "Maciej Gębala",
-        "Karol Gotfryd",
-        "Błażej Wróbel",
-        "Marcin Kik",
-        "Patryk Stopyra"
+    "W04CBE-SM0301C": [
+        "Michał Walkowski",
+        "Jakub Tomaszewski",
+        "Bartłomiej Balcerek"
     ],
     "W04CBE-SM0301W": [
         "Michał Walkowski",
         "Jakub Tomaszewski",
         "Bartłomiej Balcerek"
     ],
-    "W04CBE-SM0301L": [
-        "Michał Walkowski",
-        "Jakub Tomaszewski",
-        "Bartłomiej Balcerek"
+    "W04ITEWB-SI0029L": [
+        "Krzysztof Walkowiak",
+        "Wojciech Kmiecik"
     ],
     "W04ITEWB-SI0029W": [
         "Krzysztof Walkowiak",
         "Wojciech Kmiecik"
     ],
-    "W04ITEWB-SI0029L": [
-        "Krzysztof Walkowiak",
-        "Wojciech Kmiecik"
-    ],
     "W04ITE-SM4120W": [
         "Maciej Nikodem"
-    ],
-    "W04ITE-SM4120L": [
-        "Maciej Nikodem"
-    ],
-    "W04ISA-SI0008W": [
-        "Artur Chorążyczewski",
-        "Wojciech Tarnawski",
-        "Adam Ratajczak",
-        "Łukasz Korus",
-        "Wojciech Rafajłowicz"
     ],
     "W04ISA-SI0008L": [
         "Artur Chorążyczewski",
@@ -1708,31 +1673,27 @@
         "Łukasz Korus",
         "Wojciech Rafajłowicz"
     ],
-    "W04ISA-SI0004W": [
+    "W04ISA-SI0004C": [
         "Krzysztof Halawa",
         "Katarzyna Topolska",
         "Maciej Filiński",
         "Piotr Ciskowski",
         "Wojciech Rafajłowicz"
     ],
-    "W04ISA-SI0004L": [
+    "W04ISA-SI0004S": [
         "Krzysztof Halawa",
         "Katarzyna Topolska",
         "Maciej Filiński",
         "Piotr Ciskowski",
         "Wojciech Rafajłowicz"
+    ],
+    "W04TAI-SM0202P": [
+        "Paweł Trajdos"
     ],
     "W04TAI-SM0202W": [
         "Paweł Trajdos"
     ],
-    "W04TAI-SM0202L": [
-        "Paweł Trajdos"
-    ],
     "W04IST-SM4003W": [
-        "Halina Kwaśnicka",
-        "Artur Zawisza"
-    ],
-    "W04IST-SM4003L": [
         "Halina Kwaśnicka",
         "Artur Zawisza"
     ],
@@ -1743,100 +1704,81 @@
         "Robert Czechowski",
         "Bartłomiej Balcerek"
     ],
-    "W04CBE-SM0011L": [
-        "Jacek Herold",
-        "Marcin Kaczmarek",
-        "Tomasz Janiczek",
-        "Robert Czechowski",
-        "Bartłomiej Balcerek"
+    "W04INA-SI0806L": [
+        "Małgorzata Sulkowska",
+        "Zbigniew Gołębiewski"
     ],
     "W04INA-SI0806W": [
         "Małgorzata Sulkowska",
         "Zbigniew Gołębiewski"
     ],
-    "W04INA-SI0806L": [
-        "Małgorzata Sulkowska",
-        "Zbigniew Gołębiewski"
+    "W04ISA-SM0105S": [
+        "Anna Czemplik"
     ],
     "W04ISA-SM0105W": [
         "Anna Czemplik"
     ],
-    "W04ISA-SM0105L": [
-        "Anna Czemplik"
-    ],
-    "W04INA-SI0803W": [
+    "W04INA-SI0803P": [
         "Łukasz Mazurkiewicz",
         "Rafał Kapelko",
         "Dominik Bojko"
     ],
-    "W04INA-SI0803L": [
-        "Łukasz Mazurkiewicz",
-        "Rafał Kapelko",
-        "Dominik Bojko"
+    "W04INA-SI0804C": [
+        "Patryk Kozieł",
+        "Zbigniew Gołębiewski",
+        "Jacek Cichoń"
     ],
     "W04INA-SI0804W": [
         "Patryk Kozieł",
         "Zbigniew Gołębiewski",
         "Jacek Cichoń"
     ],
-    "W04INA-SI0804L": [
-        "Patryk Kozieł",
-        "Zbigniew Gołębiewski",
-        "Jacek Cichoń"
-    ],
-    "W04INA-SI0811W": [
+    "W04INA-SI0811C": [
         "Przemysław Kobylański"
     ],
-    "W04INA-SI0811L": [
+    "W04INA-SI0811S": [
         "Przemysław Kobylański"
-    ],
-    "W04INA-SI0031W": [
-        "Krzysztof Majcher"
     ],
     "W04INA-SI0031L": [
         "Krzysztof Majcher"
     ],
-    "W04ITEJG-SI0010W": [
-        "Maciej Pawłowski"
+    "W04INA-SI0031S": [
+        "Krzysztof Majcher"
     ],
     "W04ITEJG-SI0010L": [
+        "Maciej Pawłowski"
+    ],
+    "W04ITEJG-SI0010W": [
         "Maciej Pawłowski"
     ],
     "W04ITEJG-SI0034W": [
         "Tadeusz Smolnicki",
         "Paweł Maślak"
     ],
-    "W04ITEJG-SI0034L": [
-        "Tadeusz Smolnicki",
-        "Paweł Maślak"
+    "W04ITE-SM0444L": [
+        "Przemysław Ryba",
+        "Mariusz Kozioł"
     ],
     "W04ITE-SM0444W": [
         "Przemysław Ryba",
         "Mariusz Kozioł"
     ],
-    "W04ITE-SM0444L": [
-        "Przemysław Ryba",
-        "Mariusz Kozioł"
-    ],
-    "W04TIN-SM0011W": [
+    "W04TIN-SM0011S": [
         "Paweł Bieńkowski"
-    ],
-    "W04TIN-SM0011L": [
-        "Paweł Bieńkowski"
-    ],
-    "W04ITE-SM4240W": [
-        "Paweł Zyblewski"
     ],
     "W04ITE-SM4240L": [
         "Paweł Zyblewski"
     ],
-    "W04ITE-SI0429W": [
+    "W04ITE-SM4240P": [
+        "Paweł Zyblewski"
+    ],
+    "W04ITE-SI0429C": [
         "Dominik Ciura"
     ],
     "W04ITE-SI0429L": [
         "Dominik Ciura"
     ],
-    "W04ITEWB-SI0011W": [
+    "W04ITEWB-SI0011C": [
         "Paweł Głuchowski",
         "Olgierd Unold"
     ],
@@ -1844,7 +1786,7 @@
         "Paweł Głuchowski",
         "Olgierd Unold"
     ],
-    "W04ISA-SI0042W": [
+    "W04ISA-SI0042C": [
         "Mieczysław Wodecki",
         "Wiktor Ejsmont",
         "Elżbieta Liszewska",
@@ -1852,51 +1794,43 @@
         "Wojciech Mulak",
         "Patrycja Hęćka"
     ],
-    "W04ISA-SI0042L": [
+    "W04ISA-SI0042S": [
         "Mieczysław Wodecki",
         "Wiktor Ejsmont",
         "Elżbieta Liszewska",
         "Sławomir Szczepaniak",
         "Wojciech Mulak",
         "Patrycja Hęćka"
-    ],
-    "W04INA-SI0019W": [
-        "Małgorzata Sulkowska"
     ],
     "W04INA-SI0019L": [
         "Małgorzata Sulkowska"
-    ],
-    "W04INA-SM4011W": [
-        "Marcin Słowik",
-        "Przemysław Kubiak"
     ],
     "W04INA-SM4011L": [
         "Marcin Słowik",
         "Przemysław Kubiak"
     ],
-    "W04ITE-SI0015W": [
+    "W04INA-SM4011S": [
+        "Marcin Słowik",
+        "Przemysław Kubiak"
+    ],
+    "W04ITE-SI0015C": [
         "Jan Nikodem",
         "Jarosław Mierzwa",
         "Dariusz Caban",
         "Dominik Żelazny"
     ],
-    "W04ITE-SI0015L": [
+    "W04ITE-SI0015S": [
         "Jan Nikodem",
         "Jarosław Mierzwa",
         "Dariusz Caban",
         "Dominik Żelazny"
     ],
-    "W04ISA-SI0030W": [
+    "W04ISA-SI0030C": [
         "Jerzy Ramert-Greblicki",
         "Radosław Grymin",
         "Mariusz Makuchowski"
     ],
-    "W04ISA-SI0030L": [
-        "Jerzy Ramert-Greblicki",
-        "Radosław Grymin",
-        "Mariusz Makuchowski"
-    ],
-    "W04ITE-SI0001W": [
+    "W04ITE-SI0001C": [
         "Tomasz Kapłon",
         "Zbigniew Buchalski",
         "Jarosław Mierzwa",
@@ -1910,99 +1844,87 @@
         "Damian Mroziński",
         "Dariusz Banasiak"
     ],
-    "W04ITE-SI0008W": [
-        "Tomasz Kozłowski",
-        "Andrzej Żołnierek"
-    ],
     "W04ITE-SI0008L": [
         "Tomasz Kozłowski",
         "Andrzej Żołnierek"
     ],
+    "W04ITE-SI0008S": [
+        "Tomasz Kozłowski",
+        "Andrzej Żołnierek"
+    ],
+    "W04INA-SM4121C": [
+        "Łukasz Krzywiecki"
+    ],
     "W04INA-SM4121W": [
         "Łukasz Krzywiecki"
     ],
-    "W04INA-SM4121L": [
-        "Łukasz Krzywiecki"
-    ],
-    "W04IST-SM4002W": [
+    "W04IST-SM4002C": [
         "Marek Krótkiewicz",
         "Artur Wilczek"
     ],
-    "W04IST-SM4002L": [
+    "W04IST-SM4002P": [
         "Marek Krótkiewicz",
         "Artur Wilczek"
     ],
-    "W04TAI-SM0301W": [
+    "W04TAI-SM0301C": [
         "Łukasz Jeleń"
-    ],
-    "W04TAI-SM0301L": [
-        "Łukasz Jeleń"
-    ],
-    "W04TAI-SM0022W": [
-        "Ewaryst Rafajłowicz",
-        "Agata Migalska",
-        "Piotr Ciskowski"
     ],
     "W04TAI-SM0022L": [
         "Ewaryst Rafajłowicz",
         "Agata Migalska",
         "Piotr Ciskowski"
     ],
+    "W04TAI-SM0022P": [
+        "Ewaryst Rafajłowicz",
+        "Agata Migalska",
+        "Piotr Ciskowski"
+    ],
+    "W04ITE-SI0121C": [
+        "Jacek Cichosz"
+    ],
     "W04ITE-SI0121W": [
         "Jacek Cichosz"
     ],
-    "W04ITE-SI0121L": [
-        "Jacek Cichosz"
+    "W04TIN-SI0110S": [
+        "Mariusz Kozioł"
     ],
     "W04TIN-SI0110W": [
         "Mariusz Kozioł"
     ],
-    "W04TIN-SI0110L": [
-        "Mariusz Kozioł"
+    "W04TAI-SM0004C": [
+        "Robert Burduk",
+        "Szymon Wojciechowski",
+        "Paweł Trajdos"
     ],
     "W04TAI-SM0004W": [
         "Robert Burduk",
         "Szymon Wojciechowski",
         "Paweł Trajdos"
     ],
-    "W04TAI-SM0004L": [
-        "Robert Burduk",
-        "Szymon Wojciechowski",
-        "Paweł Trajdos"
-    ],
-    "W04INA-SM0101W": [
+    "W04INA-SM0101C": [
         "Dominik Bojko"
-    ],
-    "W04INA-SM0101L": [
-        "Dominik Bojko"
-    ],
-    "W04TAI-SM0101W": [
-        "Marcin Kaczmarek",
-        "Robert Czechowski"
     ],
     "W04TAI-SM0101L": [
         "Marcin Kaczmarek",
         "Robert Czechowski"
     ],
-    "W04ITEJG-SI0040W": [
+    "W04TAI-SM0101W": [
+        "Marcin Kaczmarek",
+        "Robert Czechowski"
+    ],
+    "W04ITEJG-SI0040C": [
         "Tomasz Bartłomowicz"
     ],
-    "W04ITEJG-SI0040L": [
+    "W04ITEJG-SI0040P": [
         "Tomasz Bartłomowicz"
     ],
-    "W04ISA-SI0013W": [
+    "W04ISA-SI0013P": [
         "Magda Skoczeń",
         "Łukasz Jeleń",
         "Krzysztof Halawa",
         "Piotr Ciskowski"
     ],
-    "W04ISA-SI0013L": [
-        "Magda Skoczeń",
-        "Łukasz Jeleń",
-        "Krzysztof Halawa",
-        "Piotr Ciskowski"
-    ],
-    "W04TAI-SM0008W": [
+    "W04TAI-SM0008C": [
         "Kacper Nowak",
         "Monika Szafrańska",
         "Janusz Klink",
@@ -2013,29 +1935,8 @@
         "Zbigniew Jóskiewicz",
         "Rafał Królikowski"
     ],
-    "W04TAI-SM0008L": [
-        "Kacper Nowak",
-        "Monika Szafrańska",
-        "Janusz Klink",
-        "Marcin Kaczmarek",
-        "Marek Wąsowski",
-        "Robert Czechowski",
-        "Robert Łukomski",
-        "Zbigniew Jóskiewicz",
-        "Rafał Królikowski"
-    ],
-    "W04INA-SM4010W": [
+    "W04INA-SM4010C": [
         "Przemysław Kubiak"
-    ],
-    "W04INA-SM4010L": [
-        "Przemysław Kubiak"
-    ],
-    "W04ISA-SI0029W": [
-        "Wojciech Bożejko",
-        "Katarzyna Topolska",
-        "Piotr Nowak",
-        "Mariusz Makuchowski",
-        "Jerzy Ramert-Greblicki"
     ],
     "W04ISA-SI0029L": [
         "Wojciech Bożejko",
@@ -2044,69 +1945,57 @@
         "Mariusz Makuchowski",
         "Jerzy Ramert-Greblicki"
     ],
-    "W04ITEWB-SI0010W": [
+    "W04ISA-SI0029W": [
+        "Wojciech Bożejko",
+        "Katarzyna Topolska",
+        "Piotr Nowak",
+        "Mariusz Makuchowski",
+        "Jerzy Ramert-Greblicki"
+    ],
+    "W04ITEWB-SI0010C": [
         "Maciej Pawłowski"
     ],
     "W04ITEWB-SI0010L": [
         "Maciej Pawłowski"
     ],
-    "W04TIN-SM0204W": [
+    "W04TIN-SM0204C": [
         "Waldemar Grzebyk",
         "Marcin Głowacki"
-    ],
-    "W04TIN-SM0204L": [
-        "Waldemar Grzebyk",
-        "Marcin Głowacki"
-    ],
-    "W04ITEJG-SI0011W": [
-        "Beata Laszkiewicz"
     ],
     "W04ITEJG-SI0011L": [
         "Beata Laszkiewicz"
     ],
-    "W04INA-SI0021W": [
-        "Krzysztof Majcher"
-    ],
     "W04INA-SI0021L": [
         "Krzysztof Majcher"
     ],
-    "W04TEL-SM0010W": [
-        "Ewaryst Rafajłowicz",
-        "Piotr Ciskowski"
+    "W04INA-SI0021W": [
+        "Krzysztof Majcher"
     ],
     "W04TEL-SM0010L": [
         "Ewaryst Rafajłowicz",
         "Piotr Ciskowski"
     ],
-    "W04ITEWB-SI0055W": [
+    "W04ITEWB-SI0055L": [
         "Tadeusz Tomczak"
     ],
-    "W04ITEWB-SI0055L": [
+    "W04ITEWB-SI0055W": [
         "Tadeusz Tomczak"
     ],
     "W04IST-SI0812W": [
         "Dariusz Konieczny",
         "Marek Kopel"
     ],
-    "W04IST-SI0812L": [
-        "Dariusz Konieczny",
-        "Marek Kopel"
-    ],
-    "W04CBE-SM0600W": [
+    "W04CBE-SM0600P": [
         "Przemysław Świercz",
         "Tomasz Surmacz"
     ],
-    "W04CBE-SM0600L": [
-        "Przemysław Świercz",
-        "Tomasz Surmacz"
-    ],
-    "W04ISA-SI0009W": [
+    "W04ISA-SI0009L": [
         "Maciej Filiński",
         "Krzysztof Zając",
         "Przemysław Śliwiński",
         "Wojciech Sopot"
     ],
-    "W04ISA-SI0009L": [
+    "W04ISA-SI0009W": [
         "Maciej Filiński",
         "Krzysztof Zając",
         "Przemysław Śliwiński",
@@ -2115,35 +2004,23 @@
     "W04ISA-SI0003W": [
         "Edward Puchała"
     ],
-    "W04ISA-SI0003L": [
-        "Edward Puchała"
+    "W04ITEWB-SI0004P": [
+        "Wojciech Połowczuk"
     ],
     "W04ITEWB-SI0004W": [
         "Wojciech Połowczuk"
     ],
-    "W04ITEWB-SI0004L": [
-        "Wojciech Połowczuk"
-    ],
-    "W04TAI-SM0201W": [
+    "W04TAI-SM0201S": [
         "Tomasz Walkowiak",
         "Kamil Szyc"
-    ],
-    "W04TAI-SM0201L": [
-        "Tomasz Walkowiak",
-        "Kamil Szyc"
-    ],
-    "W04ITEJG-SI0032W": [
-        "Beata Laszkiewicz"
     ],
     "W04ITEJG-SI0032L": [
         "Beata Laszkiewicz"
     ],
-    "W04ISA-SI0007W": [
-        "Piotr Nowak",
-        "Jarosław Rudy",
-        "Mariusz Makuchowski"
+    "W04ITEJG-SI0032S": [
+        "Beata Laszkiewicz"
     ],
-    "W04ISA-SI0007L": [
+    "W04ISA-SI0007P": [
         "Piotr Nowak",
         "Jarosław Rudy",
         "Mariusz Makuchowski"
@@ -2153,44 +2030,34 @@
         "Sławomir Szczepaniak",
         "Milena Andrzejewska"
     ],
-    "W04CBE-SI0015L": [
-        "Mieczysław Wodecki",
-        "Sławomir Szczepaniak",
-        "Milena Andrzejewska"
+    "W04TEL-SI0006S": [
+        "Jarosław Emilianowicz"
     ],
     "W04TEL-SI0006W": [
         "Jarosław Emilianowicz"
-    ],
-    "W04TEL-SI0006L": [
-        "Jarosław Emilianowicz"
-    ],
-    "W04ITE-SM0004W": [
-        "Tomasz Babczyński",
-        "Paweł Głuchowski",
-        "Jan Magott"
     ],
     "W04ITE-SM0004L": [
         "Tomasz Babczyński",
         "Paweł Głuchowski",
         "Jan Magott"
     ],
-    "W04ITE-SI0014W": [
+    "W04ITE-SM0004W": [
+        "Tomasz Babczyński",
+        "Paweł Głuchowski",
+        "Jan Magott"
+    ],
+    "W04ITE-SI0014C": [
         "Agata Kirjanów-Błażej",
         "Tomasz Kozłowski",
         "Weronika Węgier"
-    ],
-    "W04ITE-SI0014L": [
-        "Agata Kirjanów-Błażej",
-        "Tomasz Kozłowski",
-        "Weronika Węgier"
-    ],
-    "W04ITEJG-SI0030W": [
-        "Kamil Nowak"
     ],
     "W04ITEJG-SI0030L": [
         "Kamil Nowak"
     ],
-    "W04ITE-SI0007W": [
+    "W04ITEJG-SI0030W": [
+        "Kamil Nowak"
+    ],
+    "W04ITE-SI0007L": [
         "Jacek Jagodziński",
         "Ryszard Klempous",
         "Marlena Drąg",
@@ -2202,7 +2069,7 @@
         "Mariusz Makuchowski",
         "Ewa Szlachcic"
     ],
-    "W04ITE-SI0007L": [
+    "W04ITE-SI0007W": [
         "Jacek Jagodziński",
         "Ryszard Klempous",
         "Marlena Drąg",
@@ -2220,13 +2087,7 @@
         "Michał Kowal",
         "Jarosław Janukiewicz"
     ],
-    "W04CBE-SI0012L": [
-        "Monika Szafrańska",
-        "Waldemar Grzebyk",
-        "Michał Kowal",
-        "Jarosław Janukiewicz"
-    ],
-    "W04TIN-SM0104W": [
+    "W04TIN-SM0104C": [
         "Aleksandra Knapińska",
         "Róża Goścień"
     ],
@@ -2239,10 +2100,12 @@
         "Sławomir Szczepaniak",
         "Milena Andrzejewska"
     ],
-    "W04CBE-SI0018L": [
-        "Mieczysław Wodecki",
-        "Sławomir Szczepaniak",
-        "Milena Andrzejewska"
+    "W04ITE-SI0010P": [
+        "Ewaryst Rafajłowicz",
+        "Jacek Jagodziński",
+        "Mateusz Kucharski",
+        "Piotr Ciskowski",
+        "Wojciech Rafajłowicz"
     ],
     "W04ITE-SI0010W": [
         "Ewaryst Rafajłowicz",
@@ -2251,24 +2114,11 @@
         "Piotr Ciskowski",
         "Wojciech Rafajłowicz"
     ],
-    "W04ITE-SI0010L": [
-        "Ewaryst Rafajłowicz",
-        "Jacek Jagodziński",
-        "Mateusz Kucharski",
-        "Piotr Ciskowski",
-        "Wojciech Rafajłowicz"
+    "W04INA-SI0024P": [
+        "Rafał Kapelko"
     ],
     "W04INA-SI0024W": [
         "Rafał Kapelko"
-    ],
-    "W04INA-SI0024L": [
-        "Rafał Kapelko"
-    ],
-    "W04INA-SI0017W": [
-        "Marcin Zawada",
-        "Przemysław Błaśkiewicz",
-        "Wojciech Wodo",
-        "Mateusz Wasylkiewicz"
     ],
     "W04INA-SI0017L": [
         "Marcin Zawada",
@@ -2276,36 +2126,26 @@
         "Wojciech Wodo",
         "Mateusz Wasylkiewicz"
     ],
-    "W04TIN-SM0005W": [
+    "W04TIN-SM0005C": [
         "Marcin Markowski"
-    ],
-    "W04TIN-SM0005L": [
-        "Marcin Markowski"
-    ],
-    "W04CBE-SM0004W": [
-        "Marcin Kaczmarek",
-        "Tomasz Janiczek",
-        "Łukasz Skierski"
     ],
     "W04CBE-SM0004L": [
         "Marcin Kaczmarek",
         "Tomasz Janiczek",
         "Łukasz Skierski"
     ],
-    "W04TEL-SI0002W": [
-        "Adrian Lewandowski",
-        "Anna Grytsko"
+    "W04CBE-SM0004W": [
+        "Marcin Kaczmarek",
+        "Tomasz Janiczek",
+        "Łukasz Skierski"
     ],
     "W04TEL-SI0002L": [
         "Adrian Lewandowski",
         "Anna Grytsko"
     ],
-    "W04ITE-SM0002W": [
-        "Tomasz Walkowiak",
-        "Marek Woda",
-        "Dariusz Caban",
-        "Tomasz Szandała",
-        "Kamil Szyc"
+    "W04TEL-SI0002P": [
+        "Adrian Lewandowski",
+        "Anna Grytsko"
     ],
     "W04ITE-SM0002L": [
         "Tomasz Walkowiak",
@@ -2319,23 +2159,11 @@
         "Konrad Kluwak",
         "Maciej Nikodem"
     ],
-    "W04ITE-SM0008L": [
-        "Roman Ptak",
-        "Konrad Kluwak",
-        "Maciej Nikodem"
+    "W04ITEWB-SI0006S": [
+        "Adam Szyszka"
     ],
     "W04ITEWB-SI0006W": [
         "Adam Szyszka"
-    ],
-    "W04ITEWB-SI0006L": [
-        "Adam Szyszka"
-    ],
-    "W04ISA-SI0014W": [
-        "Krzysztof Kowalczyk",
-        "Wojciech Sopot",
-        "Gabriel Maik",
-        "Grzegorz Mzyk",
-        "Andrzej Pawłowski"
     ],
     "W04ISA-SI0014L": [
         "Krzysztof Kowalczyk",
@@ -2344,19 +2172,26 @@
         "Grzegorz Mzyk",
         "Andrzej Pawłowski"
     ],
+    "W04ISA-SI0014P": [
+        "Krzysztof Kowalczyk",
+        "Wojciech Sopot",
+        "Gabriel Maik",
+        "Grzegorz Mzyk",
+        "Andrzej Pawłowski"
+    ],
+    "W04ITE-SI0506C": [
+        "Dariusz Caban",
+        "Marek Woda"
+    ],
     "W04ITE-SI0506W": [
         "Dariusz Caban",
         "Marek Woda"
     ],
-    "W04ITE-SI0506L": [
-        "Dariusz Caban",
-        "Marek Woda"
-    ],
-    "W04TEL-SM0003W": [
+    "W04TEL-SM0003P": [
         "Mateusz Mądry",
         "Łukasz Sójka"
     ],
-    "W04TEL-SM0003L": [
+    "W04TEL-SM0003W": [
         "Mateusz Mądry",
         "Łukasz Sójka"
     ],
@@ -2364,105 +2199,77 @@
         "Marek Michalak",
         "Maciej Gębala"
     ],
-    "W04TEL-SM0012L": [
-        "Marek Michalak",
-        "Maciej Gębala"
-    ],
-    "W04ISA-SI0011W": [
+    "W04ISA-SI0011S": [
         "Michał Kucharzak",
         "Karol Puchała",
         "Wojciech Kmiecik",
         "Arkadiusz Grzybowski"
     ],
-    "W04ISA-SI0011L": [
+    "W04ISA-SI0011P": [
         "Michał Kucharzak",
         "Karol Puchała",
         "Wojciech Kmiecik",
         "Arkadiusz Grzybowski"
-    ],
-    "W04ITEJG-SI0008W": [
-        "Mariusz Kozioł"
     ],
     "W04ITEJG-SI0008L": [
+        "Mariusz Kozioł"
+    ],
+    "W04ITEJG-SI0008P": [
         "Mariusz Kozioł"
     ],
     "W04TAI-SM0010W": [
         "Ewa Skubalska-Rafajłowicz",
         "Andrzej Rusiecki"
     ],
-    "W04TAI-SM0010L": [
-        "Ewa Skubalska-Rafajłowicz",
-        "Andrzej Rusiecki"
-    ],
-    "W04TEL-SI0007W": [
+    "W04TEL-SI0007C": [
         "Marcin Głowacki",
         "Maciej Nowak"
     ],
-    "W04TEL-SI0007L": [
-        "Marcin Głowacki",
-        "Maciej Nowak"
-    ],
-    "W04ITEWB-SI0007W": [
+    "W04ITEWB-SI0007C": [
         "Wojciech Połowczuk"
     ],
-    "W04ITEWB-SI0007L": [
-        "Wojciech Połowczuk"
-    ],
-    "W04ITEJG-SI0036W": [
+    "W04ITEJG-SI0036P": [
         "Paweł Żyłka"
     ],
-    "W04ITEJG-SI0036L": [
-        "Paweł Żyłka"
-    ],
-    "W04ITE-SM0446W": [
+    "W04ITE-SM0446P": [
         "Przemysław Ryba",
         "Mariusz Kozioł"
     ],
-    "W04ITE-SM0446L": [
-        "Przemysław Ryba",
-        "Mariusz Kozioł"
+    "W04CBE-SM0001P": [
+        "Łukasz Ferenc",
+        "Ireneusz Tarnowski",
+        "Konrad Kałużny"
     ],
     "W04CBE-SM0001W": [
         "Łukasz Ferenc",
         "Ireneusz Tarnowski",
         "Konrad Kałużny"
     ],
-    "W04CBE-SM0001L": [
-        "Łukasz Ferenc",
-        "Ireneusz Tarnowski",
-        "Konrad Kałużny"
-    ],
-    "W04ITE-SI0058W": [
+    "W04ITE-SI0058C": [
         "Marek Bawiec",
         "Tadeusz Tomczak",
         "Tomasz Serafin"
     ],
-    "W04ITE-SI0058L": [
+    "W04ITE-SI0058S": [
         "Marek Bawiec",
         "Tadeusz Tomczak",
         "Tomasz Serafin"
     ],
-    "W04ITEJG-SI0014W": [
+    "W04ITEJG-SI0014P": [
         "David Ramsey"
     ],
-    "W04ITEJG-SI0014L": [
-        "David Ramsey"
+    "W04ISA-SI0010P": [
+        "Anna Czemplik",
+        "Iwona Karcz-Dulęba"
     ],
     "W04ISA-SI0010W": [
         "Anna Czemplik",
         "Iwona Karcz-Dulęba"
     ],
-    "W04ISA-SI0010L": [
-        "Anna Czemplik",
-        "Iwona Karcz-Dulęba"
-    ],
-    "W04IST-SM4031W": [
+    "W04IST-SM4031C": [
         "Michał Kędziora"
     ],
-    "W04IST-SM4031L": [
-        "Michał Kędziora"
-    ],
-    "W04TAI-SM0005W": [
+    "W04TAI-SM0005C": [
         "Jarosław Rudy",
         "Czesław Smutnicki",
         "Radosław Idzikowski"
@@ -2476,22 +2283,11 @@
         "Tomasz Kozłowski",
         "Mariusz Kozioł"
     ],
-    "W04ITEWB-SI0008L": [
-        "Tomasz Kozłowski",
-        "Mariusz Kozioł"
+    "W04INA-SI0025C": [
+        "Krzysztof Majcher"
     ],
     "W04INA-SI0025W": [
         "Krzysztof Majcher"
-    ],
-    "W04INA-SI0025L": [
-        "Krzysztof Majcher"
-    ],
-    "W04TAI-SM0002W": [
-        "Maciej Nowak",
-        "Mateusz Mądry",
-        "Łukasz Sójka",
-        "Bogusław Szczupak",
-        "Łukasz Pajewski"
     ],
     "W04TAI-SM0002L": [
         "Maciej Nowak",
@@ -2500,15 +2296,22 @@
         "Bogusław Szczupak",
         "Łukasz Pajewski"
     ],
-    "W04TEL-SM0203W": [
+    "W04TAI-SM0002S": [
+        "Maciej Nowak",
+        "Mateusz Mądry",
+        "Łukasz Sójka",
+        "Bogusław Szczupak",
+        "Łukasz Pajewski"
+    ],
+    "W04TEL-SM0203C": [
         "Janusz Klink",
         "Przemysław Sobkiewicz"
     ],
-    "W04TEL-SM0203L": [
+    "W04TEL-SM0203S": [
         "Janusz Klink",
         "Przemysław Sobkiewicz"
     ],
-    "W04ITE-SM0005W": [
+    "W04ITE-SM0005P": [
         "Robert Burduk",
         "Przemysław Ryba",
         "Marcin Markowski",
@@ -2522,27 +2325,13 @@
         "Michał Woźniak",
         "Paweł Trajdos"
     ],
-    "W04ITE-SM0005L": [
-        "Robert Burduk",
-        "Przemysław Ryba",
-        "Marcin Markowski",
-        "Jakub Klikowski",
-        "Mariusz Topolski",
-        "Piotr Lechowicz",
-        "Krzysztof Walkowiak",
-        "Paweł Ksieniewicz",
-        "Jacek Cichosz",
-        "Paweł Zyblewski",
-        "Michał Woźniak",
-        "Paweł Trajdos"
+    "W04ITEJG-SI0006C": [
+        "Sławomir Sambor"
     ],
     "W04ITEJG-SI0006W": [
         "Sławomir Sambor"
     ],
-    "W04ITEJG-SI0006L": [
-        "Sławomir Sambor"
-    ],
-    "W04ITE-SI0004W": [
+    "W04ITE-SI0004C": [
         "Norbert Kozłowski",
         "Roman Ptak",
         "Marcin Łopuszyński",
@@ -2556,7 +2345,7 @@
         "Tomasz Babczyński",
         "Tomasz Kubik"
     ],
-    "W04INA-SM0103W": [
+    "W04INA-SM0103C": [
         "Marcel Jackiewicz",
         "Maciej Gębala"
     ],
@@ -2564,13 +2353,7 @@
         "Marcel Jackiewicz",
         "Maciej Gębala"
     ],
-    "W04ITE-SI0012W": [
-        "Jan Nikodem",
-        "Mateusz Gniewkowski",
-        "Tomasz Zamojski",
-        "Marek Woda"
-    ],
-    "W04ITE-SI0012L": [
+    "W04ITE-SI0012C": [
         "Jan Nikodem",
         "Mateusz Gniewkowski",
         "Tomasz Zamojski",
@@ -2581,18 +2364,13 @@
         "Andrzej Wytyczak-Partyka",
         "Marta Lampasiak"
     ],
-    "W04ISA-SI0002L": [
-        "Mariusz Uchroński",
-        "Andrzej Wytyczak-Partyka",
-        "Marta Lampasiak"
-    ],
-    "W04ITE-SM4244W": [
+    "W04ITE-SM4244C": [
         "Paweł Zyblewski"
     ],
     "W04ITE-SM4244L": [
         "Paweł Zyblewski"
     ],
-    "W04CBE-SM0201W": [
+    "W04CBE-SM0201C": [
         "Marcin Głowacki",
         "Krzysztof Kępa",
         "Tomasz Janiczek"
@@ -2602,130 +2380,107 @@
         "Krzysztof Kępa",
         "Tomasz Janiczek"
     ],
-    "W04TIN-SM0013W": [
-        "Jarosław Emilianowicz",
-        "Marcin Jaroszewski"
-    ],
     "W04TIN-SM0013L": [
         "Jarosław Emilianowicz",
         "Marcin Jaroszewski"
     ],
+    "W04TIN-SM0013W": [
+        "Jarosław Emilianowicz",
+        "Marcin Jaroszewski"
+    ],
+    "W04ITE-SM4243P": [
+        "Jakub Klikowski"
+    ],
     "W04ITE-SM4243W": [
         "Jakub Klikowski"
     ],
-    "W04ITE-SM4243L": [
-        "Jakub Klikowski"
-    ],
-    "W04TEL-SM0007W": [
+    "W04TEL-SM0007S": [
         "Jarosław Emilianowicz",
         "Marcin Jaroszewski"
     ],
-    "W04TEL-SM0007L": [
-        "Jarosław Emilianowicz",
-        "Marcin Jaroszewski"
-    ],
-    "W04ISA-SI0006W": [
+    "W04ISA-SI0006C": [
         "Jerzy Ramert-Greblicki",
         "Tomasz Serafin"
     ],
-    "W04ISA-SI0006L": [
-        "Jerzy Ramert-Greblicki",
-        "Tomasz Serafin"
-    ],
-    "W04ITEJG-SI0015W": [
+    "W04ITEJG-SI0015C": [
         "Paweł Maślak"
     ],
-    "W04ITEJG-SI0015L": [
-        "Paweł Maślak"
+    "W04ISA-SI0027L": [
+        "Grzegorz Mzyk"
     ],
     "W04ISA-SI0027W": [
         "Grzegorz Mzyk"
     ],
-    "W04ISA-SI0027L": [
-        "Grzegorz Mzyk"
+    "W04INA-SI0018S": [
+        "Szymon Wróbel",
+        "Maciej Gębala"
     ],
     "W04INA-SI0018W": [
         "Szymon Wróbel",
         "Maciej Gębala"
     ],
-    "W04INA-SI0018L": [
-        "Szymon Wróbel",
-        "Maciej Gębala"
+    "W04ITEJG-SI0007P": [
+        "Paweł Maślak"
     ],
     "W04ITEJG-SI0007W": [
         "Paweł Maślak"
     ],
-    "W04ITEJG-SI0007L": [
-        "Paweł Maślak"
-    ],
-    "W04ITEJG-SI0004W": [
+    "W04ITEJG-SI0004S": [
         "Tomasz Bartłomowicz"
-    ],
-    "W04ITEJG-SI0004L": [
-        "Tomasz Bartłomowicz"
-    ],
-    "W04INA-SM4009W": [
-        "Bartosz Drzazga",
-        "Łukasz Krzywiecki"
     ],
     "W04INA-SM4009L": [
         "Bartosz Drzazga",
         "Łukasz Krzywiecki"
     ],
-    "W04ITEJG-SI0029W": [
-        "Kamil Nowak"
+    "W04INA-SM4009W": [
+        "Bartosz Drzazga",
+        "Łukasz Krzywiecki"
     ],
     "W04ITEJG-SI0029L": [
         "Kamil Nowak"
+    ],
+    "W04CBE-SM0401S": [
+        "Tomasz Janiczek",
+        "Łukasz Skierski"
     ],
     "W04CBE-SM0401W": [
         "Tomasz Janiczek",
         "Łukasz Skierski"
     ],
-    "W04CBE-SM0401L": [
-        "Tomasz Janiczek",
-        "Łukasz Skierski"
-    ],
-    "W04TAI-SM0009W": [
-        "Krzysztof Halawa"
-    ],
     "W04TAI-SM0009L": [
         "Krzysztof Halawa"
-    ],
-    "W04ITEWB-SI0012W": [
-        "Tomasz Zamojski",
-        "Marek Woda"
     ],
     "W04ITEWB-SI0012L": [
         "Tomasz Zamojski",
         "Marek Woda"
+    ],
+    "W04ITEWB-SI0012P": [
+        "Tomasz Zamojski",
+        "Marek Woda"
+    ],
+    "W04ISA-SM0001P": [
+        "Ewaryst Rafajłowicz",
+        "Marlena Drąg",
+        "Maciej Filiński"
     ],
     "W04ISA-SM0001W": [
         "Ewaryst Rafajłowicz",
         "Marlena Drąg",
         "Maciej Filiński"
     ],
-    "W04ISA-SM0001L": [
-        "Ewaryst Rafajłowicz",
-        "Marlena Drąg",
-        "Maciej Filiński"
+    "W04TIN-SM0007P": [
+        "Piotr Lechowicz"
     ],
     "W04TIN-SM0007W": [
         "Piotr Lechowicz"
     ],
-    "W04TIN-SM0007L": [
-        "Piotr Lechowicz"
-    ],
-    "W04ITEJG-SI0001W": [
+    "W04ITEJG-SI0001S": [
         "Tomasz Bartłomowicz"
-    ],
-    "W04ITEJG-SI0001L": [
-        "Tomasz Bartłomowicz"
-    ],
-    "W04TIN-SM0014W": [
-        "Dariusz Więcek"
     ],
     "W04TIN-SM0014L": [
+        "Dariusz Więcek"
+    ],
+    "W04TIN-SM0014W": [
         "Dariusz Więcek"
     ],
     "W04INA-SI0022W": [
@@ -2733,36 +2488,19 @@
         "Przemysław Szczepaniak",
         "Karol Gotfryd"
     ],
-    "W04INA-SI0022L": [
-        "Marcin Michalski",
-        "Przemysław Szczepaniak",
-        "Karol Gotfryd"
-    ],
-    "W04INA-SI0023W": [
+    "W04INA-SI0023S": [
         "Dominik Bojko",
         "Marcin Michalski",
         "Jacek Cichoń"
     ],
-    "W04INA-SI0023L": [
+    "W04INA-SI0023P": [
         "Dominik Bojko",
         "Marcin Michalski",
         "Jacek Cichoń"
-    ],
-    "W04INA-SI0805W": [
-        "Karol Gotfryd",
-        "Maciej Gębala"
     ],
     "W04INA-SI0805L": [
         "Karol Gotfryd",
         "Maciej Gębala"
-    ],
-    "W04ITE-SI0056W": [
-        "Tomasz Kapłon",
-        "Zbigniew Buchalski",
-        "Jarosław Mierzwa",
-        "Marcin Łopuszyński",
-        "Dariusz Banasiak",
-        "Jan Magott"
     ],
     "W04ITE-SI0056L": [
         "Tomasz Kapłon",
@@ -2772,25 +2510,29 @@
         "Dariusz Banasiak",
         "Jan Magott"
     ],
-    "W04ITEWB-SI0015W": [
-        "Paweł Maślak"
+    "W04ITE-SI0056W": [
+        "Tomasz Kapłon",
+        "Zbigniew Buchalski",
+        "Jarosław Mierzwa",
+        "Marcin Łopuszyński",
+        "Dariusz Banasiak",
+        "Jan Magott"
     ],
     "W04ITEWB-SI0015L": [
         "Paweł Maślak"
     ],
-    "W04IST-SM4102W": [
+    "W04ITEWB-SI0015W": [
+        "Paweł Maślak"
+    ],
+    "W04IST-SM4102C": [
         "Patient Zihisire Muke",
         "Kamil Nowak"
     ],
-    "W04IST-SM4102L": [
+    "W04IST-SM4102P": [
         "Patient Zihisire Muke",
         "Kamil Nowak"
     ],
     "W04INA-SI0016W": [
-        "Anna Lauks-Dutka",
-        "Mateusz Wasylkiewicz"
-    ],
-    "W04INA-SI0016L": [
         "Anna Lauks-Dutka",
         "Mateusz Wasylkiewicz"
     ],
@@ -2799,79 +2541,55 @@
         "Jarosław Rudy",
         "Marta Lampasiak"
     ],
-    "W04ISA-SI0012L": [
-        "Piotr Nowak",
-        "Jarosław Rudy",
-        "Marta Lampasiak"
-    ],
-    "W04CBE-SM0005W": [
-        "Jarosław Janiszewski"
-    ],
     "W04CBE-SM0005L": [
         "Jarosław Janiszewski"
     ],
-    "W04ITE-SI0006W": [
+    "W04CBE-SM0005S": [
+        "Jarosław Janiszewski"
+    ],
+    "W04ITE-SI0006C": [
         "Jacek Mazurkiewicz",
         "Tomasz Kapłon"
     ],
-    "W04ITE-SI0006L": [
-        "Jacek Mazurkiewicz",
-        "Tomasz Kapłon"
-    ],
-    "W04TEL-SM0004W": [
+    "W04TEL-SM0004P": [
         "Grzegorz Pawlik",
         "Marta Gładysiewicz-Kudrawiec"
     ],
-    "W04TEL-SM0004L": [
-        "Grzegorz Pawlik",
-        "Marta Gładysiewicz-Kudrawiec"
-    ],
-    "W04CBE-SM0002W": [
+    "W04CBE-SM0002C": [
         "Michał Walkowski",
         "Jakub Tomaszewski",
         "Bartłomiej Balcerek",
         "Jacek Herold"
-    ],
-    "W04CBE-SM0002L": [
-        "Michał Walkowski",
-        "Jakub Tomaszewski",
-        "Bartłomiej Balcerek",
-        "Jacek Herold"
-    ],
-    "W04ITEJG-SI0031W": [
-        "Sławomir Sambor"
     ],
     "W04ITEJG-SI0031L": [
         "Sławomir Sambor"
     ],
-    "W04ITEJG-SI0012W": [
-        "Tomasz Zamojski",
-        "Marek Woda"
+    "W04ITEJG-SI0031W": [
+        "Sławomir Sambor"
     ],
     "W04ITEJG-SI0012L": [
         "Tomasz Zamojski",
         "Marek Woda"
     ],
-    "W04ITE-SM0405W": [
+    "W04ITEJG-SI0012P": [
+        "Tomasz Zamojski",
+        "Marek Woda"
+    ],
+    "W04ITE-SM0405C": [
         "Jacek Cichosz"
     ],
     "W04ITE-SM0405L": [
         "Jacek Cichosz"
     ],
-    "W04ITE-SM0120W": [
+    "W04ITE-SM0120P": [
         "Weronika Borek-Marciniec",
         "Szymon Wojciechowski",
         "Michał Woźniak"
     ],
-    "W04ITE-SM0120L": [
-        "Weronika Borek-Marciniec",
-        "Szymon Wojciechowski",
-        "Michał Woźniak"
-    ],
-    "W04ITEWB-SI0001W": [
+    "W04ITEWB-SI0001C": [
         "Wojciech Połowczuk"
     ],
-    "W04ITEWB-SI0001L": [
+    "W04ITEWB-SI0001W": [
         "Wojciech Połowczuk"
     ]
 }

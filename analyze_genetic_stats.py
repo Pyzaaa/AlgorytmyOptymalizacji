@@ -57,7 +57,7 @@ def plot_fitness_chart(data, title="", x_label="", y_label="", image_path=None):
     plt.figure(figsize=(8, 4))
     plt.plot(data[0], linestyle='-', color='orange', label='średnia')
     plt.plot(data[1], linestyle='-', color='blue', label='najlepsza w generacji')
-    plt.plot(data[2], linestyle='-', color='green', label='najlepsza ogólnie')
+    plt.plot(data[2], linestyle='-', color='green', label='najlepsza dotychczas')
     plt.title(title)
     plt.xlabel(x_label)
     plt.ylabel(y_label)

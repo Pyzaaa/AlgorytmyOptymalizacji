@@ -244,10 +244,10 @@ if __name__ == "__main__":
     ]
 
     input_dir = "output"
-    #best = np.load(f"{input_dir}/best.npz")['best']
+    best = np.load(f"{input_dir}/best.npz")['best']
 
     # extract one individual from original pop
-    best = np.load(f"{input_dir}/original_population.npz")['population'][...,0]
+    #best = np.load(f"{input_dir}/original_population.npz")['population'][...,0]
 
     groups_courses_mapping = create_g_c_mapping(course_data, courses)
     pararell_fitness(best, "chuj", "chuj", groups_courses_mapping, verbose=True)
@@ -283,7 +283,7 @@ if __name__ == "__main__":
     import re
 
     # Create output directory
-    output_dir = "originalschedules"
+    output_dir = "schedules"
     os.makedirs(output_dir, exist_ok=True)
 
     # Extract unique group names from course codes
