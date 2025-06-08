@@ -3,6 +3,8 @@ import json
 import matplotlib.pyplot as plt
 from collections import defaultdict
 from optimization import create_g_c_mapping
+from optimization import fitness
+from optimization import pararell_fitness
 import os
 
 
@@ -242,9 +244,14 @@ if __name__ == "__main__":
     ]
 
     input_dir = "output"
-    best = np.load(f"{input_dir}/best.npz")['best']
+    #best = np.load(f"{input_dir}/best.npz")['best']
+
+    # extract one individual from original pop
+    best = np.load(f"{input_dir}/original_population.npz")['population'][...,0]
 
     groups_courses_mapping = create_g_c_mapping(course_data, courses)
+    pararell_fitness(best, "chuj", "chuj", groups_courses_mapping, verbose=True)
+
 
     print_occupation(best, groups_courses_mapping, rooms, teachers)
 
@@ -272,11 +279,11 @@ if __name__ == "__main__":
     # room_schedule = get_room_schedule_data(best, r_idx, courses, teachers, rooms, time_slots)
     # plot_schedule_from_data(room_schedule, f"Sala {r_name}")
 
-    '''import os
+    import os
     import re
 
     # Create output directory
-    output_dir = "schedules"
+    output_dir = "originalschedules"
     os.makedirs(output_dir, exist_ok=True)
 
     # Extract unique group names from course codes
@@ -291,7 +298,7 @@ if __name__ == "__main__":
         schedule_data = get_group_schedule_data(best, g_name, courses, teachers, rooms, time_slots)
         plot_schedule_from_data(schedule_data, g_name, image_path=f"{output_dir}/{g_name}.png")
 
-    output_dir = "schedules"
+    #output_dir = "schedules"
     os.makedirs(output_dir, exist_ok=True)
     for name in teachers:
 
@@ -300,10 +307,10 @@ if __name__ == "__main__":
 
         plot_schedule_from_data(teacher_schedule, name, image_path=f"{output_dir}/{name}.png")
 
-    output_dir = "schedules"
+    #output_dir = "schedules"
     os.makedirs(output_dir, exist_ok=True)
     for name in rooms:
         t_idx = rooms.index(name)
         room_schedule = get_room_schedule_data(best, t_idx, courses, teachers, rooms, time_slots)
         safe_name = sanitize_filename(name)
-        plot_schedule_from_data(room_schedule, name, image_path=f"{output_dir}/{safe_name}.png")'''
+        plot_schedule_from_data(room_schedule, name, image_path=f"{output_dir}/{safe_name}.png")

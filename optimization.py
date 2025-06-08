@@ -295,6 +295,42 @@ def count_gaps(sol):
                 gaps_per_teacher[i] += np.sum(~daily_slots[first:last+1])
     return gaps_per_teacher.sum()
 
+def count_group_gaps(sol, g_c_mapping):
+    """
+    Optimized calculation of total gaps ('okienka') for student groups per day.
+
+    Parameters:
+        sol: np.array, shape (c, t, r, ts)
+        g_c_mapping: dict of group_index -> list of course indices
+
+    Returns:
+        Total number of gaps (int)
+    """
+    c, t, r, ts = sol.shape
+    time_slots_per_day = ts // 5
+    total_gaps = 0
+
+    for group_courses in g_c_mapping.values():
+        if not group_courses:
+            continue
+        # Compute group schedule across all rooms and teachers
+        group_schedule = sol[group_courses].sum(axis=(1, 2))  # shape: (len(courses), ts)
+        group_schedule = np.any(group_schedule > 0, axis=0)   # shape: (ts,)
+
+        for day in range(5):
+            day_start = day * time_slots_per_day
+            day_end = (day + 1) * time_slots_per_day
+            daily_slots = group_schedule[day_start:day_end]
+
+            if np.any(daily_slots):
+                first = np.argmax(daily_slots)
+                last = len(daily_slots) - 1 - np.argmax(daily_slots[::-1])
+                total_gaps += np.sum(~daily_slots[first:last+1])
+
+    return int(total_gaps)
+
+
+
 def count_preference_penalty_sparse(sol):
     """
     teacher_preferences should be a preloaded dictionary:
@@ -364,7 +400,7 @@ def fitness(
     c_t_mapping,
     c_r_mapping,
     g_c_mapping,
-    w=(2.0, 0.5, 1.0, 1.0),
+    w=(2.0, 2.0, 1.0, 1.0, 1.0),
     teacher_preferences=None
 ):
     """
@@ -379,12 +415,14 @@ def fitness(
         preference_penalty = 0
     room_change_penalty = count_room_changes(sol)
     group_room_change_penalty = count_group_room_changes(sol, g_c_mapping)
+    group_gaps = count_group_gaps(sol, g_c_mapping)
 
     return (
         w[0] * gap_score +
-        w[1] * preference_penalty +
-        w[2] * room_change_penalty +
-        w[3] * group_room_change_penalty
+        w[1] * group_gaps +
+        w[2] * preference_penalty +
+        w[3] * room_change_penalty +
+        w[4] * group_room_change_penalty
     )
 
 from concurrent.futures import ThreadPoolExecutor
@@ -392,6 +430,9 @@ from concurrent.futures import ThreadPoolExecutor
 # Top-level helper functions (outside any other function)
 def compute_gaps_wrapper(sol):
     return count_gaps(sol)
+
+def compute_group_gaps_wrapper(sol, g_c_mapping):
+    return count_group_gaps(sol, g_c_mapping)
 
 def compute_preferences_wrapper(sol, teacher_preferences):
     return count_preference_penalty_sparse(sol) if teacher_preferences else 0
@@ -403,10 +444,11 @@ def compute_group_room_changes_wrapper(sol, g_c_mapping):
     return count_group_room_changes(sol, g_c_mapping)
 
 
-def pararell_fitness(sol, c_t_mapping, c_r_mapping, g_c_mapping, w=(2.0, 0.5, 1.0, 1.0), teacher_preferences=None):
-    with ThreadPoolExecutor(max_workers=4) as executor:
+def pararell_fitness(sol, c_t_mapping, c_r_mapping, g_c_mapping, w=(3.0, 2.0, 1.0, 1.0, 0.3), teacher_preferences=None, verbose=False):
+    with ThreadPoolExecutor(max_workers=8) as executor:
         futures = {
             'gaps': executor.submit(compute_gaps_wrapper, sol),
+            'group_gaps': executor.submit(compute_group_gaps_wrapper, sol, g_c_mapping),
             'prefs': executor.submit(compute_preferences_wrapper, sol, teacher_preferences),
             'room_changes': executor.submit(compute_teacher_room_changes_wrapper, sol),
             'group_room_changes': executor.submit(compute_group_room_changes_wrapper, sol, g_c_mapping),
@@ -414,11 +456,15 @@ def pararell_fitness(sol, c_t_mapping, c_r_mapping, g_c_mapping, w=(2.0, 0.5, 1.
 
         results = {k: f.result() for k, f in futures.items()}
 
+    if verbose:
+        print(results)
+
     return (
         w[0] * results['gaps'] +
-        w[1] * results['prefs'] +
-        w[2] * results['room_changes'] +
-        w[3] * results['group_room_changes']
+        w[1] * results['group_gaps'] +
+        w[2] * results['prefs'] +
+        w[3] * results['room_changes'] +
+        w[4] * results['group_room_changes']
     )
 
 
@@ -679,7 +725,7 @@ def genetic_algorithm(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_
 
     # ewaluacja końcowa
     print("ewaluacja końcowa")
-    fitness_values = [pararell_fitness(population[:, :, :, :, j], c_t_mapping, c_r_mapping, g_c_mapping) for j in range(population_size)]
+    fitness_values = [pararell_fitness(population[:, :, :, :, j], c_t_mapping, c_r_mapping, g_c_mapping, verbose=True) for j in range(population_size)]
     print(fitness_values)
     min_ind_value = min(fitness_values)
     if best_ind_value > min_ind_value:
@@ -728,14 +774,14 @@ if __name__ == "__main__":
         t=len(teachers),
         r=len(rooms),
         ts=len(time_slots),
-        population_size=10,
+        population_size=20,
         c_t_mapping=course_teacher_mapping,
         c_r_mapping=courses_rooms_mapping,
         g_c_mapping=groups_courses_mapping,
         generations=100,
-        mutation_rate=0.3,
+        mutation_rate=0.15,
         saving_every=5,     # dla False nie zapisuje w ogóle
-        # loaded_population=np.load("output/population.npz")["population"],
+        #loaded_population=np.load("output/population.npz")["population"],
         preferences_path = "teacher_preferences2.json",
     )
 
