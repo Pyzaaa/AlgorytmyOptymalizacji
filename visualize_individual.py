@@ -234,6 +234,9 @@ if __name__ == "__main__":
     teachers = sorted(set(v for course in course_data.values() for v in course.get("lecturers", [])))
     rooms = sorted(set(v for l in rooms_type_mapping_data.values() for v in l))
 
+    with open("teacher_preferences2.json") as f:
+        teacher_preferences = json.load(f)
+
     time_slots = [
         "Pon 7:30", "Pon 9:15", "Pon 11:15", "Pon 13:15", "Pon 15:15", "Pon 17:05", "Pon 18:45",
         "Wto 7:30", "Wto 9:15", "Wto 11:15", "Wto 13:15", "Wto 15:15", "Wto 17:05", "Wto 18:45",
@@ -241,7 +244,7 @@ if __name__ == "__main__":
         "Czw 7:30", "Czw 9:15", "Czw 11:15", "Czw 13:15", "Czw 15:15", "Czw 17:05", "Czw 18:45",
         "Pią 7:30", "Pią 9:15", "Pią 11:15", "Pią 13:15", "Pią 15:15", "Pią 17:05", "Pią 18:45",
     ]
-
+    
     input_dir = "output_solver"
 
     best = np.load(f"{input_dir}/best.npz")['best']

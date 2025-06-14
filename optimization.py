@@ -8,8 +8,6 @@ import pickle
 import os
 from concurrent.futures import ThreadPoolExecutor
 
-global teacher_preferences
-
 
 def open_json(file_name):
     with open(file_name, 'r', encoding='utf-8') as file:
@@ -337,7 +335,7 @@ def count_group_gaps(sol, g_c_mapping):
     return int(total_gaps)
 
 
-def count_preference_penalty_sparse(sol):
+def count_preference_penalty_sparse(sol, teacher_preferences):
     """
     teacher_preferences should be a preloaded dictionary:
     { "0": { "12": 1, "20": 5, ... }, ... }
@@ -408,7 +406,7 @@ def fitness(sol, c_t_mapping, c_r_mapping, g_c_mapping, w=(2.0, 2.0, 1.0, 1.0, 1
     """
     gap_score = count_gaps(sol)
     if teacher_preferences:
-        preference_penalty = count_preference_penalty_sparse(sol)
+        preference_penalty = count_preference_penalty_sparse(sol, teacher_preferences)
     else:
         preference_penalty = 0
     room_change_penalty = count_room_changes(sol)
@@ -434,7 +432,7 @@ def compute_group_gaps_wrapper(sol, g_c_mapping):
 
 
 def compute_preferences_wrapper(sol, teacher_preferences):
-    return count_preference_penalty_sparse(sol) if teacher_preferences else 0
+    return count_preference_penalty_sparse(sol, teacher_preferences) if teacher_preferences else 0
 
 
 def compute_teacher_room_changes_wrapper(sol):
@@ -689,7 +687,7 @@ def genetic_algorithm(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_
 
         # ewaluacja
         print("ewaluacja")
-        fitness_values = [parallel_fitness(population[:, :, :, :, j], c_t_mapping, c_r_mapping, g_c_mapping) for j in range(population_size)]
+        fitness_values = [parallel_fitness(population[:, :, :, :, j], c_t_mapping, c_r_mapping, g_c_mapping, teacher_preferences=teacher_preferences) for j in range(population_size)]
         print(fitness_values)
         min_ind_value = min(fitness_values)
         if best_ind_value > min_ind_value:
@@ -725,7 +723,7 @@ def genetic_algorithm(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_
 
     # ewaluacja końcowa
     print("ewaluacja końcowa")
-    fitness_values = [parallel_fitness(population[:, :, :, :, j], c_t_mapping, c_r_mapping, g_c_mapping, verbose=True) for j in range(population_size)]
+    fitness_values = [parallel_fitness(population[:, :, :, :, j], c_t_mapping, c_r_mapping, g_c_mapping, teacher_preferences=teacher_preferences, verbose=True) for j in range(population_size)]
     print(fitness_values)
     min_ind_value = min(fitness_values)
     if best_ind_value > min_ind_value:

@@ -7,7 +7,7 @@ def generate_sparse_teacher_preferences(
         teachers,
         time_slots,
         teachers_with_prefs=None,
-        output_path="teacher_preferences2.json",
+        output_path="teacher_preferences.json",
 ):
     """
     Generate consistent sparse preferences for selected teachers only.
@@ -17,8 +17,8 @@ def generate_sparse_teacher_preferences(
     """
 
     if teachers_with_prefs is None:
-        # Default: assign preferences to ~30% random teachers
-        num_pref_teachers = max(1, len(teachers) // 3)
+        odds = 1
+        num_pref_teachers = max(1, int(len(teachers) * odds))
         teachers_with_prefs = random.sample(range(len(teachers)), num_pref_teachers)
 
     # Define some consistent preference patterns (dislike=1, like=5)
@@ -37,6 +37,10 @@ def generate_sparse_teacher_preferences(
     monday_slots = slots_for_day("Pon")
     patterns.append({str(i): 1 for i in monday_slots})
 
+    # Pattern 1-1: Dislike entire Friday
+    friday_slots = slots_for_day("Pią")
+    patterns.append({str(i): 1 for i in friday_slots})
+
     # Pattern 2: Dislike all morning slots (first 3 slots per day)
     morning_slots = []
     for d in range(5):
@@ -44,12 +48,12 @@ def generate_sparse_teacher_preferences(
         morning_slots.extend(range(start, start + 3))
     patterns.append({str(i): 1 for i in morning_slots})
 
-    # Pattern 3: Like all afternoons (slots 3-5 per day)
+    # Pattern 3: Dislike all afternoons (slots 3-5 per day)
     afternoon_slots = []
     for d in range(5):
         start = d * time_slots_per_day
         afternoon_slots.extend(range(start + 3, start + 6))
-    patterns.append({str(i): 5 for i in afternoon_slots})
+    patterns.append({str(i): 1 for i in afternoon_slots})
 
     # Pattern 4: Dislike late evening slots (last 2 slots each day)
     evening_slots = []
@@ -58,12 +62,12 @@ def generate_sparse_teacher_preferences(
         evening_slots.extend(range(start + time_slots_per_day - 2, start + time_slots_per_day))
     patterns.append({str(i): 1 for i in evening_slots})
 
-    # Pattern 5: Like mid-day slots (slots 2-4 per day)
+    # Pattern 5: Dislike mid-day slots (slots 2-4 per day)
     midday_slots = []
     for d in range(5):
         start = d * time_slots_per_day
         midday_slots.extend(range(start + 2, start + 5))
-    patterns.append({str(i): 5 for i in midday_slots})
+    patterns.append({str(i): 1 for i in midday_slots})
 
     preferences = {}
 
@@ -124,9 +128,9 @@ if __name__ == "__main__":
     courses_rooms_mapping = create_c_r_mapping(rooms_type_mapping_data, course_data, rooms, courses)
     groups_courses_mapping = create_g_c_mapping(course_data, courses)
     # Call this once to create preferences
-    preferences_path = "teacher_preferences2.json"
+    preferences_path = "teacher_preferences100.json"
 
 
-    #generate_sparse_teacher_preferences(teachers, time_slots, output_path=preferences_path)
+    generate_sparse_teacher_preferences(teachers, time_slots, output_path=preferences_path)
 
     print_teacher_preferences(preferences_path, teachers, time_slots)
