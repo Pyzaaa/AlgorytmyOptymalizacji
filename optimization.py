@@ -447,10 +447,10 @@ def parallel_fitness(sol, c_t_mapping, c_r_mapping, g_c_mapping, w=(3.0, 2.0, 1.
     with ThreadPoolExecutor(max_workers=8) as executor:
         futures = {
             'gaps': executor.submit(compute_gaps_wrapper, sol),
-            'group_gaps': executor.submit(compute_group_gaps_wrapper, sol, g_c_mapping),
-            'prefs': executor.submit(compute_preferences_wrapper, sol, teacher_preferences),
-            'room_changes': executor.submit(compute_teacher_room_changes_wrapper, sol),
-            'group_room_changes': executor.submit(compute_group_room_changes_wrapper, sol, g_c_mapping),
+            #'group_gaps': executor.submit(compute_group_gaps_wrapper, sol, g_c_mapping),
+            #'prefs': executor.submit(compute_preferences_wrapper, sol, teacher_preferences),
+            #'room_changes': executor.submit(compute_teacher_room_changes_wrapper, sol),
+            #'group_room_changes': executor.submit(compute_group_room_changes_wrapper, sol, g_c_mapping),
         }
 
         results = {k: f.result() for k, f in futures.items()}
@@ -459,11 +459,11 @@ def parallel_fitness(sol, c_t_mapping, c_r_mapping, g_c_mapping, w=(3.0, 2.0, 1.
         print(results)
 
     return (
-        w[0] * results['gaps'] +
-        w[1] * results['group_gaps'] +
-        w[2] * results['prefs'] +
-        w[3] * results['room_changes'] +
-        w[4] * results['group_room_changes']
+        w[0] * results['gaps']
+        #w[1] * results['group_gaps'] +
+        #w[2] * results['prefs'] +
+        #w[3] * results['room_changes'] +
+        #w[4] * results['group_room_changes']
     )
 
 

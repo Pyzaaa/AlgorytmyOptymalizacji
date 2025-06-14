@@ -246,7 +246,7 @@ if __name__ == "__main__":
         "Pią 7:30", "Pią 9:15", "Pią 11:15", "Pią 13:15", "Pią 15:15", "Pią 17:05", "Pią 18:45",
     ]
     
-    input_dir = "output_solver"
+    input_dir = "output"
 
     best = np.load(f"{input_dir}/best.npz")['best']
 
@@ -288,23 +288,23 @@ if __name__ == "__main__":
         if match:
             group_names.add(match.group(1))
 
-    output_dir = "schedules/groups"
+    '''output_dir = "schedules/groups"
     os.makedirs(output_dir, exist_ok=True)
     for g_name in group_names:
         schedule_data = get_group_schedule_data(best, g_name, courses, teachers, rooms, time_slots)
-        plot_schedule_from_data(schedule_data, g_name, image_path=f"{output_dir}/{g_name}.png")
-    '''
+        plot_schedule_from_data(schedule_data, g_name, image_path=f"{output_dir}/{g_name}.png")'''
+
     output_dir = "schedules/teachers"
     os.makedirs(output_dir, exist_ok=True)
     for name in teachers:
         t_idx = teachers.index(name)
         teacher_schedule = get_teacher_schedule_data(best, t_idx, courses, teachers, rooms, time_slots)
-        plot_schedule_from_data(teacher_schedule, name, image_path=f"{output_dir}/{name}.png")'''
+        plot_schedule_from_data(teacher_schedule, name, image_path=f"{output_dir}/{name}.png")
 
-    output_dir = "schedules/rooms"
+    '''output_dir = "schedules/rooms"
     os.makedirs(output_dir, exist_ok=True)
     for name in rooms:
         t_idx = rooms.index(name)
         room_schedule = get_room_schedule_data(best, t_idx, courses, teachers, rooms, time_slots)
         safe_name = sanitize_filename(name)
-        plot_schedule_from_data(room_schedule, name, image_path=f"{output_dir}/{safe_name}.png")
+        plot_schedule_from_data(room_schedule, name, image_path=f"{output_dir}/{safe_name}.png")'''
