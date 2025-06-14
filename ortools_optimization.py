@@ -166,8 +166,9 @@ if __name__ == "__main__":
     rooms_type_mapping_data = open_json("Final_load_data/final_class_type_to_rooms.json")
 
     # Filtrowanie kursów w celu ograniczenia liczby kursów <-----------
-    allowed_fields = ["ISA", "IST", "INS"]
-    course_data = {key: val for key, val in course_data.items() if val["field"] in allowed_fields}
+    #allowed_fields = ["ISA", "IST", "INS"]
+    #course_data = {key: val for key, val in course_data.items() if val["field"] in allowed_fields}
+    course_data = {key: val for key, val in course_data.items()}
 
     courses = sorted(course_data.keys())
     teachers = sorted(set(v for course in course_data.values() for v in course.get("lecturers", [])))
@@ -180,7 +181,7 @@ if __name__ == "__main__":
         "Pią 7:30", "Pią 9:15", "Pią 11:15", "Pią 13:15", "Pią 15:15", "Pią 17:05", "Pią 18:45",
     ]
 
-    print(len(courses))
+    print(f"ilość kursów: {len(courses)}")
     print()
 
     course_teacher_mapping = create_c_t_mapping(course_data, courses, teachers)
@@ -201,5 +202,5 @@ if __name__ == "__main__":
         c_t_mapping=course_teacher_mapping,
         c_r_mapping=courses_rooms_mapping,
         c_g_mapping=courses_groups_mapping,
-        max_time=120.0,
+        max_time=3600.0,
     )

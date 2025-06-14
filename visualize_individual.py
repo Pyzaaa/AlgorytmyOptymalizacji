@@ -227,8 +227,9 @@ if __name__ == "__main__":
     rooms_type_mapping_data = open_json("Final_load_data/final_class_type_to_rooms.json")
 
     # Filtrowanie kursów w celu ograniczenia liczby kursów <-----------
-    allowed_fields = ["ISA", "IST", "INS", "ITE"]
-    course_data = {key: val for key, val in course_data.items() if val["field"] in allowed_fields}
+    #allowed_fields = ["ISA", "IST", "INS"]
+    #course_data = {key: val for key, val in course_data.items() if val["field"] in allowed_fields}
+    course_data = {key: val for key, val in course_data.items()}
 
     courses = sorted(course_data.keys())
     teachers = sorted(set(v for course in course_data.values() for v in course.get("lecturers", [])))
@@ -287,23 +288,23 @@ if __name__ == "__main__":
         if match:
             group_names.add(match.group(1))
 
-    # output_dir = "schedules/groups"
-    # os.makedirs(output_dir, exist_ok=True)
-    # for g_name in group_names:
-    #     schedule_data = get_group_schedule_data(best, g_name, courses, teachers, rooms, time_slots)
-    #     plot_schedule_from_data(schedule_data, g_name, image_path=f"{output_dir}/{g_name}.png")
-
+    output_dir = "schedules/groups"
+    os.makedirs(output_dir, exist_ok=True)
+    for g_name in group_names:
+        schedule_data = get_group_schedule_data(best, g_name, courses, teachers, rooms, time_slots)
+        plot_schedule_from_data(schedule_data, g_name, image_path=f"{output_dir}/{g_name}.png")
+    '''
     output_dir = "schedules/teachers"
     os.makedirs(output_dir, exist_ok=True)
     for name in teachers:
         t_idx = teachers.index(name)
         teacher_schedule = get_teacher_schedule_data(best, t_idx, courses, teachers, rooms, time_slots)
-        plot_schedule_from_data(teacher_schedule, name, image_path=f"{output_dir}/{name}.png")
+        plot_schedule_from_data(teacher_schedule, name, image_path=f"{output_dir}/{name}.png")'''
 
-    # output_dir = "schedules/rooms"
-    # os.makedirs(output_dir, exist_ok=True)
-    # for name in rooms:
-    #     t_idx = rooms.index(name)
-    #     room_schedule = get_room_schedule_data(best, t_idx, courses, teachers, rooms, time_slots)
-    #     safe_name = sanitize_filename(name)
-    #     plot_schedule_from_data(room_schedule, name, image_path=f"{output_dir}/{safe_name}.png")
+    output_dir = "schedules/rooms"
+    os.makedirs(output_dir, exist_ok=True)
+    for name in rooms:
+        t_idx = rooms.index(name)
+        room_schedule = get_room_schedule_data(best, t_idx, courses, teachers, rooms, time_slots)
+        safe_name = sanitize_filename(name)
+        plot_schedule_from_data(room_schedule, name, image_path=f"{output_dir}/{safe_name}.png")
