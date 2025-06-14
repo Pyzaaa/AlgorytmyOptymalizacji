@@ -18,7 +18,7 @@ def fitness_best_overall(fitness_history):
     result = []
     for fitness_values in fitness_history:
         min_overall = min(min_overall, min(fitness_values))
-        result.append(int(min_overall))
+        result.append(float(min_overall))
     return result
 
 
@@ -106,7 +106,7 @@ if __name__ == "__main__":
             ],
             title="Wartość funkcji celu w każdej generacji",
             x_label="generacja",
-            y_label="wartość f celu",
+            y_label="wartość funkcji celu",
             image_path=f"{output_dir}/fitness.png"
         )
         plot_time_chart(

@@ -6,8 +6,11 @@ from itertools import accumulate
 import time
 import pickle
 import os
+from concurrent.futures import ThreadPoolExecutor
 
 global teacher_preferences
+
+
 def open_json(file_name):
     with open(file_name, 'r', encoding='utf-8') as file:
         d = json.load(file)
@@ -208,6 +211,7 @@ def courses_assigned_to_rooms_constraint_n(sol, c_r_mapping):
         total += np.sum(~np.isin(np.nonzero(sol_reduced[c_idx])[0], c_r_mapping.get(c_idx, [])))
     return total
 
+
 def count_teaching_days(sol):
     """
     Count total number of days each teacher is scheduled to teach.
@@ -225,6 +229,7 @@ def count_teaching_days(sol):
                 teaching_days_per_teacher[i] += 1
 
     return teaching_days_per_teacher.sum()
+
 
 def count_early_assignments(sol):
     """
@@ -246,6 +251,7 @@ def count_early_assignments(sol):
                 early_penalty += 0.5  # Half penalty for slot 1
 
     return early_penalty
+
 
 def count_room_changes(sol):
     """
@@ -295,6 +301,7 @@ def count_gaps(sol):
                 gaps_per_teacher[i] += np.sum(~daily_slots[first:last+1])
     return gaps_per_teacher.sum()
 
+
 def count_group_gaps(sol, g_c_mapping):
     """
     Optimized calculation of total gaps ('okienka') for student groups per day.
@@ -328,7 +335,6 @@ def count_group_gaps(sol, g_c_mapping):
                 total_gaps += np.sum(~daily_slots[first:last+1])
 
     return int(total_gaps)
-
 
 
 def count_preference_penalty_sparse(sol):
@@ -394,15 +400,7 @@ def count_group_room_changes(sol, g_c_mapping):
     return int(penalty)
 
 
-
-def fitness(
-    sol,
-    c_t_mapping,
-    c_r_mapping,
-    g_c_mapping,
-    w=(2.0, 2.0, 1.0, 1.0, 1.0),
-    teacher_preferences=None
-):
+def fitness(sol, c_t_mapping, c_r_mapping, g_c_mapping, w=(2.0, 2.0, 1.0, 1.0, 1.0), teacher_preferences=None):
     """
     w[0]: gaps
     w[1]: teacher time preference penalties
@@ -425,26 +423,29 @@ def fitness(
         w[4] * group_room_change_penalty
     )
 
-from concurrent.futures import ThreadPoolExecutor
 
 # Top-level helper functions (outside any other function)
 def compute_gaps_wrapper(sol):
     return count_gaps(sol)
 
+
 def compute_group_gaps_wrapper(sol, g_c_mapping):
     return count_group_gaps(sol, g_c_mapping)
+
 
 def compute_preferences_wrapper(sol, teacher_preferences):
     return count_preference_penalty_sparse(sol) if teacher_preferences else 0
 
+
 def compute_teacher_room_changes_wrapper(sol):
     return count_room_changes(sol)
+
 
 def compute_group_room_changes_wrapper(sol, g_c_mapping):
     return count_group_room_changes(sol, g_c_mapping)
 
 
-def pararell_fitness(sol, c_t_mapping, c_r_mapping, g_c_mapping, w=(3.0, 2.0, 1.0, 1.0, 0.3), teacher_preferences=None, verbose=False):
+def parallel_fitness(sol, c_t_mapping, c_r_mapping, g_c_mapping, w=(3.0, 2.0, 1.0, 1.0, 0.3), teacher_preferences=None, verbose=False):
     with ThreadPoolExecutor(max_workers=8) as executor:
         futures = {
             'gaps': executor.submit(compute_gaps_wrapper, sol),
@@ -466,7 +467,6 @@ def pararell_fitness(sol, c_t_mapping, c_r_mapping, g_c_mapping, w=(3.0, 2.0, 1.
         w[3] * results['room_changes'] +
         w[4] * results['group_room_changes']
     )
-
 
 
 def get_occupied_table(t, r, ts, g_c_mapping):
@@ -614,7 +614,7 @@ def mutate_swap_timeslots(population, mutation_rate):
 
 
 def genetic_algorithm(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_c_mapping, generations, mutation_rate, saving_every,
-                      loaded_population=None, output_dir='output', preferences_path = None):
+                      loaded_population=None, output_dir='output', preferences_path=None):
     if preferences_path:
         with open("teacher_preferences2.json") as f:
             teacher_preferences = json.load(f)
@@ -689,7 +689,7 @@ def genetic_algorithm(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_
 
         # ewaluacja
         print("ewaluacja")
-        fitness_values = [pararell_fitness(population[:, :, :, :, j], c_t_mapping, c_r_mapping, g_c_mapping) for j in range(population_size)]
+        fitness_values = [parallel_fitness(population[:, :, :, :, j], c_t_mapping, c_r_mapping, g_c_mapping) for j in range(population_size)]
         print(fitness_values)
         min_ind_value = min(fitness_values)
         if best_ind_value > min_ind_value:
@@ -725,7 +725,7 @@ def genetic_algorithm(c, t, r, ts, population_size, c_t_mapping, c_r_mapping, g_
 
     # ewaluacja końcowa
     print("ewaluacja końcowa")
-    fitness_values = [pararell_fitness(population[:, :, :, :, j], c_t_mapping, c_r_mapping, g_c_mapping, verbose=True) for j in range(population_size)]
+    fitness_values = [parallel_fitness(population[:, :, :, :, j], c_t_mapping, c_r_mapping, g_c_mapping, verbose=True) for j in range(population_size)]
     print(fitness_values)
     min_ind_value = min(fitness_values)
     if best_ind_value > min_ind_value:
@@ -767,8 +767,6 @@ if __name__ == "__main__":
     courses_rooms_mapping = create_c_r_mapping(rooms_type_mapping_data, course_data, rooms, courses)
     groups_courses_mapping = create_g_c_mapping(course_data, courses)
 
-
-
     solution = genetic_algorithm(
         c=len(courses),
         t=len(teachers),
@@ -782,37 +780,5 @@ if __name__ == "__main__":
         mutation_rate=0.15,
         saving_every=5,     # dla False nie zapisuje w ogóle
         #loaded_population=np.load("output/population.npz")["population"],
-        preferences_path = "teacher_preferences2.json",
+        preferences_path="teacher_preferences2.json",
     )
-
-"""
-TODO:
-ważne:
-- rozbudować f celu (jak najmniej prowadzących?, jak najmniej dni w tygodniu dla prowadzącego, jak najmniej okienek bez sumowania)
-- testy, odpalenie dla dużych danych, ew dostrojenie parametrów (lub danych)
-- sprawozdanie
-- rozwiązać za pomocą solvera np cplex
-
-mniej ważne:
-- zamodelowanie tak żeby nie zjadało tyle pamięci
-- inna mutacja
-- inne krzyżowanie (całych dni tygodnia?)
-
-MUTACJA
-pomysł 1: zamiana dwóch kursów według czasu
-losujemy typ wybierania kursów 1 z 4
-1.zupełnie losowe kursy
-2.kursy co ten sam prowadzący
-3.ta sama grupa studencka
-4.ten sam pokój
-losujemy 1 kurs i dla niego znajdujemy 2 kurs
-sprawdzamy czy ograniczenia bedą spełnione po zamianie ich okien czasowych
-jak tak to zamieniamy
-
-pomysł 2: zmienianie jednego parametru (pokoju, prowadzącego, okna czasowego) na inny z możliwych (np. zmiana prowadzącego na innego)
-losowanie kursu
-sprawdzanie co można w nim zmienić (lista możliwych pokoi, lista możliwych prowadzących, lista okien czasowych)
-losujemy jeden z tych trzech list
-losowanie jednego parametru z wylosowanej listy
-zmiana jednego parametru 
-"""

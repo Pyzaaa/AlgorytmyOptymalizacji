@@ -3,7 +3,6 @@ import json
 from optimization import *
 
 
-
 def generate_sparse_teacher_preferences(
         teachers,
         time_slots,

@@ -2,6 +2,7 @@ import json
 import shutil
 import os
 
+
 # File paths
 lecturers_path = "USOS_API_data/final json/final_course_lecturers.json"
 courses_path = "USOS_API_data/final json/final_course_data.json"
