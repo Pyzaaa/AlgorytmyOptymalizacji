@@ -235,6 +235,9 @@ if __name__ == "__main__":
     teachers = sorted(set(v for course in course_data.values() for v in course.get("lecturers", [])))
     rooms = sorted(set(v for l in rooms_type_mapping_data.values() for v in l))
 
+    with open("teacher_preferences2.json") as f:
+        teacher_preferences = json.load(f)
+
     time_slots = [
         "Pon 7:30", "Pon 9:15", "Pon 11:15", "Pon 13:15", "Pon 15:15", "Pon 17:05", "Pon 18:45",
         "Wto 7:30", "Wto 9:15", "Wto 11:15", "Wto 13:15", "Wto 15:15", "Wto 17:05", "Wto 18:45",
@@ -244,13 +247,20 @@ if __name__ == "__main__":
     ]
 
     input_dir = "output"
-    best = np.load(f"{input_dir}/best.npz")['best']
+
+    '''
+    # Create output directory
+    output_dir = "schedules"
+    os.makedirs(output_dir, exist_ok=True)
+    best = np.load(f"{input_dir}/best.npz")['best']'''
 
     # extract one individual from original pop
-    #best = np.load(f"{input_dir}/original_population.npz")['population'][...,0]
+    output_dir = "originalschedules"
+    os.makedirs(output_dir, exist_ok=True)
+    best = np.load(f"{input_dir}/original_population.npz")['population'][...,0]
 
     groups_courses_mapping = create_g_c_mapping(course_data, courses)
-    pararell_fitness(best, "chuj", "chuj", groups_courses_mapping, verbose=True)
+    pararell_fitness(best, "chuj", "chuj", groups_courses_mapping, teacher_preferences = teacher_preferences, verbose=True)
 
 
     print_occupation(best, groups_courses_mapping, rooms, teachers)
@@ -282,9 +292,6 @@ if __name__ == "__main__":
     import os
     import re
 
-    # Create output directory
-    output_dir = "schedules"
-    os.makedirs(output_dir, exist_ok=True)
 
     # Extract unique group names from course codes
     group_names = set()
